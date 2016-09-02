@@ -1,0 +1,32 @@
+/* Reports */
+table.Report {
+  width: 100%
+}
+
+table.Report td,
+table.Report th {
+  border: 1px solid #333;
+  text-align: center;
+  padding: 3px;
+  vertical-align: middle
+}
+
+table.Report th {
+  background-color: #e5e5e5
+}
+
+table.Report .Total {
+  background-color: #f5f5f5
+}
+
+table.Report .Left,
+table.Report .Left td,
+table.Report .Left th {
+  text-align: left;
+}
+
+table.Report .Right,
+table.Report .Right td,
+table.Report .Right th {
+  text-align: right;
+}

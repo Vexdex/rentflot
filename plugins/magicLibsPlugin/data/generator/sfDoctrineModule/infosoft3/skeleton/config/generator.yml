@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+##CONFIG##
+
+    config:
+      actions: ~     
+      fields:  ~
+      list:    ~
+      filter:  ~
+      form:    ~
+      
+      edit:
+        actions:          
+          _save:          {label: Сохранить}
+          _save_and_add:  {label: Сохранить и добавить еще} 
+          _list:          {label: Вернуться к списку}
+          _delete:        {label: Удалить}    
+        
+      new:
+        actions:          
+          _save:          {label: Сохранить}
+          _save_and_add:  {label: Сохранить и добавить еще} 
+          _list:          {label: Вернуться к списку}
+          _delete:        {label: Удалить}  

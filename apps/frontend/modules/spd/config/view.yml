@@ -1,0 +1,7 @@
+all:
+  metas:
+    robots: noindex, nofollow
+    title: СПД | Киевская судоходная компания &laquo;Рентфлот&raquo;
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  layout:     layout_backend
+  

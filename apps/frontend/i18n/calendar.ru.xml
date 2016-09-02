@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      
+      <trans-unit>
+        <source>Mo</source>
+        <target>Пн</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Tu</source>
+        <target>Вт</target>
+      </trans-unit>
+      <trans-unit>
+        <source>We</source>
+        <target>Ср</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Th</source>
+        <target>Чт</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Fr</source>
+        <target>Пт</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Sa</source>
+        <target>Сб</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Su</source>
+        <target>Вс</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>January</source>
+        <target>Январь</target>
+      </trans-unit>
+      <trans-unit>
+        <source>February</source>
+        <target>Февраль</target>
+      </trans-unit>
+      <trans-unit>
+        <source>March</source>
+        <target>Март</target>
+      </trans-unit>
+      <trans-unit>
+        <source>April</source>
+        <target>Апрель</target>
+      </trans-unit>
+      <trans-unit>
+        <source>May</source>
+        <target>Май</target>
+      </trans-unit>
+      <trans-unit>
+        <source>June</source>
+        <target>Июнь</target>
+      </trans-unit>
+      <trans-unit>
+        <source>July</source>
+        <target>Июль</target>
+      </trans-unit>
+      <trans-unit>
+        <source>August</source>
+        <target>Август</target>
+      </trans-unit>
+      <trans-unit>
+        <source>September</source>
+        <target>Сентябрь</target>
+      </trans-unit>
+      <trans-unit>
+        <source>October</source>
+        <target>Октябрь</target>
+      </trans-unit>
+      <trans-unit>
+        <source>November</source>
+        <target>Ноябрь</target>
+      </trans-unit>
+      <trans-unit>
+        <source>December</source>
+        <target>Декабрь</target>
+      </trans-unit>
+      
+      <!-- Schedule -->
+      <trans-unit>
+        <source>schedule_filter_empty_text</source>
+        <target>Все заказы</target>
+      </trans-unit>
+      <trans-unit>
+        <source>schedule_filter_rentflot</source>
+        <target>Заказы и брони Рентфлот</target>
+      </trans-unit>
+      <trans-unit>
+        <source>schedule_filter_other</source>
+        <target>Заказы и брони другие</target>
+      </trans-unit>
+      
+            
+    </body>
+  </file>
+</xliff>

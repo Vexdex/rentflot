@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      <trans-unit>
+        <source>form_phone</source>
+        <target>Телефон</target>
+      </trans-unit>
+      <trans-unit>
+        <source>h1</source>
+        <target>ЗАКАЗАТЬ ЗВОНОК</target>
+      </trans-unit>
+      <trans-unit>
+        <source>submit</source>
+        <target>Отправить</target>
+      </trans-unit>
+      <trans-unit>
+        <source>phone</source>
+        <target>Телефон</target>
+      </trans-unit>
+	  
+	  <trans-unit>
+        <source>invite_message</source>
+        <target>Закажите звонок и наш специалист максимально быстро с вами свяжется</target>
+      </trans-unit>
+	  
+	  <trans-unit>
+        <source>wrong</source>
+        <target>Неправильно введен телефон, мы не сможем с вами связаться!</target>
+      </trans-unit>
+	        <trans-unit>
+        <source>submit_message</source>
+        <target>Спасибо за заявку, мы обязательно свяжемся с вами!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

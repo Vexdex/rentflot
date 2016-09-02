@@ -1,0 +1,30 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Киевская судоходная компания &laquo;Рентфлот&raquo;
+    description:  Киевская судоходная компания &laquo;Рентфлот&raquo;
+    keywords:     рент флот, рентфлот, rentflot
+    #language:     en
+    robots:       index, follow
+
+  stylesheets:    [main.css, catalog.css]
+
+  javascripts:    
+    - /magicLibsPlugin/jquery/jquery-1.7.2.min.js
+    #- /magicLibsPlugin/jquery/jquery-ui/jquery-ui-1.8.7.magic.js
+    #- /magicLibsPlugin/jquery/jquery-ui/jquery-ui-i18n.js
+    #- /magicLibsPlugin/jquery/plugins/jquery.hoverIntent.minified.js
+    - /magicLibsPlugin/jquery/plugins/jquery.tipsy.js
+    - /magicLibsPlugin/jquery/plugins/jquery.maskedinput-1.3.js
+    - /magicLibsPlugin/js/tools.js
+    #- /magicLibsPlugin/grid/infosoft3/js/grid-i18n.js
+    - main.js
+    #[jquery-1.4.4.min.js, jquery.tipsy.js, tools.js, main.js]
+
+  has_layout:     true
+  layout:         layout

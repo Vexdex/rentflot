@@ -1,0 +1,8 @@
+payForServicesSuccess:
+  javascripts:
+    - /magicLibsPlugin/jquery/plugins/jquery.validate.1.9.0.js
+    - payments.js
+  
+resultSuccess:   
+  metas:
+    robots: noindex, nofollow

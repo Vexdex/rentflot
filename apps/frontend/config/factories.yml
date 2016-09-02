@@ -1,0 +1,105 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/05-Factories
+
+prod:
+  logger:
+    class:   sfNoLogger
+    param:
+      level:   err
+      loggers: ~
+
+test:
+  storage:
+    class: sfSessionTestStorage
+    param:
+      session_path: %SF_TEST_CACHE_DIR%/sessions
+
+  response:
+    class: sfWebResponse
+    param:
+      send_http_headers: false
+
+  mailer:
+    param:
+      delivery_strategy: none
+
+dev:
+#  mailer:
+#    param:
+#      delivery_strategy: none
+
+all:
+  # Настройки SMTP-сервера для отправки почты
+  mailer:
+    class:            magicMailer
+    param:
+      charset:        UTF-8
+      delivery_strategy: realtime
+      transport:
+        class:        Swift_SmtpTransport
+        param:
+        # Параметры авторизации на SMTP-сервере
+        #  host:       mail.ukraine.com.ua
+        #  port:       25
+        #  username:   info@rentflot.ua
+        #  password:   6iX2cy4V7gHT
+          
+  routing:
+    class: magicPatternRouting
+    param:
+      generate_shortest_url:            true
+      extra_parameters_as_query_string: true
+      
+  user:
+    class: myUser
+    param:
+      # Idle-time (время бездействия, после которого сессия разрывается)
+      # 3600*6 = 21600
+      timeout: 21600
+      
+      # Записывать события в журнал
+      log_events: true
+      
+      # Разрешать пользователю менять пароль
+      can_change_own_pwd:           true
+      
+      # Продвинутый контроль учетных записей
+      advanced_policy:
+        active:                     false
+        settings:
+          # Блокировать, если не использовался
+          deactivate_after:         <?php echo 3600*24*30 ?> 
+                    
+          # Срок жизни пароля
+          change_pwd_after:         <?php echo 3600*24*60 ?> 
+          
+          # Требование к паролю
+          pwd_min_length:           6
+          pwd_require_numbers:      true
+          pwd_require_lowercase:    false
+          pwd_require_uppercase:    false
+          pwd_require_spec_chars:   false
+          
+          # Уникальность пароля - запрещать использование из последних N паролей
+          pwd_history_length:       false
+          
+          # Блокировать пользователя после N неудачных попыток на срок M секунд
+          block_attempt_count:      1000
+          block_period:             <?php echo 10 ?>
+          
+          # Пароль по-умолчанию, false не будет спрашивать изменения при перввом логине
+          default_pwd:              1      
+      
+
+  view_cache_manager:
+    class: sfViewCacheManager
+    param:
+      cache_key_use_vary_headers: true
+      cache_key_use_host_name:    true
+
+      
+  i18n:
+    param:
+      # Для использования html-тэгов и html-entities в переводах
+      source: magicXLIFF      
+      

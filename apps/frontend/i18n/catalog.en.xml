@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http//www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <trans-unit>
+        <source>photos</source>
+        <target>photos</target>
+      </trans-unit>
+      <trans-unit>
+        <source>photo</source>
+        <target>photo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>other_craft_categories</source>
+        <target>Other craft categories</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>motor_ship_purpose</source>
+        <target>Purpose</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_passenger_capacity</source>
+        <target>Passenger capacity</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_available</source>
+        <target>Available</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_river_catering</source>
+        <target>River catering</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_rental_charge</source>
+        <target>Ship rental charge</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_place_order</source>
+        <target>Place order</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_equipment</source>
+        <target>Equipment</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_specifications</source>
+        <target>Specifications</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_crew</source>
+        <target>Crew</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_passenger_insurance</source>
+        <target>Travel insurance policy</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_please_note</source>
+        <target>Please note</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_schedule</source>
+        <target>Schedule</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_place_order_phone</source>
+        <target>by phone</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_place_order_skype</source>
+        <target>by skype</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ship_place_order_online</source>
+        <target>Book online</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>attraction_description</source>
+        <target>Description</target>
+      </trans-unit>
+      <trans-unit>
+        <source>attraction_others</source>
+        <target>Other</target>
+      </trans-unit>
+      <trans-unit>
+        <source>attractions</source>
+        <target>attractions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>photo_full</source>
+        <target>Photo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>photo_from</source>
+        <target>from</target>
+      </trans-unit>
+      <trans-unit>
+        <source>order_online_advert</source>
+        <target>Book online</target>
+      </trans-unit>
+      <trans-unit>
+        <source>order_online_advert_discount</source>
+        <target>Discount 5%</target>
+      </trans-unit>	  
+	  
+	  <trans-unit>
+        <source>no_prepayment</source>
+        <target>without prepayment</target>
+      </trans-unit>	
+    </body>
+  </file>
+</xliff>

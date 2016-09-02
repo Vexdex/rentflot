@@ -1,0 +1,80 @@
+generator:
+  class: sfDoctrineMagicGenerator
+  param:
+    model_class:           Spd
+    theme:                 infosoft3
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          spd
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [books] }
+        _new:                     { credentials: [books] }
+        _add:                     { credentials: [books] }                          
+        _edit:                    { credentials: [books] }                          
+        _delete:                  { credentials: [books] }
+
+      fields:
+        #index_name:               { is_sortable: true, sort_method: orderByIndexName }
+        #type_name:                { is_sortable: true, sort_method: orderByTypeName }
+        #order_type_name:         { is_sortable: true, sort_method: orderByOrderTypeName }
+        #time:                    { is_sortable: true, sort_method: orderByTime }
+        #created_at:               { date_format: dd.MM.yyyy }
+        #amount_full_uah:         { is_sortable: false, sort_method: orderByAmountFullUah }
+        #slug:                    { help: true }
+        
+        
+      list:
+        display:                  [name, _details]
+        title:                    page_list_title
+        #sort:                     [name, asc]
+        max_per_page:             30
+        #table_method:             retrieveItemList        
+        #batch_actions:
+          #_delete:               ~
+          #activate:
+            #action:              activate
+            #label:               _batch_activate          
+          #deactivate:
+            #action:              deactivate
+            #label:               _batch_deactivate
+        object_actions:
+          #show:
+            #action:               show
+            #label:                show        
+          _edit:                  ~  
+          #_delete:                ~          
+        #actions:
+          #_new:                  ~
+          #new0:
+            #action:              @property_new0
+      
+      filter:
+        class:                    false
+      
+      form:                       
+        display:                  [name, details]
+        display:                  ~
+            
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    
+              
+      new:
+        display:                  ~
+        title:                    page_new_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}   

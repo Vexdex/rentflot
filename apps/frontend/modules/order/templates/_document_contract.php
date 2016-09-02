@@ -1,0 +1,1 @@
+<?php include_partial('document_contract_form', array('order' => $order)) ?>

@@ -1,0 +1,7 @@
+all:
+  metas:
+    robots: noindex, nofollow
+    title: Календарь | Киевская судоходная компания &laquo;Рентфлот&raquo;
+  stylesheets: [-*, backend/common.css, backend/screen.css]
+  javascripts: [adm.js]
+  layout:     layout_backend

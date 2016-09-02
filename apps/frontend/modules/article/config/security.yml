@@ -1,0 +1,22 @@
+all:
+  # Только для авторизированных пользователей
+  is_secure:   true  
+  # Защищенное соединение https
+  is_ssl:      true  
+  
+listFrontend:
+  # Только для авторизированных пользователей
+  is_secure:   false  
+  # Защищенное соединение https
+  is_ssl:      false  
+
+showFrontend:
+  # Только для авторизированных пользователей
+  is_secure:   false  
+  # Защищенное соединение https
+  is_ssl:      false  
+  
+  
+  
+  
+  

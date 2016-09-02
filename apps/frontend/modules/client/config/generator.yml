@@ -1,0 +1,61 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Client
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 client
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [clients] }
+        _new:                     { credentials: [clients] }
+        _add:                     { credentials: [clients] }                          
+        _edit:                    { credentials: [clients] }                          
+        _delete:                  { credentials: [clients] }
+    
+      fields:  
+        #option_name:              { is_sortable: true, sort_method: orderByOptionName }
+        #options:                  { is_sortable: false, sort_method: orderByOptions }
+      
+        
+      list:
+        title:                    page_list_title 
+        display:                  [org_name, name, address, phones, email, additional_information]
+        #sort:                    location_id, asc]
+        #table_method:             retrieveOptionList        
+        max_per_page:             30
+        object_actions:
+          _edit:                  ~        
+        actions:
+          _new:                   ~
+           
+      filter:                         
+        display:                  [org_name, name, address, phones, additional_information]
+        
+      form:
+        display:                  [org_name, name, address, phones, email, additional_information]
+        #display:                  [org_name, name, address, phones, email, additional_information, make_contact, contact_date, comment]
+      
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                  #{label: save}
+          _save_and_add:          #{label: save_and_add} 
+          _list:                  #{label: list}
+          _delete:                #{label: delete}    
+        
+      new:
+        display:                  ~
+        title:                    page_new_title 
+        actions:          
+          _save:                  #{label: save}
+          _save_and_add:          #{label: save_and_add} 
+          _list:                  #{label: list}
+          _delete:                #{label: delete}  

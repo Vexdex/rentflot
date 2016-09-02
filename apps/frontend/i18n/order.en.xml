@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->
+      <trans-unit>
+        <source>page_show_title</source>
+        <target>Просмотр заказа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_edit_title</source>
+        <target>Редактирование заказа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_new_title</source>
+        <target>Создание нового заказа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_list_title</source>
+        <target>Список заказов</target>
+      </trans-unit>
+	
+      <!-- List -->
+      <trans-unit>
+        <source>list_id</source>
+        <target>Номер</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_client_name</source>
+        <target>Клиент</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_status</source>
+        <target>Статус</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_date</source>
+        <target>Дата аренды</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_time</source>
+        <target>Время аренды</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>list_people_count</source>
+        <target>К-во людей на борту</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_additional_information</source>
+        <target>Комментарий</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>list_order_items</source>
+        <target>Order</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bg_text_online_order</source>
+        <target>name | e-mail | qt. of quests | banquet | Dj | start time and end of voyage</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>list_amount_full_uah</source>
+        <target>Сумма, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_amount_full_payed_uah</source>
+        <target>Уже получили, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_amount_full_costs_payed_uah</source>
+        <target>Уже отдали, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_updated_at</source>
+        <target>Время последнего изменения</target>
+      </trans-unit>
+      
+      <!-- filter -->
+      <trans-unit>
+        <source>filter_id</source>
+        <target>Номер</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_client_id</source>
+        <target>Клиент</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_order_type_id</source>
+        <target>Статус</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_date</source>
+        <target>Дата аренды</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_item_id</source>
+        <target>Позиция</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>filter_client_phone</source>
+        <target>Телефон клиента</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>filter_is_archived</source>
+        <target>Показать архив</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>filter_category_id</source>
+        <target>Категория</target>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit>
+        <source>form_id</source>
+        <target>Номер заказа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_id</source>
+        <target>Позиция</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_category_id</source>
+        <target>Категория</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_count</source>
+        <target><nobr>Кол-во</nobr></target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_price_uah</source>
+        <target>Цена, грн.</target>
+      </trans-unit>            
+      <trans-unit>
+        <source>form_amount_uah</source>
+        <target>Сумма, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_amount_payed_uah</source>
+        <target>Получили, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_amount_left_uah</source>
+        <target>Получим, грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_delete</source>
+        <target>Удалить</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_amount_costs_uah</source>
+        <target>Затраты, грн.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_amount_costs_payed_uah</source>
+        <target>Уже отдали, грн.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_amount_costs_payed_cashless_uah</source>
+        <target>Уже отдали (безнал), грн.</target>
+      </trans-unit>  	  	  
+      <trans-unit>
+        <source>form_amount_costs_left_uah</source>
+        <target>Еще отдать, грн.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_profit_uah</source>
+        <target>Прибыль, грн.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_date</source>
+        <target>Date</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_time_from</source>
+        <target>Time from</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_time_to</source>
+        <target>Time till</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_client_id</source>
+        <target>Клиент</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_people_count</source>
+        <target>Guests at the board</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_additional_information</source>
+        <target>Comment</target>
+      </trans-unit>
+      <trans-unit>
+        <source>pier</source>
+        <target>Причал</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_apply</source>
+        <target>Сохранить заказ</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_order_type_id</source>
+        <target>Статус</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_duration</source>
+        <target>Продолжительность</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_amount_payed_bank_uah</source>
+        <target>Получили (безнал), грн.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_created_by</source>
+        <target>Создан</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_updated_by</source>
+        <target>Изменен</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_spd_id</source>
+        <target>СПД</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>form_is_archived</source>
+        <target>Архивный</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_order_status</source>
+        <target>Статус</target>
+      </trans-unit>
+	  
+	  <trans-unit>
+		  <source>form_contact_comment</source>
+		  <target>Комментарий напоминания</target>
+	  </trans-unit>
+
+      <trans-unit>
+        <source>form_contact_name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_contact_email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_contact_phone</source>
+        <target>Phone</target>
+      </trans-unit>
+	  
+      <trans-unit>
+        <source>form_make_contact</source>
+        <target>Запланировать напоминание</target>
+      </trans-unit> 	  
+      <trans-unit>
+        <source>form_contact_date</source>
+        <target>Дата напоминания</target>
+      </trans-unit> 	  
+      <trans-unit>
+        <source>form_contact_time</source>
+        <target>Время напоминание</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>form_comment</source>
+        <target>Комментарий к напоминанию</target>
+      </trans-unit> 
+
+      
+      <!-- Other -->
+      <trans-unit>
+        <source>show</source>
+        <target>Просмотр</target>
+      </trans-unit>        
+      <trans-unit>
+        <source>add_client</source>
+        <target>Добавить клиента</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>add_client_title</source>
+        <target>Создание нового клиента</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>add_order_item</source>
+        <target>Добавить позицию в заказ</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>add_order_item_title</source>
+        <target>Добавление плавсредства/аттракциона/кухни/ в заказ</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>close_dialog</source>
+        <target>Close</target>
+      </trans-unit>  
+	  <trans-unit>
+        <source>accept_dialog</source>
+        <target>Book online</target>
+      </trans-unit> 
+	  
+      <trans-unit>
+        <source>admin_info</source>
+        <target>Инфо.</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>invoice</source>
+        <target>Счет-фактура (старая)</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>invoice_2011</source>
+        <target>Счет-фактура</target>
+      </trans-unit>        
+      <trans-unit>
+        <source>cash_memo</source>
+        <target>Товарный чек</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>receipt</source>
+        <target>Расписка</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>acceptance_certificate</source>
+        <target>Акт выполненных работ (старый)</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>acceptance_certificate_2011</source>
+        <target>Акт выполненных работ</target>
+      </trans-unit>
+      <trans-unit>
+        <source>contract</source>
+        <target>Договор</target>
+      </trans-unit>
+      <trans-unit>
+        <source>email_online_order_subject</source>
+        <target>Ваш заказ № %id% успешно принят</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>batch_archive</source>
+        <target>Архивировать</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>batch_dearchive</source>
+        <target>Восстановить из архива</target>
+      </trans-unit>  
+      
+      <trans-unit>
+        <source>dearchive_successfull</source>
+        <target>Записи успешно восстановлены из архива</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>archive_successfull</source>
+        <target>Записи успешно перенесены в архив</target>
+      </trans-unit>
+
+
+      <!-- Flash -->
+      <trans-unit>
+        <source>online_order_successfull</source>
+        <target><strong>Ваш заказ успешно принят!</strong> Номер заказа: <strong>%order_id%</strong></target>
+      </trans-unit>
+
+
+
+    </body>
+  </file>
+</xliff>

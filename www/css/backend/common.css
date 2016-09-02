@@ -1,0 +1,63 @@
+/* html {filter: expression(document.execCommand("BackgroundImageCache", false, true));} */
+* {font-size:100.01%;}
+body {margin:0; padding:0;}
+
+table {border-collapse:collapse; empty-cells:show;}
+table td, table th {padding:0; margin:0; vertical-align:top;}
+
+h1, h2, h3, h4 {margin: 1.75em 0 0.5em 0; font-weight: normal;}
+h1 {font-size:210%; margin: 0 0 0.6em 0; line-height:100%;}
+h2 {font-size:160%;}
+h3 {font-size:120%;}
+h4 {font-size:100%;}
+h2, h3, h4 {//margin-top: expression( !this.previousSibling || ( this.previousSibling && this.previousSibling.nodeName.match( /^H\d$/ ) ) ? 0 : '1.75em' );}
+h2:first-child, h3:first-child, h4:first-child {margin-top:0;}
+h1+h2, h1+h3, h1+h4, h2+h3, h2+h4, h3+h4 {margin-top:0;}
+
+img {margin:0; padding:0;}
+a img {border:none;}
+img.news {float:left;clear:left;margin:0 1em 0.25em 0;}
+
+p, dl, address, blockquote {margin: 0 0 1.2em 0; padding:0;}
+dt {margin: 0;}
+dd {margin: 0.5em 0 0.5em 0;}
+address {font-style: normal;}
+blockquote {margin-left: 3em;}
+form {margin:0;	padding:0;}
+ul, li {padding:0; margin:0; list-style-type:none;}
+
+
+.main_content .text ul, .main_content .text ol {margin: 0 0 1.2em 2em; padding: 0;}
+.main_content .text li {margin: 0.5em 0 0 0; padding: 0;}
+.main_content .text ul li, .main_content .text ol li ul li {padding-left:20px; margin-left: 0;}
+.main_content .text ul.nobullets li {//padding-left:0;}
+.main_content .text ol li, .main_content .text ul ol li {padding-left:0; margin-left: 20px; background: none;}
+.main_content .text li ul, .main_content .text li ol {margin-top:0.5em; margin-bottom: 0;}
+.main_content .text ul li {//behavior: expression( !this.before && parentNode && parentNode.tagName == 'UL' ? this.before = ( 1  | ( parentNode.style.listStyleImage = 'none' ) | ( this.firstChild && this.firstChild.nodeType != 3 ? ( 1 | ( this.firstChild.style.marginTop = '-1.2em' ) | ( this.firstChild.style.position = 'relative' ) ) : 1 ) | ( this.innerHTML = '<nobr style="position: relative; width: 1.25em; left: -1.25em; margin: 0 -1.25em 0 0;">&mdash;&nbsp;</nobr>' + this.innerHTML ) ) : '' );}
+.main_content .text ul>li:before { content:'\2014\a0';float: left; margin-left:-1.25em;}
+.main_content .text ul.nobullets li {//behavior: expression( !this.before && parentNode && parentNode.tagName == 'UL' ? this.before = ( 1  | ( parentNode.style.listStyleImage = 'none' ) | ( this.firstChild && this.firstChild.nodeType != 3 ? ( 1 | ( this.firstChild.style.marginTop = '-1.2em' ) | ( this.firstChild.style.position = 'relative' ) ) : 1 ) | ( this.innerHTML = '' + this.innerHTML ) ) : '' );}
+.main_content .text ul.nobullets>li:before {content:'     ';}
+
+
+.print, .print-logo {display:none;}
+.wide {width:100%;}
+.wide2 {width:100%; height:100%;}
+div.clear {clear:both; height:0; line-height:0;}
+.absolute {position:absolute; left:0; top:0; height:100%; width:100%;}
+a.popup {padding-left: 18px; background: url('/i/css/i-popup.gif') 0 0.1em no-repeat;min-height: 16px;//height: 16px;}
+p.before_list {margin-bottom: 0.5em;}
+span.spatium {padding-left:0.125em;}
+span.pendent {margin-left:-0.4em;}
+span.pendent_plus {margin-left:-0.65em;}
+
+
+div.debug {border:1px solid red;}
+table.debug td {border:1px solid red;}
+table.debug td td {border:none;}
+
+
+div#root_container {width:100%; min-width:990px; position:relative; //width:expression(document.body.clientWidth ? (document.body.clientWidth < 990 ? '990px' : '100%') : '100%');}
+
+label[for=order_client_id] {
+  color: #cc0000 !important;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      <trans-unit>
+        <source>h1</source>
+        <target>Callback</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_phone</source>
+        <target>Телефон</target>
+      </trans-unit>
+      <trans-unit>
+        <source>submit</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit>
+        <source>phone</source>
+        <target>Phone</target>
+      </trans-unit>
+	  
+      <trans-unit>
+        <source>invite_message</source>
+        <target>Send a message to us and we will contact you as soon as possible</target>
+      </trans-unit>
+	  <trans-unit>
+        <source>wrong</source>
+        <target>Wrong phone format, please follow template!</target>
+      </trans-unit>
+      <trans-unit>
+        <source>submit_message</source>
+        <target>Thank you for your request, we will contact you!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

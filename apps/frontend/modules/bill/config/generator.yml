@@ -1,0 +1,81 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Bill
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 bill
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [bills] }
+        _new:                     { credentials: [bills] }
+        _add:                     { credentials: [bills] }                          
+        _edit:                    { credentials: [bills] }                          
+        _delete:                  { credentials: [bills] }
+
+      fields:
+        index_name:               { is_sortable: true, sort_method: orderByIndexName }
+        type_name:                { is_sortable: true, sort_method: orderByTypeName }
+        #order_type_name:         { is_sortable: true, sort_method: orderByOrderTypeName }
+        #time:                    { is_sortable: true, sort_method: orderByTime }
+        created_at:               { date_format: dd.MM.yyyy H:mm }
+        #amount_full_uah:         { is_sortable: false, sort_method: orderByAmountFullUah }
+        #slug:                    { help: true }
+        
+        
+      list:
+        display:                  [type_name, index_name, name, description, _amount_uah, _amount_payed_uah, created_at]
+        title:                    page_list_title
+        #sort:                     [name, desc]
+        sort:                     [created_at, desc]
+        max_per_page:             30
+        table_method:             retrieveBillList
+        #batch_actions:
+          #_delete:               ~
+          #activate:
+            #action:              activate
+            #label:               _batch_activate          
+          #deactivate:
+            #action:              deactivate
+            #label:               _batch_deactivate
+        object_actions:
+          #show:
+            #action:               show
+            #label:                show        
+          _edit:                  ~  
+          #_delete:                ~          
+        #actions:
+          #_new:                  ~
+          #new0:
+            #action:              @property_new0
+      
+      filter:
+        display:                  [type_id, index_id, name, amount_uah, created_at]
+      
+      form:                       
+        #display:                  [type_id, index_id, name, description, amount_uah, amount_payed_uah, created_at, create_cash_income]
+        display:                  ~
+            
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    
+              
+      new:
+        display:                  ~
+        title:                    page_new_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    

@@ -1,0 +1,7 @@
+all:
+  metas:
+    robots: noindex, nofollow
+
+signinSuccess:
+  javascripts:    [/magicLibsPlugin/jquery/plugins/jquery.validate.js]
+  stylesheets:    [/magicLibsPlugin/grid/infosoft3/css/grid.css]

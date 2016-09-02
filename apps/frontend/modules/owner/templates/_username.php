@@ -1,0 +1,1 @@
+<?php echo $owner->relatedExists('User') ? $owner->getUser()->getUsername() : '' ?>

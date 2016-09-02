@@ -1,0 +1,1 @@
+<?php include_partial('document_'.$doc_type, array('order' => $order)) ?>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+
+      <trans-unit>
+        <source>weather</source>
+        <target>Weather in Kiev in the afternoon</target>
+      </trans-unit>
+      <trans-unit>
+        <source>calendar</source>
+        <target>Calendar</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>feedback</source>
+        <target>Send message</target>
+      </trans-unit>                  
+      <trans-unit>
+        <source>sitemap</source>
+        <target>Sitemap</target>
+      </trans-unit>            
+      <trans-unit>
+        <source>home</source>
+        <target>Home</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>back_to_top</source>
+        <target>Top of the page</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_year</source>
+        <target>© 2008–%year%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_phone</source>
+        <target>(044) 451-40-58</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>rentflot_link_text</source>
+        <target>Rentflot</target>
+      </trans-unit>
+      <trans-unit>
+              <source>rentflot_kiev</source>
+                      <target>Kiev</target>
+                            </trans-unit>      
+      <trans-unit>
+        <source>homepage_link_text</source>
+        <target>Main page</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>contacts_link_text</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>about</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit>
+        <source>contacts</source>
+        <target>Contacts</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>bottom_text_copyright</source>
+        <target>Any information copying only with site administration permission!</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_dev</source>
+        <target>Developed by</target>
+      </trans-unit>
+      <trans-unit>
+        <source>infosoft_link_text</source>
+        <target>Infosoft</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_seo</source>
+        <target>Rent of motor-ships, hydrocycles, boats, yachts. A banquet and a buffet table on the river. Entertaining actions. Corporate holidays.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>culture_ru</source>
+        <target>Русский</target>
+      </trans-unit>
+      <trans-unit>
+        <source>culture_en</source>
+        <target>English</target>
+      </trans-unit>
+
+      
+    </body>
+  </file>
+</xliff>

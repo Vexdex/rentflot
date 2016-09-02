@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->
+      <trans-unit>
+        <source>page_list_title</source>
+        <target>Список акций</target>
+      </trans-unit>
+    
+      <!-- List -->
+      <trans-unit>
+        <source>list_slug</source>
+        <target>Ссылка</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>list_updated_at</source>
+        <target>Дата изменения</target>
+      </trans-unit>
+
+      <!-- Filter -->
+      <trans-unit>
+        <source>filter_slug</source>
+        <target>Ссылка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_created_at</source>
+        <target>Дата создания</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_updated_at</source>
+        <target>Дата изменения</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_categories_list</source>
+        <target>Категории</target>
+      </trans-unit>
+      
+      <!-- Form -->
+      <trans-unit>
+        <source>form_slug</source>
+        <target>Ссылка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_categories_list</source>
+        <target>Категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_name</source>
+        <target>html H1</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_title</source>
+        <target>html title</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_description</source>
+        <target>Текст в хедере, html description</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_keywords</source>
+        <target>html keywords</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_text</source>
+        <target>Текст страницы акции</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

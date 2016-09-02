@@ -1,0 +1,1 @@
+<a href="<?php echo url_for('order/show?id='.$client_contact->getOrderId()); ?>"><?php echo $client_contact->getOrderId(); ?></a>

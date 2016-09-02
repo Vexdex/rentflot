@@ -1,0 +1,3 @@
+settingsSuccess:  
+  stylesheets: [-*, backend/common.css, backend/screen.css]
+  layout:     layout_backend

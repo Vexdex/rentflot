@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+
+      <trans-unit>
+        <source>pay_for_services_title</source>
+        <target>Оплата услуг карточкой Visa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>pay_for_services_info</source>
+        <target>Для проведения оплаты услуг через интернет уточните номер заказа у наших менеджеров по телефону</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_for_services</source>
+        <target>Оплата услуг</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_card_type</source>
+        <target>Оплата карточкой</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_for_services_result</source>
+        <target>Процедура оплаты прошла успешно. Благодарим за Ваш заказ!</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>multi_channel</source>
+        <target>многокан.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form</source>
+        <target>Форма оплаты</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_amount</source>
+        <target>Укажите сумму оплаты</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_order</source>
+        <target>Укажите номер заказа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_submit</source>
+        <target>Оплатить</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_uah</source>
+        <target>грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_usd</source>
+        <target>дол.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_rur</source>
+        <target>руб.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_eur</source>
+        <target>евро</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>payment_form_error_required</source>
+        <target>Обязательное поле</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_error_number</source>
+        <target>Сумма должна быть числом</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_error_greater_than</source>
+        <target>Сумма должна быть больше %value%</target>
+      </trans-unit>
+
+
+
+    </body>
+  </file>
+</xliff>

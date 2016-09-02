@@ -1,0 +1,9 @@
+all:
+  metas:
+    title: Бухгалтерия | Киевская судоходная компания &laquo;Рентфлот&raquo;
+    robots: noindex, nofollow
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  javascripts: [adm.js]  
+  layout:     layout_backend
+  
+  

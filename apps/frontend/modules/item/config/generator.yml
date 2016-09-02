@@ -1,0 +1,93 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Item
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 item
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+    log:                          false
+    
+    config:
+      actions:
+        _index:                   { credentials: [catalog] }
+        _new:                     { credentials: [catalog] }
+        _add:                     { credentials: [catalog] }                          
+        _edit:                    { credentials: [catalog] }                          
+        _delete:                  { credentials: [catalog] }
+        #activate:                { credentials: [property] }
+        #deactivate:              { credentials: [property] }
+      
+      fields:
+        name:                     { is_sortable: true, sort_method: orderByName }
+        owner_name:               { is_sortable: true, sort_method: orderOwnerName }
+        slug:                     { help: true }
+        main_image_id:            { help: true }
+        short_description:        { help: true }
+        description:              { help: true }
+        is_own:                   { help: true }
+        doc_name:                 { help: true } 
+        internal_name:            { help: true } 
+      
+      list:
+        display:
+          - is_active
+          - is_own
+          - _main_image
+          - name
+          - owner_name
+          - price_uah
+          - price_discount_uah
+          - _categories
+
+        title:                    page_list_title
+        sort:                     [name, asc]
+        max_per_page:             30
+        table_method:             retrieveItemList        
+        #batch_actions:
+          #_delete:               ~
+          #activate:
+            #action:              activate
+            #label:               _batch_activate          
+          #deactivate:
+            #action:              deactivate
+            #label:               _batch_deactivate
+        object_actions:
+          show:
+            action:              show
+            label:               show        
+          _edit:                  ~  
+          #_delete:                ~          
+        #actions:
+          #_new:                  ~
+          #new0:
+            #action:              @property_new0
+      
+      filter:
+        display:                  [is_active, name_i18n, owner_id, price_uah, price_discount_uah, categories_list]
+      
+      form:                       
+        #display:                  [is_active, name, slug, owner_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, main_image_id, categories_list]
+        display:                  [is_active, is_own, name, title, h1, html_description, html_keywords,main_image_title,main_image_alt, listing_text, internal_name, doc_name, slug, owner_id, unit_type_id, price_uah, price_discount_uah, commission_percent, short_description, description, target_use, passenger_capacity, in_sight, catering, price, equipment, crew, passenger_insurance, additional_info, basic_info, info1, info2, info3, price1, price2, price3, main_image_id, order, categories_list, hide_attractions]
+            
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    
+              
+      new:
+        display:                  ~
+        title:                    page_new_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    

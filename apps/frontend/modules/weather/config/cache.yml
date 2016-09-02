@@ -1,0 +1,12 @@
+#_adminMenu:
+#  enabled:     true
+#  lifetime:    69120000 # 2 years
+
+#_mainMenu:
+#  enabled:     true
+#  lifetime:    69120000 # 2 years  
+  
+_forecast:
+  enabled:     true
+  lifetime:    <?php echo 3600*6 ?>
+  

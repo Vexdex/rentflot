@@ -1,0 +1,92 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Order
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 order
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [order] }
+        _new:                     { credentials: [order] }
+        _add:                     { credentials: [order] }                          
+        _edit:                    { credentials: [order] }                          
+        _show:                    { credentials: [order] }
+        _delete:                  { credentials: [order] }
+        #activate:                { credentials: [property] }
+        #deactivate:              { credentials: [property] }
+    
+      fields:
+        client_name:              { is_sortable: true, sort_method: orderByClientName }
+        order_type_name:          { is_sortable: true, sort_method: orderByOrderTypeName }
+        time:                     { is_sortable: true, sort_method: orderByTime }
+        date:                     { date_format: dd.MM.yyyy }
+        amount_full_uah:          { is_sortable: false, sort_method: orderByAmountFullUah }
+        #slug:                    { help: true }
+        updated_at:               { date_format: dd.MM.yyyy HH:mm:ss }
+    
+      list:
+        display:
+          - id
+          - _client_name
+          - _status
+          - _order_items
+          - _date
+          - _time
+          - people_count
+          - _amount_full_uah
+          - _amount_full_payed_uah
+          - _amount_full_costs_payed_uah
+          - updated_at
+        title:                    page_list_title
+        sort:                     [date, asc]
+        max_per_page:             30
+        table_method:             retrieveOrderList
+        batch_actions:
+          _delete:               ~
+          archive:
+            action:              archive
+            label:               archive          
+          dearchive:
+            action:              dearchive
+            label:               dearchive
+        object_actions:
+          show:
+            action:               show
+            label:                show        
+          _edit:                  ~  
+          #_delete:                ~          
+        #actions:
+          #_new:                  ~
+          #new0:
+            #action:              @property_new0
+      
+      filter:
+        display:                  [id, client_id, client_phone, order_type_id, category_id, item_id, date, is_archived]
+      
+      form:                       
+        display:                  ~
+            
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    
+              
+      new:
+        display:                  ~
+        title:                    page_new_title
+        actions:          
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add} 
+          _list:                 {label: list}
+          _delete:               {label: delete}    

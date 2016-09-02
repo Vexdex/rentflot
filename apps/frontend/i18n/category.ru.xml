@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->
+      <trans-unit>
+        <source>page_show_title</source>
+        <target>Просмотр категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_edit_title</source>
+        <target>Редактирование категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_new_title</source>
+        <target>Создание новой категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_index_title</source>
+        <target>Список категорий</target>
+      </trans-unit>
+	
+      <!-- List -->
+      <trans-unit>
+        <source>list_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_is_hidden</source>
+        <target>Не показывать на сайте</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_parent_name</source>
+        <target>Родительская категория</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_slug</source>
+        <target>Ссылка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_order</source>
+        <target>Порядок</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_created_at</source>
+        <target>Создана</target>
+      </trans-unit>
+
+      <trans-unit>
+      <source>form_seo_short_text</source>
+        <target>Короткий текст для страницы категорий</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_seo_full_text</source>
+        <target>Полный текст для страницы категорий</target>
+      </trans-unit>
+      <!-- List -->
+      <trans-unit>
+        <source>form_is_hidden</source>
+        <target>Не показывать на сайте</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_parent_id</source>
+        <target>Родительская категория</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_slug</source>
+        <target>Ссылка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_order</source>
+        <target>Порядок</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_created_at</source>
+        <target>Создана</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>form_category_template</source>
+        <target>Шаблон страницы категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_product_template</source>
+        <target>Шаблон страницы позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_title</source>
+        <target>Meta title страницы категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_description</source>
+        <target>Meta description страницы категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_keywords</source>
+        <target>Meta keywords страницы категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_h1</source>
+        <target>Заголовок страницы категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_title</source>
+        <target>Meta title страницы позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_description</source>
+        <target>Meta description страницы позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_keywords</source>
+        <target>Meta keywords страницы позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_h1</source>
+        <target>Заголовок страницы позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_item_contacts</source>
+        <target>Блок "Заказать"</target>
+      </trans-unit>
+
+      <!-- Help -->
+      <trans-unit>
+        <source>help_form_item_contacts</source>
+        <target>Блок "Заказать" будет отображатся для всех плавсредств этой категории.<br /> Если это поле пустое &mdash; будет отображатся текст по умолчанию.</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

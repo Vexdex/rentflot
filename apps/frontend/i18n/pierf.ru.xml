@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+
+      <!-- Page -->
+      <trans-unit>
+        <source>page_edit_title</source>
+        <target>Редактирование Причала</target>
+      </trans-unit>
+      <trans-unit>
+        <source>New Pierf</source>
+        <target>Создание нового Причала</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_new_title</source>
+        <target>Создание нового Причала</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_list_title</source>
+        <target>Список Причалов</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>list_name</source>
+        <target>Причал</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>list_link</source>
+        <target>Файл</target>
+      </trans-unit>
+	  
+      <trans-unit>
+        <source>list_name_english</source>
+        <target>Причал (англ)</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>list_link_english</source>
+        <target>Файл (англ)</target>
+      </trans-unit>	  
+
+      <!-- Form -->
+      <trans-unit>
+        <source>form_name</source>
+        <target>Причал</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_link</source>
+        <target>Файл</target>
+      </trans-unit>
+	  <trans-unit>
+        <source>form_name</source>
+        <target>Причал (англ)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_link</source>
+        <target>Файл (англ)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_spd_name_genitive</source>
+        <target>Название в родительном падеже</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_details</source>
+        <target>Реквизиты</target>
+      </trans-unit>
+
+
+
+
+
+
+
+    </body>
+  </file>
+</xliff>

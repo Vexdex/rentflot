@@ -1,0 +1,6 @@
+sf_dependent_select_ajax:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/sf_dependent_select
+  param: { module: sfDependentSelect, action: ajax }
+  requirements:
+    sf_method: [get, post]

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      <trans-unit>
+        <source>page_edit_title</source>
+        <target>Редактирование плавсредства/аттракциона</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_new_title</source>
+        <target>Создание новго плавсредства/аттракциона</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_list_title</source>
+        <target>Список плавсредств/аттракционов</target>
+      </trans-unit>
+    
+      <!-- List -->
+      <trans-unit>
+        <source>list_is_active</source>
+        <target>Акт.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_main_image</source>
+        <target>Фотография</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_owner_name</source>
+        <target>Судовладелец</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_categories</source>
+        <target>Категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_price_uah</source>
+        <target>Номинальная цена, грн.</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>list_price_discount_uah</source>
+        <target>Цена со скидкой, грн.</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>list_is_own</source>
+        <target>РФ</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_catering</source>
+        <target>Речной кейтеринг</target>
+      </trans-unit>
+
+      <!-- Filter -->
+      <trans-unit>
+        <source>filter_is_active</source>
+        <target>Активен</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_owner_id</source>
+        <target>Судовладелец</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_categories_list</source>
+        <target>Категории</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_price_uah</source>
+        <target>Номинальная цена, грн.</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>filter_price_discount_uah</source>
+        <target>Цена со скидкой, грн.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>filter_name_i18n</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_catering</source>
+        <target>Речной кейтеринг</target>
+      </trans-unit>
+           
+      <!-- Form -->
+      <trans-unit>
+        <source>form_is_active</source>
+        <target>Активен</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_name</source>
+        <target>Название на сайте</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_title</source>
+        <target>html title</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_h1</source>
+        <target>html h1</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_html_description</source>
+        <target>html description</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_listing_text</source>
+        <target>Описание теплохода в листинге</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_slug</source>
+        <target>Ссылка (англ.)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_owner_id</source>
+        <target>Судовладелец</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_target_use</source>
+        <target>Назначение</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_passenger_capacity</source>
+        <target>Пасажировместимость</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_basic_info</source>
+        <target>Технические характеристики</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_equipment</source>
+        <target>Оборудование</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_crew</source>
+        <target>Команда плавсредства</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_passenger_insurance</source>
+        <target>Страхование пассижиров</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_price</source>
+        <target>Стоимость аренды</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_additional_info</source>
+        <target>Обратите внимание</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_in_sight</source>
+        <target>В наличии</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_basic_info</source>
+        <target>Технические характеристики</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>form_price1</source>
+        <target>Блок цены 1</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>form_price2</source>
+        <target>Блок цены 2</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>form_price3</source>
+        <target>Блок цены 3</target>
+      </trans-unit>       
+      <trans-unit>
+        <source>form_info1</source>
+        <target>Блок пасс. вместимости 1</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_info2</source>
+        <target>Блок пасс. вместимости 2</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_info3</source>
+        <target>Блок пасс. вместимости 3</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_main_image_id</source>
+        <target>Фотографии</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_categories_list</source>
+        <target>Категории</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_unit_type_id</source>
+        <target>Единицы измерения</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_order</source>
+        <target>Порядок отображения</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_description</source>
+        <target>Описание</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>form_short_description</source>
+        <target>Краткое описание</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>form_price_uah</source>
+        <target>Номинальная цена, грн.</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>form_price_discount_uah</source>
+        <target>Цена со скидкой, грн.</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>form_is_own</source>
+        <target>Услуга/теплоход Рентфлота</target>
+      </trans-unit>   
+      <trans-unit>
+        <source>form_internal_name</source>
+        <target>Сокращенное имя</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>form_doc_name</source>
+        <target>Название в документах (укр.)</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>form_commission_percent</source>
+        <target>Агентский %</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_catering</source>
+        <target>Речной кейтеринг</target>
+      </trans-unit>
+      
+      <!-- Help -->
+      <trans-unit>
+        <source>help_form_is_own</source>
+        <target>Используется в отчетах, в частности для кухни: чужая или Рентфлот</target>
+      </trans-unit>           
+      <trans-unit>
+        <source>help_form_slug</source>
+        <target>Значение этого поля менять не рекомендуется. Разрешены только латинские символы, цифры и символы "-" и "_"</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>help_form_main_image_id</source>
+        <target>&nbsp;<br/>Фотографии масштабируются автоматически с наложением защитного изображения<br/>Доступные форматы: JPG, PNG, GIF<br/>Максимальный размер фотографии: 6 Мб<br/>Минимальный размер фотографии: 150х150 точек<br/>После загрузки вы можете менять порядок фото, перетаскивая их</target>
+      </trans-unit>
+      <trans-unit>
+        <source>help_form_short_description</source>
+        <target>Поле &laquo;Краткое описание&raquo; используется только для категории &laquo;Варианты развлечений&raquo;</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>help_form_description</source>
+        <target>Поле &laquo;Описание&raquo; используется только для категории &laquo;Варианты развлечений&raquo;</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>help_form_doc_name</source>
+        <target>Этот текст будет использован в чеке, счет-фактуре и акте выполненных работ</target>
+      </trans-unit>     
+      <trans-unit>
+        <source>help_form_internal_name</source>
+        <target>Используется в выпадающих списках для экономии места</target>
+      </trans-unit>     
+      
+      
+      
+      
+      
+      
+      <!-- Other -->
+      <trans-unit>
+        <source>show</source>
+        <target>Просмотр</target>
+      </trans-unit> 
+      
+      <!-- Flash -->      
+      <trans-unit>
+        <source>flash_item_without_category</source>
+        <target>Теплоход или аттракцион не состоит ни в одной из категорий</target>
+      </trans-unit>     
+
+      
+            
+    </body>
+  </file>
+</xliff>

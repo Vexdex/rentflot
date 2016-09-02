@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+
+      <trans-unit>
+        <source>weather</source>
+        <target>Погода в Киеве днем</target>
+      </trans-unit>
+      <trans-unit>
+        <source>calendar</source>
+        <target>Календарь</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>feedback</source>
+        <target>Отправить сообщение</target>
+      </trans-unit>                  
+      <trans-unit>
+        <source>sitemap</source>
+        <target>Карта сайта</target>
+      </trans-unit>            
+      <trans-unit>
+        <source>home</source>
+        <target>Киевская судоходная компания &laquo;Рентфлот&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>back_to_top</source>
+        <target>На верх страницы</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_year</source>
+        <target>© 2008–%year%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_phone</source>
+        <target>(044) 451-40-58</target>
+      </trans-unit>            
+      <trans-unit>
+        <source>rentflot_link_text</source>
+        <target>Рентфлот</target>
+      </trans-unit>
+      <trans-unit>
+              <source>rentflot_kiev</source>
+                      <target>Киев</target>
+                            </trans-unit>
+      <trans-unit>
+        <source>homepage_link_text</source>
+        <target>Главная</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>contacts_link_text</source>
+        <target>Все контакты</target>
+      </trans-unit>
+      <trans-unit>
+        <source>contacts</source>
+        <target>Контакты</target>
+      </trans-unit>
+      <trans-unit>
+        <source>about</source>
+        <target>О нас</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_copyright</source>
+        <target>Копирование информации только с разрешения администрации!</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_dev</source>
+        <target>Разработано в</target>
+      </trans-unit>
+      <trans-unit>
+        <source>infosoft_link_text</source>
+        <target>Infosoft</target>
+      </trans-unit>
+      <trans-unit>
+        <source>bottom_text_seo</source>
+        <target>Аренда теплоходов, гидроциклов, катеров, яхт. Банкет и фуршет на реке. <br />Развлекательные мероприятия. Корпоративные праздники.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>culture_ru</source>
+        <target>Русский</target>
+      </trans-unit>
+      <trans-unit>
+        <source>culture_en</source>
+        <target>English</target>
+      </trans-unit>
+
+      
+      
+      
+    </body>
+  </file>
+</xliff>

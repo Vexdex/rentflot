@@ -1,0 +1,794 @@
+html {margin: 0px; color: #555555; text-indent: 0px;}
+body {margin: 0px; text-align: center; font-family: Tahoma, Geneva, sans-serif; font-size: 11px; color: #222222; text-indent: 0px;}
+table {font-size: 11px; border: none;}
+img {border: 0px;}
+a {color: #8e4702; border-bottom: 1px solid #8e4702; text-decoration: none;}
+/*a:hover {color: #d9821b; border-bottom: 1px solid #d9821b; text-decoration: none;}*/
+a:hover {color: #d40000; border-bottom: 1px solid #d40000; text-decoration: none;}
+ul {margin: 2px; padding-left: 30px; text-indent: 0px; list-style-type: none;} /*list-style-image: url(eleelements/marker4.jpg);*/
+li {background-image: url(/images/elements/marker4.jpg); background-repeat: no-repeat; background-position: 0px 2px; padding-left: 20px; line-height: 16px;}
+h1 {text-align: center;line-height: 24px;}
+h2 {margin: 0 0 10px 0; font-size: 17px; line-height: 31px; font-family: Tahoma, Geneva, sans-serif; text-align: center; text-indent: 0px;}
+h2.menu {color: #0057a9; font-family: Arial, sans-serif; margin: 12px; font-weight: normal}
+h3 {text-align: center; text-indent: 0px; font-size: 12px; margin: 20px 7px 7px 7px;}
+h3.block {text-align: center; text-indent: 0px; font-size: 12px; margin: 7px;}
+/*p {text-indent: 0px}*/
+
+a {
+  cursor: pointer
+}
+
+a.nobor {
+	border: none;
+	text-decoration: none;
+}
+a.nobor:hover {
+	border: none;
+	text-decoration: none;
+}
+
+a.extern, span.extern {
+    background: transparent url('/images/link/link-extern.gif') no-repeat 100% 50%;
+    padding-right: 14px;
+}
+
+a.close {
+    background: transparent url('/images/link/link-close.gif') no-repeat 0% 60%;
+    padding-left: 15px;
+}
+
+.t0 {text-indent: 0px; margin: 5px 0 5px 0;}
+
+.red {color: red}
+
+.b { font-weight: bold }
+
+table.main_menu {border-collapse: collapse;}
+
+td.main_text {
+	padding: 0px 15px 10px 13px;
+	text-align: justify;
+	line-height: 15px;
+	font-size: 11px;
+	vertical-align: top;
+  text-indent: 0px;
+}
+
+td.main_text p {
+  /*text-indent: 15px;*/
+}
+
+td.descr_block p {
+  text-indent: 15px;
+}
+
+ul.level2 {
+	padding-left: 22px;
+}
+
+ul.numeric {
+	list-style-image: none;
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding-left: 15px;
+}
+
+ul.numeric li {
+	background: none;
+}
+
+p.site_path {
+  text-indent: 0px;
+	margin: 0px 10px 15px 0px;
+	text-align: left;
+}
+
+.menu_cell {
+			line-height: 22px;
+			padding: 0 5px 2px 13px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			font-weight: bold;
+			background: none;
+			cursor: pointer;
+}
+
+.menu_cell_active {
+			line-height: 22px;
+			padding: 0px 5px 2px 13px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			font-weight: bold;
+			background: url(/images/bg/main_menu_active.jpg) no-repeat left center;
+			color: #d40000;
+}
+
+.menu_cell_active_a , .menu_cell_active_a:hover{
+  font-weight: bold;
+}
+
+.menu_cell_active a, .menu_cell_active_a{
+	color: #d40000;
+	border-bottom: 1px solid #d40000;
+}
+
+.menu_cell_active a:hover, .menu_cell_active_a:hover{
+	color: #ff0000;
+	border-bottom: 1px solid #ff0000;
+}
+
+.sub_menu_active {
+  color: #d40000;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+
+/* Left ships menu */
+a.left_ships_menu,
+a.left_ships_menu:hover {
+  width: 176px;
+  height: 55px;
+  background: url(/images/ships/left_ships_menu.png?v=4) no-repeat 0 0;
+  display: block;
+  margin: 3px 1px 4px 0;
+  padding: 0;
+  z-index: 10;
+  white-space: nowrap;
+  border: 0;
+  text-decoration: none;
+}
+
+a.left_ships_menu div {
+  display: block;
+  margin-left: 93px;
+  padding-top: 11px;
+}
+
+a.left_ships_menu_mouse_down {
+  margin: 4px 0 3px 1px !important;
+}
+
+/* Motor ships */
+a.left_ships_menu_motor_ships:hover, a.left_ships_menu_motor_ships_active { background-position: 0 -55px; }
+a.left_ships_menu_motor_ships div { padding-top: 18px; }
+
+/* Sailing yachts */
+a.left_ships_menu_sailing_yachts { background-position: -176px 0; }
+a.left_ships_menu_sailing_yachts:hover, a.left_ships_menu_sailing_yachts_active { background-position: -176px -55px; }
+
+/* Motor yachts */
+a.left_ships_menu_motor_yachts { background-position: -352px 0; }
+a.left_ships_menu_motor_yachts:hover, a.left_ships_menu_motor_yachts_active { background-position: -352px -55px; }
+
+/* Speed boats */
+a.left_ships_menu_speed_boats { background-position: -528px 0; }
+a.left_ships_menu_speed_boats:hover, a.left_ships_menu_speed_boats_active { background-position: -528px -55px; }
+
+/* For VIP */
+a.left_ships_menu_for_vip { background-position: -704px 0; }
+a.left_ships_menu_for_vip:hover, a.left_ships_menu_for_vip_active { background-position: -704px -55px; }
+
+/* Banquet */
+a.left_ships_menu_banquet { background-position: -880px 0; }
+a.left_ships_menu_banquet:hover, a.left_ships_menu_banquet_active { background-position: -880px -55px; }
+
+/* enterteinment */
+a.left_ships_menu_entertainment { background-position: -1056px 0; }
+a.left_ships_menu_entertainment:hover, a.left_ships_menu_entertainment_active { background-position: -1056px -55px; }
+
+a.left_ships_menu span {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #8e4702;
+  /*border-bottom: 1px solid #8e4702;*/
+}
+
+a.left_ships_menu:hover span,
+a.left_ships_menu_active span {
+  color: #d40000;
+  /*border-bottom: 1px solid #d40000;*/
+}
+
+
+/* Top ships menu */
+
+a.top_ships_menu_ru,
+a.top_ships_menu_ru:hover,
+a.top_ships_menu_en,
+a.top_ships_menu_en:hover {
+  height: 90px;
+  width: 106px;
+  background: url(/images/ships/top_ships_menu_ru.png) no-repeat 0 0;
+  display: block;
+  margin: 2px 8px 2px 8px;
+  padding: 0;
+  /*z-index: 10;*/
+  white-space: nowrap;
+  border: 0;
+}
+
+a.top_ships_menu_en,
+a.top_ships_menu_en:hover {
+  background: url(/images/ships/top_ships_menu_en.png) no-repeat 0 0;
+}
+
+a.top_ships_menu_mouse_down {
+  margin: 3px 7px 1px 9px !important;
+}
+
+/*.sm_1 {width: 102px; background-position: -733px 0px;}*/
+/*.sm_1_a {width: 102px; background-position: -733px -90px;}*/
+
+/*.sm_2 {width: 106px; background-position: 0px 0px;}*/
+/*.sm_2_a {width: 106px; background-position: 0px -90px;}*/
+/*.sm_3 {width: 128px; background-position: -106px 0px;}*/
+/*.sm_3_a {width: 128px; background-position: -106px -90px;}*/
+/*.sm_4 {width: 147px; background-position: -234px 0px;}*/
+/*.sm_4_a {width: 147px; background-position: -234px -90px;}*/
+/*.sm_5 {width: 159px; background-position: -381px 0px;}*/
+/*.sm_5_a {width: 159px; background-position: -381px -90px;}*/
+/*.sm_6 {width: 193px; background-position: -540px 0px;}*/
+/*.sm_6_a {width: 193px; background-position: -540px -90px;}*/
+
+
+/* Motor ships 25 */
+a.top_ships_menu_motor_ships_25:hover, a.top_ships_menu_motor_ships_25_active { background-position: 0 -90px; }
+
+/* Motor ships 50 */
+a.top_ships_menu_motor_ships_50 { width: 128px; background-position: -106px 0; }
+a.top_ships_menu_motor_ships_50:hover, a.top_ships_menu_motor_ships_50_active { width: 128px; background-position: -106px -90px; }
+
+/* Motor ships 100 */
+a.top_ships_menu_motor_ships_100 { width: 147px; background-position: -234px 0; }
+a.top_ships_menu_motor_ships_100:hover, a.top_ships_menu_motor_ships_100_active { width: 147px; background-position: -234px -90px; }
+
+/* Motor ships 150 */
+a.top_ships_menu_motor_ships_150 { width: 159px; background-position: -381px 0; }
+a.top_ships_menu_motor_ships_150:hover, a.top_ships_menu_motor_ships_150_active { width: 159px; background-position: -381px -90px; }
+
+/* Motor ships 151 */
+a.top_ships_menu_motor_ships_151 { width: 193px; background-position: -540px 0; }
+a.top_ships_menu_motor_ships_151:hover, a.top_ships_menu_motor_ships_151_active { width: 193px; background-position: -540px -90px; }
+
+
+.HomeShip {
+  float: right;
+  margin: 3px 2px 2px 10px;
+  border: 1px solid #e2c76c;
+}
+
+/*a.top_ships_menu_ru,*/
+/*a.ships_menu2_en,*/
+/*a.ships_menu2_ru:hover,*/
+/*a.ships_menu2_en:hover,*/
+/*a.ships_menu2_ru_a,*/
+/*a.ships_menu2_ru_a:hover,*/
+/*a.ships_menu2_en_a,*/
+/*a.ships_menu2_en_a:hover {*/
+	/*height: 90px;*/
+	/*background-image: url(/images/ships/ships_menu_ru.jpg);*/
+	/*background-repeat: no-repeat;*/
+	/*display: block;*/
+	/*margin: 2px 8px 2px 8px;*/
+	/*padding: 0;*/
+	/*z-index: 10;*/
+	/*white-space: nowrap;*/
+	/*border: 0;*/
+/*}*/
+
+/*a.ships_menu_en,*/
+/*a.ships_menu_en:hover {*/
+  /*background-image: url(/images/ships/ships_menu_en.jpg);*/
+/*}*/
+
+
+
+
+a.menu_el {
+	line-height: 24px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #822500;
+}
+
+td.menu_cell a.inactive {
+	color: #8e4702;
+	border-bottom: 1px solid #8e4702; text-decoration: none;
+}
+
+td.menu_cell a.active {
+	color: #d40000;
+	border-bottom: 1px solid #d40000; text-decoration: none;
+}
+
+td.weather_day {
+	height: 24px;
+	padding-right: 3px;
+	font-weight: bold;
+	color: #d9821b;
+}
+
+table.monthn td.ddayh {
+	font-size: 10px;
+	text-indent: 0px;
+	width: 13px;
+	height: 13px;
+	border: 0px solid #c36101;
+	text-align: center;
+	padding-left: 2px;
+	font-weight: bold;
+	color: #d9821b;
+}
+
+table.monthn td.dday {
+	text-indent: 0px;
+	width: 13px;
+	height: 13px;
+	border: 0px solid #e4811f;
+	text-align: center;
+	padding-left: 0px;
+	font-size: 10px;
+}
+
+table.monthn td.ddayn {
+	font-size: 10px;
+	text-indent: 0px;
+	width: 13px;
+	height: 13px;
+	border: 0px solid #edac6d;
+	text-align: center;
+	color: #f1a75f;
+	padding-left: 2px;
+}
+
+td.ddayh {
+	text-indent: 0px;
+	width: 14px;
+	height: 14px;
+	border: 0px solid #c36101;
+	text-align: center;
+	padding: 0 1px 0 1px;
+	font-weight: bold;
+	color: #d9821b;
+}
+
+td.dday {
+	text-indent: 0px;
+	width: 14px;
+	height: 14px;
+	border: 0px solid #e4811f;
+	text-align: center;
+	padding: 0 1px 0 1px;
+}
+
+td.ddaya {
+	text-indent: 0px;
+	width: 14px;
+	height: 14px;
+	border: 0px solid #e4811f;
+	text-align: center;
+	padding: 0 1px 0 1px;
+	background-color: #e8923d;
+	color: #ffdbb8;
+}
+
+td.ddayn {
+	font-size: 11px;
+	text-indent: 0px;
+	width: 14px;
+	height: 14px;
+	border: 0px solid #edac6d;
+	text-align: center;
+	color: #f1a75f;
+	padding: 0 1px 0 1px;
+}
+
+td.cont_top {
+	color: #444444;
+	text-align: right;
+	padding-right: 5px;
+}
+
+td.cont_data {
+	line-height: 14px;
+	text-align: center;
+}
+
+td.cont_icon {
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+td.ship_menu_el {
+	text-align: center;	
+}
+
+/* ---------------------------- */
+
+
+img.ship250 {
+	width: 250px;
+	border: 1px solid #555555;	
+}
+
+/* -------------- CONTACTS --------------- */
+
+.cat_cont {
+	width: 260px;
+	font-weight: bold;	
+}
+
+.cat_cont2 {
+	width: 180px;
+	font-weight: bold;	
+}
+
+.data_cont {
+	vertical-align: top;
+	padding-left: 10px;	
+}
+
+/* ------ map ------- */
+
+.MapTable {
+  border: 1px solid #db9500;
+}
+
+
+div.hidden {
+	display: none;
+	position: relative;	
+}
+
+img.cat_img {
+	border: 1px solid #e6e6e6;
+	margin: 6px 0 6px 0;
+}
+
+a.cat_href {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+table.ships_table {border-collapse: collapse; border: 1px solid #eab354;}
+table.ships_table td {text-align: center; border: 1px solid #eab354;}
+
+td.ships_table_section  h3 {
+	margin: 5px;
+	font-size: 11px;
+}
+
+p.p_up {
+	margin-bottom: 5px;
+}
+
+p.p_down{
+	margin-top: 5px;
+}
+
+p.std {
+	text-indent: 15px;
+	text-align: justify;
+}
+
+img.lang {
+	border: 2px solid #fcfba1;
+	margin: 0 5px 2px 0px;
+}
+
+img.langa {
+	border: 2px solid #f7e167;
+	margin: 0 5px 2px 0px;
+}
+
+table.gallery  td{
+	text-align: center;
+}
+
+img.gal_img {
+	margin-bottom: 20px;
+	border: 1px solid #e6e6e6;
+}
+
+img.banq {
+	margin: 6px;
+	border: 1px solid #e6e6e6;
+}
+
+img.banq2 {
+	margin: 5px;
+	border: 1px solid #e6e6e6;
+}
+
+#navi a, #navi b {
+	float: left;
+	width: 25px;
+	height: 25px;
+	background-image: url(/images/elements/icons.gif);
+	background-repeat: no-repeat;
+	display: block;
+	margin: 2px;
+	padding: 0;
+	z-index: 10;
+	white-space: nowrap;
+	border: 0px;
+	position: relative;
+}
+
+li.sitemap0 {
+	background-position: 0px 2px; padding-left: 20px;
+}
+
+li.sitemap1 {
+	background-position: 20px 2px; padding-left: 40px;
+}
+
+
+
+.sm_ships, .sm_yachts, .sm_odessa_yachts, .sm_croatia_yachts, .sm_greece_yachts {
+  font-size: 12px;	
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-color: #f8e08d;
+	border: 2px solid #eb8a55;
+	line-height: 18px;
+	z-index: 13000;
+  display: none;
+}
+
+.sm_ships {
+	top: 9px;
+	left: 177px;
+	padding: 10px 12px 14px 14px; 
+	opacity: 0.9;
+	/*border: 1px solid #dac068;*/
+}
+
+
+.sm_yachts {
+	top: 30px;
+	left: 173px;
+	padding: 10px 12px 14px 14px; 
+	opacity: 0.9;
+}
+
+.sm_croatia_yachts {
+	top: 25px;
+	left: 173px;
+	padding: 10px 12px 14px 14px; 
+	opacity: 0.9;
+}
+
+.sm_odessa_yachts {
+	top: 5px;
+	left: 173px;
+	padding: 10px 12px 14px 14px;
+	opacity: 0.9;
+}
+
+.sm_greece_yachts {
+	top: 52px;
+	left: 173px;
+	padding: 10px 12px 14px 14px; 
+	opacity: 0.9;
+}
+
+.sm_ships a, .sm_yachts a, .sm_odessa_yachts a, .sm_croatia_yachts a, .sm_greece_yachts a {white-space: nowrap;}
+.sm_ships img, .sm_yachts img, .sm_odessa_yachts img, .sm_croatia_yachts img, .sm_greece_yachts img {position: absolute; z-index: 5;}
+
+
+.MainTdBg {
+  padding: 0px;
+  background: url(/images/bg/body_bg4.jpg) #ffffff repeat-y top center
+}
+.ie .MainTdBg {padding-left: 1px;}
+
+
+.MainTable {
+  border-collapse: collapse;
+  border-left: 1px solid #eab354;
+  border-right: 1px solid #eab354;
+}
+
+.MainTableTd {
+  vertical-align: top;
+  height: 120px;
+  background-color: #fffea3;
+}
+
+
+/* -------------------- BLOCKS ---------------------- */
+.StdBlockLT, .StdBlockRT, .StdBlockLB, .StdBlockRB, .StdBlockMenuLT, .StdBlockMenuRT, .StdBlockMenuLB, .StdBlockMenuRB, .StdBlockLT2, .StdBlockRT2, .StdBlockLB2, .StdBlockRB2, .StdBlockMenuLT2, .StdBlockMenuRT2, .StdBlockMenuLB2, .StdBlockMenuRB2 {
+	position: absolute; z-index: 3;
+}
+
+.StdBlockLT, .StdBlockLT2 {left: 0; top: 0;}
+.StdBlockRT, .StdBlockRT2 {right: 0; top: 0;}
+.StdBlockLB, .StdBlockLB2 {left: 0; bottom: 0;}
+.StdBlockRB, .StdBlockRB2 {right: 0; bottom: 0;}
+
+.ie6 .StdBlockRT, .ie7 .StdBlockRT, .ie6 .StdBlockRT2, .ie7 .StdBlockRT2 {right: -1px; top: 0;}
+.ie6 .StdBlockRB, .ie7 .StdBlockRB {right: -1px; bottom: 0;}
+
+.ie6 .StdBlockLB2, .ie7 .StdBlockLB2 {left: 0; bottom: -1px;}
+.ie6 .StdBlockRB2, .ie7 .StdBlockRB2 {right: -1px; bottom: -1px;}
+
+.StdBlockMenuLT, .StdBlockMenuLT2 {left: -2px; top: -2px;}
+.StdBlockMenuRT, .StdBlockMenuRT2 {right: -2px; top: -2px;}
+.StdBlockMenuLB, .StdBlockMenuLB2 {left: -2px; bottom: -2px;}
+.StdBlockMenuRB, .StdBlockMenuRB2 {right: -2px; bottom: -2px;}
+
+.ie6 .StdBlockMenuRT, .ie7 .StdBlockMenuRT, .ie6 .StdBlockMenuRT2, .ie7 .StdBlockMenuRT2 {right: -3px; top: -2px;}
+.ie6 .StdBlockMenuRB, .ie7 .StdBlockMenuRB {right: -3px; bottom: -2px;}
+
+.ie6 .StdBlockMenuLB2, .ie7 .StdBlockMenuLB2 {left: -2px; bottom: -3px;}
+.ie6 .StdBlockMenuRB2, .ie7 .StdBlockMenuRB2 {right: -3px; bottom: -3px;}
+
+
+.MainMenuBlock {
+  background: #f8e08d;
+  border: 2px solid #eb8a55;
+}
+
+/* Articles */
+.ArticleDate {
+  color: #db9c5e;
+}
+
+.MainMenuSecondaryLink {
+  text-align: center;
+  padding: 10px;
+  color: #8E4702;
+  line-height: 1.6em;
+}
+
+#jquery-lightbox img, #jquery-lightbox a {
+  border: none !important
+}
+
+#captcha-reload {
+  color: #8E4702;
+  border-bottom: 1px dashed #822500;
+  cursor: pointer
+}
+
+/* Tooltips */
+.TipsyTooltip {
+  cursor: pointer;
+}
+
+.tipsy { padding: 5px; font-size: 1em; opacity: 0.9; filter: alpha(opacity=90); background-repeat: no-repeat;  background-image: url('/images/tooltip/tipsy.gif'); }
+.tipsy-inner { padding: 5px 8px 4px 8px; background-color: #0d4868; color: white; max-width: 200px; text-align: left; }
+.tipsy-inner {
+  -moz-border-radius: 3px; /* Firefox */
+  -webkit-border-radius: 3px; /* Safari, Chrome */
+  -khtml-border-radius: 3px; /* KHTML */
+  border-radius: 3px; /* CSS3 */
+ }
+.tipsy-north { background-position: top center; }
+.tipsy-south { background-position: bottom center; }
+.tipsy-east { background-position: right center; }
+.tipsy-west { background-position: left center; }
+
+
+.FrontendForm th,
+.FrontendForm td {
+  padding: 5px;
+}
+
+.FrontendForm .Submit {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.FrontendForm .Input {
+  font-size: 12px;
+  font-family: Tahoma, Geneva, sans-serif;
+  width: 250px;
+}
+
+.FrontendForm .Textarea {
+  font-size: 12px;
+  font-family: Tahoma, Geneva, sans-serif;
+  width: 420px;
+  height: 170px;
+}
+
+.FrontendForm .Title {
+  text-align: right;
+  color: #6e5032;
+  vertical-align: top;
+  padding-top: 9px;
+  font-weight: normal;
+}
+
+.FrontendForm .Error {
+  font-size: 11px;
+  color: #cc0000;
+}
+
+.FrontendForm .Required {
+  color: #cc0000;
+}
+
+.FrontendForm .Help {
+  color: #a3764a
+}
+
+
+.ClickedInput {
+  color: #005DAD
+}
+
+
+
+#order_time_from_hour,
+#order_time_from_minute,
+#order_time_to_hour,
+#order_time_to_minute {
+  width: auto;
+}
+
+#order_date {
+  width: 90px;
+}
+
+#online_order_dialog button {
+  padding: 2px 10px;
+  font-size: 13px
+}
+
+
+.ui-widget a {
+  border: none;
+}
+
+
+.OwnItems p {
+  margin: 5px 0;
+  padding: 0;
+  line-height: 18px;
+}
+
+.OwnItems .RentHeader {
+  color: #a00;
+  margin: 5px 0 0 0;
+  line-height: 14px;
+}
+
+.ScheduleOrder1,
+.ScheduleOrder1:visited {
+  color: #999;
+  border-bottom: 1px solid #999;
+}
+
+.ScheduleOrder2,
+.ScheduleOrder2:visited {
+  color: #005690;
+  border-bottom: 1px solid #005690;
+}
+
+.ScheduleOrder3,
+.ScheduleOrder3:visited {
+  color: #039000;
+  border-bottom: 1px solid #039000;
+}
+
+span.ScheduleOrder1,
+span.ScheduleOrder2,
+span.ScheduleOrder3 {
+  border: none;
+}
+.shop_item  a.nobor,
+.shop_item .prod_img  {
+width: 100% !important;
+float: left;
+}
+.shop_item center {
+padding-left: 0 !important;
+}

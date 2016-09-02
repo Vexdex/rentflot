@@ -1,0 +1,9 @@
+all:
+  metas:
+    robots: noindex, nofollow
+    title: Акции | Киевская судоходная компания &laquo;Рентфлот&raquo;
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  layout:     layout_backend
+  javascripts:    [/magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]
+newSuccess:
+  javascripts:    [/magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]

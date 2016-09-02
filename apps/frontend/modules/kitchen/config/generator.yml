@@ -1,0 +1,25 @@
+generator:
+  class: sfDoctrineMagicGenerator
+  param:
+    model_class:           Kitchen
+    theme:                 infosoft3
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          kitchen
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        display:           [slug, column, updated_at]
+        title:                    Меню для кухни
+      filter:  ~
+      form:
+        display: [slug, column, name, title, description, keywords, text]
+      edit:
+        title:                    Редактирование меню
+      new:     ~

@@ -1,0 +1,852 @@
+kitchen:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Kitchen
+    module:               kitchen
+    prefix_path:          /:sf_culture/kitchen
+    column:               id
+    with_wildcard_routes: true
+
+entertainments_admin:
+  url:   /:sf_culture/entertainmentsadmin
+  param: { module: entertainments }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+news:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                News
+    module:               newsadmin
+    prefix_path:          /:sf_culture/newsadmin
+    column:               id
+    with_wildcard_routes: true
+
+advertisement:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Advertisement
+    module:               Advertisements
+    prefix_path:          /:sf_culture/advertisements
+    column:               id
+    with_wildcard_routes: true
+
+real404:
+  url:   /:sf_culture/404.html
+  param: { module: content, action: real404 }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+call:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/call.html
+  param: { module: call, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+adv:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/adv/:slug.html
+  param: { module: adv, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+newsf:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/news/:slug.html
+  param: { module: newsf, action: show }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+newsf_list:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/news.html
+  param: { module: newsf, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+genmap:
+  url:   /:sf_culture/sitemap.xml
+  param: { module: genmap, action: generate }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+callback:
+  url:   /:sf_culture/callback/:id
+  param: { module: callback, action: show }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+callback_done:
+  url:   /:sf_culture/callback/done/:id
+  param: { module: callback, action: done }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)	
+
+call_submit:
+  url:   /:sf_culture/call_submit.html
+  param: { module: call, action: submit }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+client_contact:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ClientContact
+    module:               contact
+    prefix_path:          /:sf_culture/contact
+    column:               id
+    with_wildcard_routes: true
+
+pierf:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                pierf
+    module:               pierf
+    prefix_path:          /:sf_culture/pierf
+    column:               id
+    with_wildcard_routes: true
+
+pier_frontend:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                pierFrontend
+    module:               pierFrontend
+    prefix_path:          /:sf_culture/pierFrontend
+    column:               id
+    with_wildcard_routes: true
+
+pier:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                pier
+    module:               pier
+    prefix_path:          /:sf_culture/pier
+    column:               id
+    with_wildcard_routes: true
+
+# Все роуты должны быть без слэшей в конце!
+
+map:
+  url:   /:sf_culture/map.html
+  class:  magicRequestI18NHostRoute
+  param: { module: dynMap, action: index, page: map }
+  options:
+    #model: dynamic_map
+    #module:            dynMap
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+online_order_form:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/order/online
+  param: { module: onlineOrder, action: onlineOrderForm }
+  requirements:
+    sf_culture: (?:ru|en)
+    sf_method: [get, post]
+    id: \d+
+
+payments_pay_for_services:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/pay/services
+  param: { module: payments, action: payForServices }
+  requirements:
+    sf_culture: (?:ru|en)
+    sf_method: [get, post]
+
+payments_pay_result:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/pay/result
+  param: { module: payments, action: payResult }
+  requirements:
+    sf_culture: (?:ru|en)
+    sf_method: [get, post]
+
+payments_generate_xml_and_sign:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/pay/generate_xml_and_sign
+  param: { module: payments, action: generateXmlAndSign }
+  requirements:
+    sf_culture: (?:ru|en)
+    sf_method: [post]
+
+settings:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/settings
+  param: { module: menu, action: settings }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+
+# Отчеты
+reports:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/reports
+  param: { module: reports, action: index }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+
+# Отчет "Взаиморасчеты по теплоходу"
+report_motor_ship_bills:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/reports/motor_ship_bills/:print
+  param: { module: reports, action: motorShipBills, print: false }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+    print: (?:print|excel)
+    
+report_bills:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/reports/bills/:print
+  param: { module: reports, action: bills, print: false }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+    print: (?:print|excel)
+
+report_categories:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/reports/categories/:print
+  param: { module: reports, action: categories, print: false }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+    print: (?:print|excel)
+
+report_balance:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/reports/balance/:print
+  param: { module: reports, action: balance, print: false }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+    print: (?:print|excel)
+
+article_frontend_list:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/articles.html
+  param: { module: article, action: listFrontend }
+  options:
+    no_trailing_slash: true    
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+    
+article_frontend_show:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/articles/:slug.html
+  param: { module: article, action: showFrontend }
+  options:
+    no_trailing_slash: true  
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get]
+
+import:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/import
+  param: { module: import, action: import }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+
+order_print_documents:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/order/:id/print/:doc_type
+  param: { module: order, action: printDocument }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+order_item_add:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/add_order_item
+  param: { module: order, action: addOrderItem }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+category_by_item:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/category_by_item
+  param: { module: order, action: categoryByItem }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+    
+item_list_by_category:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/item_list_by_category
+  param: { module: order, action: itemListByCategory }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+
+order_item_show_form:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/show_order_item_form
+  param: { module: order, action: showOrderItemForm }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+client_show_form:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/show_client_form
+  param: { module: order, action: showClientForm }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+client_save_form:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/save_client_form
+  param: { module: order, action: saveClientForm }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+
+calendar_schedule:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/calendar/schedule
+  param: { module: calendar, action: schedule }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+
+sf_guard_signin_redirect:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/signin_redirect
+  param: { module: sfGuardAuth, action: signinRedirect }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+    id: []        
+    
+sf_guard_signout_redirect:
+  url:   /:sf_culture/
+  param: { module: content, action: static, page: index }
+  class:  magicRequestI18NHostRoute
+  requirements:
+    sf_culture: (?:en|ru)
+    
+    
+sf_guard_change_password:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/user/change_password
+  param: { module: sfGuardUser, action: changePassword }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+    id: []        
+    
+
+sf_guard_reset_password:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/user/reset_password/:id
+  param: { module: sfGuardUser, action: resetPassword }
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+
+sf_guard_user:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                sfGuardUser
+    module:               sfGuardUser
+    prefix_path:          /:sf_culture/user
+    column:               id
+    with_wildcard_routes: true
+    #actions:          [new, create, edit, update, delete, reset]
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]     
+
+sf_guard_group:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                SfGuardGroup
+    module:               sfGuardGroup
+    prefix_path:          /:sf_culture/group
+    column:               id
+    with_wildcard_routes: true
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]
+
+sf_guard_signin:
+  url:   /:sf_culture/login
+  param: { module: sfGuardAuth, action: signin }
+  class:  magicRequestI18NHostRoute
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]  
+
+sf_guard_signout:
+  url:   /:sf_culture/logout
+  param: { module: sfGuardAuth, action: signout }
+  class:  magicRequestI18NHostRoute
+  requirements:
+    sf_culture: (?:en|ru)
+
+# Static pages
+iyt:
+  url:   /:sf_culture/International_Yacht_Training_IYT.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: iyt }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)  
+    
+croatia_yachts:
+  url:   /:sf_culture/croatia_yachts.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: croatia_yachts }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)  
+
+odessa_yachts:
+  url:   /:sf_culture/odessa_yachts.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: odessa_yachts }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+greece_yachts:
+  url:   /:sf_culture/greece_yachts.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: greece_yachts }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru) 
+    
+yachts:
+  url:   /:sf_culture/yachts.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: yachts }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)   
+
+motor_ships:
+  url:   /:sf_culture/motor_ships.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: motor_ships }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)   
+
+links:
+  url:   /:sf_culture/links.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: links }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)   
+
+banquet:
+  url:   /:sf_culture/banquet.html
+  class:  magicRequestI18NHostRoute
+  param: { module: banquet, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+show_kitchen:
+  url:   /:sf_culture/banquet/:slug.html
+  class:  magicRequestI18NHostRoute
+  param: { module: banquet, action: show }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+entertainments:
+  url:   /:sf_culture/entertainments.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: entertainments }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+    
+map_velikiy:
+  url:   /:sf_culture/map/velikiy.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: velikiy }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)   
+    
+map_olgin:
+  url:   /:sf_culture/map/olgin.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: olgin }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)   
+gift_certs:
+  url:   /:sf_culture/gift_certs.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: gift_certs }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+photo_gallery:
+  url:   /:sf_culture/photo_gallery.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: photo_gallery }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+    
+contract:
+  url:   /:sf_culture/contract.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: contract }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru) 
+ 
+rules:
+  url:   /:sf_culture/rules.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: rules }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru) 
+    
+for_agents:
+  url:   /:sf_culture/for_agents.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: for_agents }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)    
+
+clients:
+  url:   /:sf_culture/clients.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: clients }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)    
+
+dictionary:
+  url:   /:sf_culture/dictionary.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: dictionary }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)    
+    
+rest_walk:
+  url:   /:sf_culture/rest_walk.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: rest_walk }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+contacts:
+  url:   /:sf_culture/contacts.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: contacts }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+about:
+  url:   /:sf_culture/about.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: about }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+image_view:
+  url:   /:sf_culture/image_view/:slug.html
+  class:  magicRequestI18NHostRoute
+  param: { module: imageView, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru) 
+    
+
+# Sitemap
+sitemap:
+  url:   /:sf_culture/sitemap.html
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: sitemap }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+    
+# Feedback
+feedback:
+  url:   /:sf_culture/contacts/feedback.html
+  class:  magicRequestI18NHostRoute
+  param: { module: feedback, action: index }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]      
+
+feedback_result:
+  url:   /:sf_culture/contacts/feedback_result.html
+  class:  magicRequestI18NHostRoute
+  param: { module: feedback, action: result }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+    sf_method: [get, post]    
+
+#online_order_thank_you:
+#  url:   /:sf_culture/online_order/:category_slug/:item_slug/thank_you.html
+#  class:  magicRequestI18NHostRoute
+#  param: { module: onlineOrder, action: thankYou }
+#  options:
+#    no_trailing_slash: true
+#  requirements:
+#    sf_culture: (?:en|ru)
+#    sf_method: [get, post]
+#
+#online_order:
+#  url:   /:sf_culture/online_order/:category_slug/:item_slug.html
+#  class:  magicRequestI18NHostRoute
+#  param: { module: onlineOrder, action: index }
+#  options:
+#    no_trailing_slash: true
+#  requirements:
+#    sf_culture: (?:en|ru)
+#    sf_method: [get, post]
+thank_you:
+  url:      /:sf_culture/thank_you.html
+  class:  magicRequestI18NHostRoute
+  param:    { module: thank_you, action: index }
+
+
+spd:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Spd
+    module:               spd
+    prefix_path:          /:sf_culture/spd
+    column:               id
+    with_wildcard_routes: true
+
+article:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Article
+    module:               article
+    prefix_path:          /:sf_culture/article
+    column:               id
+    with_wildcard_routes: true
+
+bill_index:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                BillIndex
+    module:               billIndex
+    prefix_path:          /:sf_culture/bill_index
+    column:               id
+    with_wildcard_routes: true
+
+bill:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Bill
+    module:               bill
+    prefix_path:          /:sf_culture/bill
+    column:               id
+    with_wildcard_routes: true
+
+
+order_by_client:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/order_by_client/:id_client
+  param: { module: order, action: ShowByClient }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:ru|uk|en)
+    sf_method: [get]
+    id: '[0-9]+'
+
+order:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Order
+    module:               order
+    prefix_path:          /:sf_culture/order
+    column:               id
+    with_wildcard_routes: true
+
+client:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Client
+    module:               client
+    prefix_path:          /:sf_culture/client
+    column:               id
+    with_wildcard_routes: true
+
+owner:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Owner
+    module:               owner
+    prefix_path:          /:sf_culture/owner
+    column:               id
+    with_wildcard_routes: true
+
+item:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Item
+    module:               item
+    prefix_path:          /:sf_culture/item
+    column:               id
+    with_wildcard_routes: true
+
+category:
+  class: magicDoctrineRouteCollection
+  options:
+    model:                Category
+    module:               category
+    prefix_path:          /:sf_culture/category
+    column:               id
+    with_wildcard_routes: true
+
+# System
+system_update_weather:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/system/update_weather
+  param: { module: system, action: updateWeather }
+  requirements:
+    sf_culture: (?:en|ru)
+
+system_parse_emails:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/system/parse_emails
+  param: { module: system, action: parseEmails }
+  requirements:
+    sf_culture: (?:en|ru)
+
+
+# Captcha    
+captcha:
+  class:  magicRequestI18NHostRoute
+  url:   /:sf_culture/captcha
+  param: { module: captcha, action: index }
+  requirements:
+    sf_culture: (?:en|ru)        
+    
+# default rules
+homepage:
+  url:   /:sf_culture
+  class:  magicRequestI18NHostRoute
+  param: { module: content, action: static, page: index }
+  requirements:
+    sf_culture: (?:en|ru)
+
+# Catalog routes
+# ***
+
+catalog_own_items:
+  url:   /:sf_culture/catalog/own_items.html
+  class:  magicRequestI18NHostRoute
+  param: { module: catalog, action: showOwnItems }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+catalog_category:
+  url:   /:sf_culture/:category_slug.html
+  class:  magicRequestI18NHostRoute
+  param: { module: catalog, action: showCategory }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)    
+    
+catalog_item:
+  url:   /:sf_culture/:category_slug/:item_slug.html
+  class:  magicRequestI18NHostRoute
+  param: { module: catalog, action: showItem }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+fix_file_names:
+  url:   /:sf_culture/fix_file_names/:pass
+  param: { module: catalog, action: fixFileNames }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)
+
+update_images_size:
+  url:   /:sf_culture/update_images_size/:pass
+  param: { module: catalog, action: updateImagesSize }
+  options:
+    no_trailing_slash: true
+  requirements:
+    sf_culture: (?:en|ru)

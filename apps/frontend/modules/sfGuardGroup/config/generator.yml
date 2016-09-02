@@ -1,0 +1,55 @@
+generator:
+  class:                              sfDoctrineMagicGenerator
+  param:
+    model_class:                      sfGuardGroup
+    theme:                            infosoft3
+    non_verbose_templates:            true
+    with_show:                        false
+    singular:                         ~
+    plural:                           ~
+    route_prefix:                     sf_guard_group
+    with_doctrine_route:              true
+    actions_base_class:               sfActions
+    log:                              true
+    
+    config:
+      actions:
+        _index:                       { credentials: [auth_user] }               
+        _new:                         { credentials: [auth_user] }               
+        _add:                         { credentials: [auth_user] }                          
+        _edit:                        { credentials: [auth_user] }                          
+        _delete:                      { credentials: [auth_user] }  
+        
+      fields:
+        created_at:                   { date_format: dd.MM.yyyy }
+      
+      list:
+        title:                        index_title
+        display:                      [name, description, created_at] 
+        sort:                         [created_at, desc]
+        max_per_page:                 30
+        #table_method:                 retrieveGroupList
+        object_actions:         
+          _edit:                      ~         
+
+            
+      filter:
+        display:                      [name, description, created_at]
+      
+        
+      edit:
+        title:                        edit_title
+        actions:          
+          _save:                      #{label: save}
+          _save_and_add:              #{label: save_and_add} 
+          _list:                      #{label: list}
+          _delete:                    #{label: delete}    
+        
+      new:
+        title:                        new_title 
+        actions:          
+          _save:                      #{label: save}
+          _save_and_add:              #{label: save_and_add} 
+          _list:                      #{label: list}
+          _delete:                    #{label: delete} 
+          

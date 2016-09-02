@@ -1,0 +1,10 @@
+schedule:
+  # Только для авторизированных пользователей
+  is_secure:   true  
+  # Защищенное соединение https
+  is_ssl:      true  
+  credentials: calendar 
+  
+  
+  
+  

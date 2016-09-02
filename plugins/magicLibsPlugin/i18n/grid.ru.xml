@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+    
+      <!-- Common -->
+      <trans-unit>
+        <source>all</source>
+        <target>&mdash; Все &mdash;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>none</source>
+        <target>&mdash; Нет &mdash;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>loading</source>
+        <target>Загрузка...</target>
+      </trans-unit>
+    
+      <!-- Validation Error Messages -->
+      <trans-unit>
+        <source>Required.</source>
+        <target>Обязательное поле</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Invalid.</source>
+        <target>Неправильно введены данные</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is not an integer.</source>
+        <target>"%value%" не целое число</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is not a number.</source>
+        <target>"%value%" не число</target>
+      </trans-unit>
+      <trans-unit>
+        <source>An object with the same "%column%" already exist.</source>
+        <target>Запись с таким же значением поля "%column%" уже существует</target>
+      </trans-unit>
+      <trans-unit> 
+        <source>Invalid captcha.</source> 
+        <target>Цифры введены неправильно</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>The begin date must be before the end date.</source> 
+        <target>"Дата от" должна быть позже "Даты до"</target> 
+      </trans-unit>        
+      <trans-unit> 
+        <source>Value must be greater than %greater_than%.</source> 
+        <target>Введенное значение должно быть больше %greater_than%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>Value must be less than %less_than%.</source> 
+        <target>Введенное значение должно быть меньше %less_than%"</target> 
+      </trans-unit>       
+      <trans-unit> 
+        <source>"%value%" is too short (%min_length% %characters% min).</source> 
+        <target>значение "%value%" очень короткое (минимум %min_length% %characters%)</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>"%value%" is too long (%max_length% %characters% max).</source> 
+        <target>значение "%value%" очень длинное (максимум %max_length% %characters%)</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>Chars are not allowed.</source> 
+        <target>Присутствуют недопустимые символы</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>exact_length</source> 
+        <target>Длина введенного значение должна быть %exact_length% %characters%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>readonly_field</source> 
+        <target>Невозможно изменить значение поля</target> 
+      </trans-unit>       
+      
+      <!-- modules custom -->
+      <trans-unit> 
+        <source>invalid_amount</source> 
+        <target>Сумма должна быть не меньше %min_value% и не больше %max_value% грн.</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>invalid_contract_period</source> 
+        <target>Срок кредита должен быть не меньше %min_contract_period% и не больше %max_contract_period% дней</target> 
+      </trans-unit> 
+      
+      
+      
+      <!-- Actions -->
+      <trans-unit>
+        <source>delete</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit>
+        <source>new</source>
+        <target>Создать</target>
+      </trans-unit>
+      <trans-unit>
+        <source>edit</source>
+        <target>Редактировать</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list</source>
+        <target>Вернуться к списку</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save</source>
+        <target>Сохранить</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save_and_add</source>
+        <target>Сохранить и создать еще</target>
+      </trans-unit>
+      <trans-unit>
+        <source>cancel</source>
+        <target>Отмена</target>
+      </trans-unit>
+      <trans-unit>
+        <source>confirm</source>
+        <target>Вы уверены?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>send</source>
+        <target>Отправить заявку</target>
+      </trans-unit>
+      
+
+      <!-- Filters -->
+      <trans-unit>
+        <source>filter_apply</source>
+        <target>Поиск</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_reset</source>
+        <target>Очистить фильтр</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter</source>
+        <target>Фильтр</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>list_empty</source>
+        <target>Записей не найдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>no_result</source>
+        <target>По вашему запросу ничего не найдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>actions</source>
+        <target>Действия</target>
+      </trans-unit>
+      <trans-unit>
+        <source>found</source>
+        <target>Найдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_nb_pages</source>
+        <target>(страница %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>asc</source>
+        <target>По возрастанию</target>
+      </trans-unit>
+      <trans-unit>
+        <source>desc</source>
+        <target>По убыванию</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>batch_with_selected</source>
+        <target>С выделенными</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_delete</source>
+        <target>Удалить</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_apply</source>
+        <target>OK</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_select_action</source>
+        <target>Выберите действие</target>
+      </trans-unit>  
+      
+      <!-- Pagination -->
+      <trans-unit>
+        <source>first_page</source>
+        <target>Первая страница</target>
+      </trans-unit>
+      <trans-unit>
+        <source>previous_page</source>
+        <target>Предыдущая страница</target>
+      </trans-unit>
+      <trans-unit>
+        <source>next_page</source>
+        <target>Следующая страница</target>
+      </trans-unit>
+      <trans-unit>
+        <source>last_page</source>
+        <target>Последняя страница</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_1</source>
+        <target>запись</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_2</source>
+        <target>записи</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_3</source>
+        <target>записей</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_1</source>
+        <target>символ</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_2</source>
+        <target>символа</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_3</source>
+        <target>символов</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_1</source>
+        <target>рік</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_2</source>
+        <target>роки</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_3</source>
+        <target>років</target>
+      </trans-unit>
+      
+ 
+      <!-- Form -->
+      <trans-unit>
+        <source>lang_uk</source>
+        <target>Українською</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_ru</source>
+        <target>По-русски</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_en</source>
+        <target>English</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>create_successfull</source>
+        <target>Запись успешно создана</target>
+      </trans-unit>
+      <trans-unit>
+        <source>update_successfull</source>
+        <target>Запись успешно обновлена</target>
+      </trans-unit>
+      <trans-unit>
+        <source>create_successfull_and_add</source>
+        <target>Запись успешно добавлена. Вы можете создать еще одну</target>
+      </trans-unit>
+      <trans-unit>
+        <source>update_successfull_and_add</source>
+        <target>Запись успешно обновлена. Вы можете создать еще одну</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save_error</source>
+        <target>Запись не сохранена из-за ошибок</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_successfull</source>
+        <target>Запись успешно удалена</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_items_selected</source>
+        <target>Вы должны выделить хотя бы одну запись</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_action_selected</source>
+        <target>Вы должны выбрать действие над выделенными записями</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_items_does_not_exists</source>
+        <target>Ошибка при удалении некоторых записей</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_successfull</source>
+        <target>Выбранные записи успешно удалены</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_constraint</source>
+        <target>Ошибка удаления записи. Она используется в другом модуле</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_n</source>
+        <target>Ошибка удаления записей. Они используются в другом модуле</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_1</source>
+        <target>Ошибка удаления записи. Она используется в другом модуле</target>
+      </trans-unit>
+      
+      
+      
+      <!-- Photo -->
+      <trans-unit>
+        <source>image</source>
+        <target>Фотография</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_image</source>
+        <target>Удалить фотографию</target>
+      </trans-unit>
+      <trans-unit>
+        <source>add_image</source>
+        <target>Добавить фотографию</target>
+      </trans-unit>
+      <trans-unit>
+        <source>additional_image</source>
+        <target>Дополнительная фотография</target>
+      </trans-unit>
+      <trans-unit>
+        <source>image_max_upload_count</source>
+        <target>Вы превысили максимально допустимое количество загруженных фотографий</target>
+      </trans-unit>
+      
+      <!-- Date -->
+      <trans-unit>
+        <source>choose_date</source>
+        <target>Выберите дату</target>
+      </trans-unit>
+
+      <!-- DP Protection -->
+      <trans-unit>
+        <source>dp_attack</source>
+        <target>Вы пытаетесь отправить форму дважды</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

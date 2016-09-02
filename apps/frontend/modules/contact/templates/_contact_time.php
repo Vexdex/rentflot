@@ -1,0 +1,1 @@
+<?php echo date('H:i',strtotime($client_contact->getContactTime())) ?>

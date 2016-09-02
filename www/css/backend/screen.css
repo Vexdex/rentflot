@@ -1,0 +1,548 @@
+/* Aval CSS styles v.1.0 */
+
+html, body {
+  height: 100%;
+  background-color: #fff
+}
+
+body {
+    font-family: 'Trebuchet MS', Sans-Serif;
+    line-height: 1.15em;
+    color: #000;
+}
+
+/** Заголовки */
+
+h1, h2, h3 {
+    color: #000;
+}
+
+h1 { font-size: 1.85em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+
+h2 {
+    margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+
+h4, h5 {
+	font-weight: bold;
+	margin-bottom: 0.1em;
+}
+
+/** Списки */
+
+dd {
+    margin: 0 0 0.5em 2em;
+    font-size: 0.9em;
+}
+
+/* li { line-height: 1.15em; } */
+
+ul li, ol li { color: #969696; }
+ul li span, ol li span { color: #000; }
+
+/** Таблицы */
+
+table {
+    margin: 0 0 0.5em 0;
+}
+
+th, td {
+    padding: 0.05em 0.3em;
+}
+
+/** Формы */
+
+input, select, option, textarea {
+    /* font-size: 0.7em; */
+  font-family: 'Trebuchet MS', Sans-Serif;
+}
+
+input#search_geography,
+input#search_by_street {
+	position: relative;
+	background: #fff;
+	z-index: 10000;
+	color: #000;
+}
+
+/** Ссылки */
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: #005DAD;
+}
+
+a:link span, a:visited span {
+    color: #005DAD;
+}
+
+a:link:hover, a:visited:hover, a:link:hover span, a:visited:hover span {
+    color: #000;
+}
+
+a.extern, span.extern {
+    background: transparent url('/images/link/link-extern.gif') no-repeat 100% 50%;
+    padding-right: 14px;
+}
+
+a.close {
+    background: transparent url('/images/link/link-close.gif') no-repeat 0% 60%;
+    padding-left: 15px;
+}
+
+a.dinamyc:link, a.dinamyc:visited {
+    border-bottom: 1px dashed #005DAD;
+    text-decoration: none;
+}
+
+a.dinamyc:link:hover, a.dinamyc:visited:hover {
+    border-bottom: 1px dashed #000;
+}
+
+
+img.Link {
+  cursor: pointer;
+  vertical-align: middle;
+  padding-bottom: 1px
+}
+
+span.Link, span.LinkAdd {
+  border-bottom: 1px dashed #005DAD;
+  color: #005DAD !important;
+  cursor: pointer
+}
+
+span.Link:hover, span.LinkAdd:hover {
+  color: #000;
+}
+
+span.LinkAdd {
+  padding-left: 22px;
+  background: url(/grid/infosoft3/images/add.png) no-repeat 3px 2px;
+}
+
+/* Tooltips */
+.TipsyTooltip {
+  cursor: pointer;
+}
+
+.tipsy { padding: 5px; font-size: 0.7em; opacity: 0.9; filter: alpha(opacity=90); background-repeat: no-repeat;  background-image: url('/images/tooltip/tipsy.gif'); }
+.tipsy-inner { padding: 5px 8px 4px 8px; background-color: #0d4868; color: white; max-width: 200px; text-align: left; }
+.tipsy-inner {
+  -moz-border-radius: 3px; /* Firefox */
+  -webkit-border-radius: 3px; /* Safari, Chrome */
+  -khtml-border-radius: 3px; /* KHTML */
+  border-radius: 3px; /* CSS3 */
+  /* Р”Р»СЏ РїР»РѕС…РёС… IE */
+  behavior: url(border-radius.htc); /* СѓС‡РёРј IE border-radius */
+ }
+.tipsy-north { background-position: top center; }
+.tipsy-south { background-position: bottom center; }
+.tipsy-east { background-position: right center; }
+.tipsy-west { background-position: left center; }
+
+
+hr {
+    background: #D9D9D9;
+    overflow: hidden;
+    display: block;
+    color: #D9D9D9;
+    border: none;
+    height: 1px;
+}
+
+sup {
+	font-size: 0.8em;
+}
+
+/** ------------------------------------------------------------------------ */
+
+.comment {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/** Выравнивание текста */
+
+.middle     { vertical-align: middle; }
+.justify    { text-align: justify; }
+.center     { text-align: center; }
+.right      { text-align: right; }
+.left       { text-align: left; }
+
+.nobr       { white-space: nowrap; }
+.strong       { font-weight: bold }
+
+/** Выравнивание иллюстраций */
+
+img.right {
+    margin: 10px 0 10px 10px;
+    float: right;
+}
+
+img.left {
+    margin: 10px 10px 10px 0;
+    float: left;
+}
+
+/** Таблицы */
+
+table.border th, table.border td {
+    border: 1px solid #8F8F8F;
+    padding: 0.05em 0.3em;
+}
+
+td.digits {
+    text-align: center;
+}
+
+
+/* colors */
+.green { color: green }
+.red { color: red }
+.yellow { color: yellow }
+
+
+/** ------------------------------------------------------------------------ */
+
+
+#container {
+  border-collapse: separate;
+  border-spacing: 5px;
+  border: none;
+  height: 100%;
+  width: 990px;
+  padding: 0;
+  margin: 0;
+}
+
+/** ------------------------------------------------------------------------ */
+
+#header {
+  border: 1px solid #afafaf;
+  padding: 10px;
+  vertical-align: middle;
+  font-size: 0.8em
+}
+
+#content {
+  border: 1px solid #afafaf;
+  padding: 10px;
+  font-size: 0.8em
+}
+
+/** ------------------------------------------------------------------------ */
+
+.Version {
+  font-size: 0.9em;
+  color: #999999
+}
+
+
+/* admin menu */
+div.AdminMenu {
+  line-height: 16pt;
+}
+
+
+/* */
+
+#infosoft_grid .GridForm .mceEditor td, #infosoft_grid  .GridForm .mceEditor th {
+  padding: 0;
+  margin: 0
+}
+
+
+/* */
+
+#infosoft_grid .GridForm #item_info1_cell table,
+#infosoft_grid .GridForm #item_info2_cell table,
+#infosoft_grid .GridForm #item_info3_cell table,
+#infosoft_grid .GridForm #item_price1_cell table,
+#infosoft_grid .GridForm #item_price2_cell table,
+#infosoft_grid .GridForm #item_price3_cell table {
+  width: 100%;
+}
+
+#infosoft_grid .GridForm #item_info1_cell input,
+#infosoft_grid .GridForm #item_info2_cell input,
+#infosoft_grid .GridForm #item_info3_cell input,
+#infosoft_grid .GridForm #item_price1_cell input,
+#infosoft_grid .GridForm #item_price2_cell input,
+#infosoft_grid .GridForm #item_price3_cell input {
+  width: 35%
+}
+
+
+/* Calendar */
+#calendar-schedule {
+  width: 100%
+}
+
+#calendar-schedule td, #calendar-schedule th {
+  border: 1px solid #cccccc
+}
+
+#calendar-schedule th.DayName {
+  background-color: #f5f5f5;
+  font-size: 1.15em;
+  padding: 5px 0;
+  vertical-align: middle;
+}
+
+#calendar-schedule td.Day {
+  height: 100px;
+}
+#calendar-schedule td.Day td, #calendar-schedule td.Day th{
+  border: none;
+}
+
+#calendar-schedule td.ddayn .DayNumber {
+  color: #cccccc !important;
+}
+
+#calendar-schedule td.Day .DayNumber {
+  font-weight: normal;
+  border-bottom: 1px solid #cccccc;
+  height: 20px;
+  vertical-align: middle;
+  background: url('/images/calendar/day_bg.gif') repeat-x 0 0;
+  cursor: pointer;
+}
+
+#calendar-schedule td.Day .DayNumber:hover {
+  background: url('/images/calendar/day_bg.gif') repeat-x 0 -60px;
+  color: #fff !important;
+  font-weight: bold
+}
+
+#calendar-schedule td.Holiday .DayNumber {
+  background: url('/images/calendar/day_bg.gif') repeat-x 0 -20px;
+  color: #6f0000;
+}
+
+#calendar-schedule td.ddaya .DayNumber {
+  background: url('/images/calendar/day_bg.gif') repeat-x 0 -40px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#calendar-schedule td.Day .DayOrders {
+  padding: 2px;
+  line-height: 1.25em;
+  font-size: 0.9em;
+  height: 85px;
+}
+
+#calendar-schedule td.Day .DayOrders .Order {
+  margin: 2px 0 5px 0;
+}
+
+#calendar-schedule td.Day .DayOrders .Time {
+  font-size: 1em;
+}
+
+#calendar-schedule  .ScheduleAdd {
+  text-decoration: none;
+  font-size: 1.2em
+}
+
+/* order */
+
+#order_item_container th {
+  font-size: 0.9em
+}
+
+#order_form #order_item_container input[type=text] {
+  width: 92%;
+}  
+
+#order_form #order_item_container td {
+  padding: 3px;
+}
+
+#order_form #order_date_cell input {
+  width: auto
+}
+
+#order_form #order_contact_date{
+  width: auto;
+}
+
+.sf_admin_list_th_comment
+{
+	width: 99%;
+}
+
+#order_form .GridForm {
+  width: 100%;
+}
+
+#order_form .GridForm th {
+  width: 22%
+}
+
+#infosoft_grid .CrossTimeErrors {
+  font-weight: normal;
+  color: #c00;
+  margin-bottom: 15px;
+}
+
+#infosoft_grid .CrossTimeErrors ol {
+  list-style-type: decimal;
+  margin-left: 2px;
+}
+
+#infosoft_grid .CrossTimeErrors ol li {
+  color: #c00;
+  padding-left: 2px;
+  list-style-type: decimal;
+}
+
+/* order statuses */
+#infosoft_grid .GridList .OrderStatus0 td {
+  background-color: #fff
+}
+
+#infosoft_grid .GridList .OrderStatus1 td {
+  background-color: #FFCECE;
+  /*border-left: 1px solid #FF4848;
+  border-right: 1px solid #FF4848;
+  border-bottom: 1px solid #FF4848;*/
+  border: 1px solid #FF9797;
+}
+
+#infosoft_grid  .GridList .OrderStatus2 td {
+  background-color: #FFF06A;
+  border: 1px solid #E6CE00;
+}
+
+#infosoft_grid .GridList .OrderStatus3 td {
+  /*background: #ссс*/
+}
+
+
+/* Bills */
+#infosoft_grid .MiniBalance td, #infosoft_grid .MiniBalance th {
+  border: 1px solid #c0c0c0;
+}
+
+ul.Classic {
+  margin: 2px;
+  padding-left: 30px;
+}
+
+ul.Classic li {
+  background: none;
+  padding-left: -5px;
+  list-style-type: disc;
+  color: #555555;
+}
+
+
+
+#infosoft_grid .GridList th {
+  background-color: #d6eef8 /*#bce1f1;*/ ;
+  border: 1px solid #7abfdc /*#70b6d3*/
+}
+
+#infosoft_grid .GridList td {
+  border: 1px solid #c9dfe8
+}
+
+#infosoft_grid .GridList th a, #infosoft_grid .GridList th a:visited {
+}
+
+#infosoft_grid .GridList th.sf_admin_list_th_client_name,
+#infosoft_grid .GridList th.sf_admin_list_th_order_items {
+  width: 22%;
+}
+
+#infosoft_grid .GridList th.sf_admin_list_th_amount_full_uah,
+#infosoft_grid .GridList th.sf_admin_list_th_amount_full_payed_uah,
+#infosoft_grid .GridList th.sf_admin_list_th_amount_full_costs_payed_uah {
+  width: 3%;
+}
+
+#infosoft_grid .GridList th.sf_admin_list_th_people_count {
+  width: 1%;
+}
+
+#infosoft_grid .GridList th.sf_admin_list_th_date {
+  width: 1%;
+}
+
+#infosoft_grid .GridList th.sf_admin_list_th_time {
+  width: 1%;
+}
+
+#infosoft_grid .GridList th.Actions {
+  width: 1%;
+}
+
+.OrderStatus {
+  cursor: help;
+}
+
+.OrderDateTooltip {
+  cursor: help;
+  color: #005690;
+  border-bottom: 1px dotted #005690;
+}
+
+.OrderItemStatusText {
+  cursor: pointer;
+}
+
+.OrderItemStatus1 {
+  color: #999;
+  border-bottom: 1px dotted #999
+}
+
+.OrderItemStatus2 {
+  color: #005690;
+  border-bottom: 1px dotted #005690
+}
+
+.OrderItemStatus3 {
+  color: #039000;
+  border-bottom: 1px dotted #039000
+}
+
+#form_bill_create_cash_income_row {
+  display: none;
+}
+
+
+
+
+
+#infosoft_grid .AmountPayedUah {
+  background-color: #ccf7ad;
+}
+
+#infosoft_grid .CostsPayedUah {
+  background-color: #ffc1c1;
+}
+
+#infosoft_grid #order_item_container td,
+#infosoft_grid #view_order_item_container td,
+#infosoft_grid #order_item_container th,
+#infosoft_grid #view_order_item_container th {
+  text-align: center;
+}
+
+.CostsActual {
+  color: #039000;
+  border-bottom: 1px dashed #039000;
+  cursor: pointer
+}
+
+.CostsOutdated {
+  color: #c00;
+  border-bottom: 1px dashed #c00;
+  cursor: pointer
+}

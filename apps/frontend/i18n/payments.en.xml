@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+
+      <trans-unit>
+        <source>pay_for_services_title</source>
+        <target>Payment for services with Visa Card</target>
+      </trans-unit>
+      <trans-unit>
+        <source>pay_for_services_info</source>
+        <target>To make payment for services via internet, please, specify your order number with our managers over the phone</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_for_services</source>
+        <target>Payment for services</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_card_type</source>
+        <target>Pay with</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_for_services_result</source>
+        <target>Your Payment was successful. Thank you for your order!</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>multi_channel</source>
+        <target>multi channel</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form</source>
+        <target>Payment form</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_amount</source>
+        <target>Specify the amount of payment</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_order</source>
+        <target>Specify the order number</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_submit</source>
+        <target>Pay</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_uah</source>
+        <target>UAH</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_usd</source>
+        <target>USD</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_rur</source>
+        <target>RUB</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_eur</source>
+        <target>EUR</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>payment_form_error_required</source>
+        <target>Required field</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_error_number</source>
+        <target>The amount must be a number</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payment_form_error_greater_than</source>
+        <target>The amount must be greater than %value%</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

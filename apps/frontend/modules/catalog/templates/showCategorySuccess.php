@@ -1,0 +1,1 @@
+<?php include_partial($category_template, array('category' => $category, 'items' => $items)) ?>

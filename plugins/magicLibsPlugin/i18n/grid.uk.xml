@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+
+      <!-- Common -->
+      <trans-unit>
+        <source>all</source>
+        <target>&mdash; Усі &mdash;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>none</source>
+        <target>&mdash; Немає &mdash;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>loading</source>
+        <target>Завантаження...</target>
+      </trans-unit>
+    
+      <!-- Validation Error Messages -->
+      <trans-unit> 
+        <source>Required.</source> 
+        <target>Обов’язкове поле</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>Invalid.</source> 
+        <target>Неправильний формат даних</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>"%value%" is not an integer.</source> 
+        <target>"%value%" не ціле число</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>"%value%" is not a number.</source> 
+        <target>"%value%" не число</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>An object with the same "%column%" already exist.</source> 
+        <target>Запис з таким же значенням поля "%column%" вже існує</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>Invalid captcha.</source> 
+        <target>Цифри введено неправильно</target> 
+      </trans-unit>  
+      <trans-unit> 
+        <source>The begin date must be before the end date.</source> 
+        <target>"Дата від" повинна бути пізніше "Дати до"</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>Value must be greater than %greater_than%.</source> 
+        <target>Введене значення повинно бути більше %greater_than%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>Value must be less than %less_than%.</source> 
+        <target>Введене значення повинно бути менше %less_than%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>"%value%" is too short (%min_length% %characters% min).</source> 
+        <target>значення "%value%" дуже коротке (мінімум %min_length% %characters%)</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>"%value%" is too long (%max_length% %characters% max).</source> 
+        <target>значення "%value%" дуже довге (максимум %max_length% %characters%)</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>Chars are not allowed.</source> 
+        <target>Присутні недопустимі символи</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>exact_length</source> 
+        <target>Довжина введеного значення повинна бути %exact_length% %characters%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>"%value%" must be at most %max%.</source> 
+        <target>Значення "%value%" повинно бути не більше %max%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>"%value%" must be at least %min%.</source> 
+        <target>Значення "%value%" повинно бути не менше %min%.</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>readonly_field</source> 
+        <target>Неможливо змінити значення поля</target> 
+      </trans-unit> 
+      
+      
+      
+      
+      <!-- modules custom -->
+      <trans-unit> 
+        <source>invalid_amount</source> 
+        <target>Сума повинна бути не менше %min_value% грн. і не більше %max_value% грн.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>invalid_amount_pay_partial</source>
+        <target>Для часткового погашення сума повинна бути не більше %max_value% грн. Інакше потрібно заключити новий договір.</target>
+      </trans-unit>
+      <trans-unit> 
+        <source>invalid_site_cash_amount</source> 
+        <target>Сума кредиту повинна бути не більшою, ніж залишилось вільних коштів для видачі (%site_cash_amount_uah% грн.)</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>invalid_contract_period</source> 
+        <target>Термін кредиту повинен бути не менше %min_contract_period% і не більше %max_contract_period% днів</target> 
+      </trans-unit>
+      <trans-unit>
+        <source>invalid_contract_return_date_holiday</source>
+        <target>На дату виплати %return_date% припадає наступне свято: "%holiday%". Будь ласка, оберіть інший термін кредиту.</target>
+      </trans-unit>
+      <trans-unit> 
+        <source>min_age</source> 
+        <target>Мінімальний вік %min_age% %years%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>max_age</source> 
+        <target>Максимальний вік %max_age% %years%</target> 
+      </trans-unit> 
+      <trans-unit> 
+        <source>phone_format</source> 
+        <target>Неправильний формат телефону</target> 
+      </trans-unit>
+      <trans-unit>
+        <source>invalid_percent_value</source>
+        <target>Ви не можете змінювати відсоткову ставку</target>
+      </trans-unit>
+
+      
+      
+      <!-- Actions -->
+      <trans-unit>
+        <source>delete</source>
+        <target>Видалити</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>new</source>
+        <target>Створити</target>
+      </trans-unit>
+      <trans-unit>
+        <source>edit</source>
+        <target>Редагувати</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list</source>
+        <target>Повернутися до списку</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save</source>
+        <target>Зберегти</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save_and_add</source>
+        <target>Зберегти і створити ще</target>
+      </trans-unit>
+      <trans-unit>
+        <source>cancel</source>
+        <target>Відміна</target>
+      </trans-unit>
+      <trans-unit>
+        <source>confirm</source>
+        <target>Ви впевнені?</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>send</source>
+        <target>Надіслати заявку</target>
+      </trans-unit>      
+      
+
+      <!-- Filters -->
+      <trans-unit>
+        <source>filter_apply</source>
+        <target>Пошук</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>filter_reset</source>
+        <target>Очистити фільтр</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter</source>
+        <target>Фільтр</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>list_empty</source>
+        <target>Записів не знайдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>no_result</source>
+        <target>За вашим запитом нічого не знайдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>actions</source>
+        <target>Дії</target>
+      </trans-unit>
+      <trans-unit>
+        <source>found</source>
+        <target>Знайдено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_nb_pages</source>
+        <target>(сторінка %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>asc</source>
+        <target>За зростанням</target>
+      </trans-unit>
+      <trans-unit>
+        <source>desc</source>
+        <target>За спаданням</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>batch_with_selected</source>
+        <target>З виділеними</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>batch_delete</source>
+        <target>Видалити</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_apply</source>
+        <target>OK</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>batch_select_action</source>
+        <target>Оберіть дію</target>
+      </trans-unit>      
+      
+      
+      
+      <!-- Pagination -->
+      <trans-unit>
+        <source>first_page</source>
+        <target>Перша сторніка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>previous_page</source>
+        <target>Попередня сторінка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>next_page</source>
+        <target>Наступна сторінка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>last_page</source>
+        <target>Остання сторінка</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_1</source>
+        <target>запис</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_2</source>
+        <target>записи</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_3</source>
+        <target>записів</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_1</source>
+        <target>символ</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_2</source>
+        <target>символи</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_3</source>
+        <target>символів</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_1</source>
+        <target>рік</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_2</source>
+        <target>роки</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_3</source>
+        <target>років</target>
+      </trans-unit>      
+      
+ 
+      <!-- Form -->
+      <trans-unit>
+        <source>lang_uk</source>
+        <target>Українською</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_ru</source>
+        <target>По-русски</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_en</source>
+        <target>English</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>create_successfull</source>
+        <target>Запис успішно створено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>update_successfull</source>
+        <target>Запис успішно оновлено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>create_successfull_and_add</source>
+        <target>Запис успішно створено. Ви можете створити ще один</target>
+      </trans-unit>
+      <trans-unit>
+        <source>update_successfull_and_add</source>
+        <target>Запис успішно оновлено. Ви можете створити ще один</target>
+      </trans-unit>
+      <trans-unit>     
+        <source>save_error</source>
+        <target>Запис не збережено через помилки</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_successfull</source>
+        <target>Запис успішно видалено</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_items_selected</source>
+        <target>Ви повинні виділити хоча б один запис</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_action_selected</source>
+        <target>Ви повинні вибрати дію над виділеними записами</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_items_does_not_exists</source>
+        <target>Помилка при видаленні деяких записів</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_successfull</source>
+        <target>Вибрані записи успішно видалені</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_constraint</source>
+        <target>Помилка видалення запису. Він використовується в іншому модулі</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_n</source>
+        <target>Помилка видалення записів. Вони використовується в іншому модулі</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_1</source>
+        <target>Помилка видалення запису. Він використовується в іншому модулі</target>
+      </trans-unit>
+      
+      
+      
+      
+      <!-- Photo -->
+      <trans-unit>
+        <source>image</source>
+        <target>Зображення</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_image</source>
+        <target>Видалити зображення</target>
+      </trans-unit>
+      <trans-unit>
+        <source>add_image</source>
+        <target>Додати зображення</target>
+      </trans-unit>
+      <trans-unit>
+        <source>additional_image</source>
+        <target>Додаткове зображення</target>
+      </trans-unit>
+      <trans-unit>
+        <source>image_max_upload_count</source>
+        <target>Ви перевищили максимально допустиму кількість завантажених зображень</target>
+      </trans-unit>  
+
+      <!-- Date -->
+      <trans-unit>
+        <source>choose_date</source>
+        <target>Оберіть дату</target>
+      </trans-unit>  
+
+      <!-- DP Protection -->
+      <trans-unit>
+        <source>dp_attack</source>
+        <target>Ви намагаєтесь відправити форму двічі</target>
+      </trans-unit>
+      
+    </body>
+  </file>
+</xliff>

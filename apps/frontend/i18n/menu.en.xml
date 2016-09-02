@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->
+      <trans-unit>
+        <source>homepage</source>
+        <target>Homepage</target>
+      </trans-unit>
+      <trans-unit>
+        <source>news</source>
+        <target>News</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>sf_guard_signin_redirect</source>
+        <target>Administration</target>
+      </trans-unit>
+      <trans-unit>
+        <source>catalog_own_items</source>
+        <target>My ships</target>
+      </trans-unit>
+      <trans-unit>
+        <source>iyt</source>
+        <target>The Captain School</target>
+      </trans-unit>
+      <trans-unit>
+        <source>croatia_yachts</source>
+        <target>Yacht rent in Croatia</target>
+      </trans-unit>
+      <trans-unit>
+        <source>croatia_sailing_yachts</source>
+        <target>sailing yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>croatia_motor_yachts</source>
+        <target>motor yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>greece_yachts</source>
+        <target>Yacht rent in Greece</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>greece_sailing_yachts</source>
+        <target>sailing yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>greece_motor_yachts</source>
+        <target>motor yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>odessa_yachts</source>
+        <target>Yacht rent in Odessa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>odessa_sailing_yachts</source>
+        <target>sailing yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>odessa_motor_yachts</source>
+        <target>motor yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>odessa_motor_ships</source>
+        <target>motor ships</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>motor_ships</source>
+        <target>Rent of the motor-ship</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_15</source>
+        <target>up to 15 people</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_25</source>
+        <target>up to 25 people</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_50</source>
+        <target>up to 50 people</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_100</source>
+        <target>up to 100 people</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_150</source>
+        <target>up to 150 people</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_ships_151</source>
+        <target>more than 150 people</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>yachts</source>
+        <target>Rent of the yacht</target>
+      </trans-unit>
+      <trans-unit>
+        <source>sailing_yachts</source>
+        <target>sailing yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_yachts</source>
+        <target>motor yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>scooters</source>
+        <target>Rent of the hydrocycle</target>
+      </trans-unit>
+      <trans-unit>
+        <source>for_vip</source>
+        <target>Rent for V.I.P.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>attractions</source>
+        <target>Attractions</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>map</source>
+        <target>Route map</target>
+      </trans-unit>
+      <trans-unit>
+        <source>photo_gallery</source>
+        <target>Photo gallery</target>
+      </trans-unit>
+      <trans-unit>
+        <source>gift_certs</source>
+        <target>Gift certificates</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>contract</source>
+        <target>The contract of rent</target>
+      </trans-unit>
+      <trans-unit>
+        <source>rules</source>
+        <target>Rules on the ship</target>
+      </trans-unit>
+      <trans-unit>
+        <source>for_agents</source>
+        <target>For agents</target>
+      </trans-unit>
+      <trans-unit>
+        <source>clients</source>
+        <target>Our clients</target>
+      </trans-unit>
+      <trans-unit>
+        <source>dictionary</source>
+        <target>Dictionary</target>
+      </trans-unit>
+      <trans-unit>
+        <source>rest_walk</source>
+        <target>River row</target>
+      </trans-unit>
+      <trans-unit>
+        <source>contacts</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>about</source>
+        <target>About</target>
+      </trans-unit>
+      <trans-unit>
+        <source>banquet</source>
+        <target>Banquet, buffet table</target>
+      </trans-unit>
+      <trans-unit>
+        <source>entertainments</source>
+        <target>Entertainments</target>
+      </trans-unit>
+      <trans-unit>
+        <source>links</source>
+        <target>Links</target>
+      </trans-unit>
+      <trans-unit>
+        <source>articles</source>
+        <target>Articles</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_for_services</source>
+        <target>Payment for services with Visa Card</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>motor_ships_button</source>
+        <target>Motor-ships</target>
+      </trans-unit>
+      <trans-unit>
+        <source>sailing_yachts_button</source>
+        <target>Sailing<br/>yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>motor_yachts_button</source>
+        <target>Motor<br/>yachts</target>
+      </trans-unit>
+      <trans-unit>
+        <source>speed_boats_button</source>
+        <target>Speed<br/>boats</target>
+      </trans-unit>
+      <trans-unit>
+        <source>for_vip_button</source>
+        <target>V.I.P.<br/>class</target>
+      </trans-unit>
+      <trans-unit>
+        <source>banquet_button</source>
+        <target>Banquet<br/>on board</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>map_velikiy</source>
+        <target>«Velikiy» island</target>
+      </trans-unit>
+      <trans-unit>
+        <source>map_olgin</source>
+        <target>«Ol’gin» island</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,9 @@
+<table cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td><a class="top_ships_menu_<?php echo $sf_user->getCulture() ?> top_ships_menu_motor_ships_25 <?php if (params_match(array('category_slug' => 'motor_ships_25'))): ?>top_ships_menu_motor_ships_25_active<?php endif ?>" href="<?php echo url_for('catalog_category', array('category_slug' => 'motor_ships_25')) ?>"><noindex> </noindex></a></td>
+    <td><a class="top_ships_menu_<?php echo $sf_user->getCulture() ?> top_ships_menu_motor_ships_50 <?php if (params_match(array('category_slug' => 'motor_ships_50'))): ?>top_ships_menu_motor_ships_50_active<?php endif ?>" href="<?php echo url_for('catalog_category', array('category_slug' => 'motor_ships_50')) ?>"><noindex> </noindex></a></td>
+    <td><a class="top_ships_menu_<?php echo $sf_user->getCulture() ?> top_ships_menu_motor_ships_100 <?php if (params_match(array('category_slug' => 'motor_ships_100'))): ?>top_ships_menu_motor_ships_100_active<?php endif ?>" href="<?php echo url_for('catalog_category', array('category_slug' => 'motor_ships_100')) ?>"><noindex> </noindex></a></td>
+    <td><a class="top_ships_menu_<?php echo $sf_user->getCulture() ?> top_ships_menu_motor_ships_150 <?php if (params_match(array('category_slug' => 'motor_ships_150'))): ?>top_ships_menu_motor_ships_150_active<?php endif ?>" href="<?php echo url_for('catalog_category', array('category_slug' => 'motor_ships_150')) ?>"><noindex> </noindex></a></td>
+    <td><a class="top_ships_menu_<?php echo $sf_user->getCulture() ?> top_ships_menu_motor_ships_151 <?php if (params_match(array('category_slug' => 'motor_ships_151'))): ?>top_ships_menu_motor_ships_151_active<?php endif ?>" href="<?php echo url_for('catalog_category', array('category_slug' => 'motor_ships_151')) ?>"><noindex> </noindex></a></td>
+  </tr>
+</table>

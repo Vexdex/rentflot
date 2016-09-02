@@ -1,0 +1,87 @@
+generator:
+  class:                              sfDoctrineMagicGenerator
+  param:            
+    model_class:                      sfGuardUser
+    theme:                            infosoft3
+    non_verbose_templates:            true
+    with_show:                        false
+    singular:                         ~
+    plural:                           ~
+    route_prefix:                     sf_guard_user
+    with_doctrine_route:              true
+    i18n_catalogue:                   auth
+    i18n_error_catalogue:             auth
+    log:                              true
+    
+    config:
+      actions:
+        _index:                       { credentials: [auth_user] }               
+        _new:                         { credentials: [auth_user] }               
+        _add:                         { credentials: [auth_user] }                          
+        _edit:                        { credentials: [auth_user] }                          
+        _delete:                      { credentials: [auth_user] } 
+        activate:                     { credentials: [auth_user] } 
+        deactivate:                   { credentials: [auth_user] } 
+       
+        
+      fields:
+        created_at:                   { date_format: dd.MM.yyyy }
+        last_login:                   { date_format: dd.MM.yyyy HH:mm:ss }
+        user_first_name:              { is_sortable: true, sort_method: orderByUserFirstName }        
+        user_last_name:               { is_sortable: true, sort_method: orderByUserLastName }        
+        user_group_name:	            { is_sortable: false }
+        password_again:               #{ label: user_password_again }
+        password:                     #{ label: user_password }        
+        
+      filter:
+        display:                      [username, is_active, last_login, created_at, groups_list]
+                  
+      list:         
+        title:                        page_list_title 
+        display:                      [is_active, username, user_last_name, user_first_name, user_group_name, created_at, last_login]
+        sort:                         [created_at, desc]
+        max_per_page:                 30
+        table_method:                 retrieveUserList
+        object_actions:         
+          _edit:                      ~  
+          activate:  
+            action:                   activate
+          deactivate:  
+            action:                   deactivate            
+          reset_password:  
+            action:                   @sf_guard_reset_password
+            credentials:              [auth_user]
+            params:
+              #class=my_css_classname
+              #confirm: 'confirm'
+              #post: true
+              #style: 'border:1px solid red'            
+        
+        batch_actions:        
+          activate:
+            action:                   activate          
+          deactivate:
+            action:                   deactivate          
+          _delete:                    ~ 
+  
+      form:
+        class:                        sfGuardUserAdminForm     
+        #display:                      [username, is_active, is_super_admin, password, password_again, ~userProfile]
+      
+      edit:
+        display:                      [username, is_active, is_super_admin, _password, password_again, ~userProfile]
+        title:                        page_edit_title_"%%username%%"
+        actions:          
+          _save:                      #{label: save}
+          _save_and_add:              #{label: save_and_add} 
+          _list:                      #{label: list}
+          _delete:                    #{label: delete}    
+        
+      new:
+        display:                      [username, is_active, is_super_admin, _password, password_again, ~userProfile]
+        title:                        page_new_title 
+        actions:          
+          _save:                      #{label: save}
+          _save_and_add:              #{label: save_and_add} 
+          _list:                      #{label: list}
+          _delete:                    #{label: delete}  

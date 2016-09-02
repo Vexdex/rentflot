@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->
+      <trans-unit>
+        <source>page_edit_title</source>
+        <target>Редактирование статьи</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_new_title</source>
+        <target>Создание новой статьи</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_list_title</source>
+        <target>Список статей</target>
+      </trans-unit>
+
+      <!-- Frontend -->
+      <trans-unit>
+        <source>frontend_list_title</source>
+        <target>Интересные статьи по аренде теплоходов</target>
+      </trans-unit>
+      <trans-unit>
+        <source>frontend_list_description</source>
+        <target>В этом разделе Вы найдете полезную информацию о текущем состоянии рынка аренды теплоходов, получите советы по <strong>аренде теплохода в Киеве</strong>, а также сможете расширить свои познания за счет наших теоретических материалов.</target>
+      </trans-unit>
+      <!-- List -->
+      <trans-unit>
+        <source>list_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_slug</source>
+        <target>Ссылка (англ.)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list_created_at</source>
+        <target>Добавлена</target>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit>
+        <source>form_name</source>
+        <target>Название</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_slug</source>
+        <target>Ссылка (англ.)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_content</source>
+        <target>Содержание</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_title</source>
+        <target>Заголовок</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_description</source>
+        <target>Описание</target>
+      </trans-unit>
+      <trans-unit>
+        <source>form_keywords</source>
+        <target>Ключевые слова</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>form_h1</source>
+        <target>Заголовк H1</target>
+      </trans-unit>            
+      <trans-unit>
+        <source>form_created_at</source>
+        <target>Добавлена</target>
+      </trans-unit>
+          
+    </body>
+  </file>
+</xliff>

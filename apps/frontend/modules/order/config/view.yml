@@ -1,0 +1,11 @@
+all:
+  metas:
+    title:        Заказы | Киевская судоходная компания &laquo;Рентфлот&raquo;
+    robots:       noindex, nofollow
+
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  javascripts: [adm.js, /magicLibsPlugin/grid/infosoft3/js/grid-i18n.js]
+  layout:     layout_backend
+
+printDocumentSuccess: 
+  layout:         layout_document  

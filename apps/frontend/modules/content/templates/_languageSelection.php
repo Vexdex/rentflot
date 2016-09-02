@@ -1,0 +1,7 @@
+<?php if ($sf_user->getCulture() != 'ru'): ?><a class="nobor" href="<?php echo rf_lang_url_for('ru') ?>"><?php endif ?><img class="lang<?php if ($sf_user->getCulture() == 'ru'): ?>a<?php endif ?>" style="margin-right: 4px;" alt="<?php echo __('culture_ru', null, 'face') ?>" title="<?php echo __('culture_ru', null, 'face') ?>" src="/images/lang/flag_ukraine.jpg"><?php if ($sf_user->getCulture() != 'ru'): ?></a><?php endif ?>
+<?php if ($sf_user->getCulture() != 'en'): ?><a class="nobor" href="<?php echo rf_lang_url_for('en') ?>"><?php endif ?><img class="lang<?php if ($sf_user->getCulture() == 'en'): ?>a<?php endif ?>" alt="<?php echo __('culture_en', null, 'face') ?>" title="<?php echo __('culture_en', null, 'face') ?>" src="/images/lang/flag_gb3.jpg"><?php if ($sf_user->getCulture() != 'en'): ?></a><?php endif ?>
+<?php /*
+TEMP
+<?php if ($sf_user->getCulture() != 'en'): ?><a class="nobor" href="<?php echo rf_lang_url_for('en') ?>"><?php endif ?><img class="lang<?php if ($sf_user->getCulture() == 'en'): ?>a<?php endif ?>" alt="<?php echo __('culture_en', null, 'face') ?>" title="<?php echo __('culture_en', null, 'face') ?>" src="/images/lang/flag_gb3.jpg"><?php if ($sf_user->getCulture() != 'en'): ?></a><?php endif ?>
+*/
+?>

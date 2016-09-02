@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      <trans-unit>
+        <source>queen_mary</source>
+        <target>Queen Mary 2 &mdash; the longest passenger ocean linerin the world.<br />It's length is 345 m.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>freedom_of_the_seas</source>
+        <target>Freedom of the Seas &mdash; the biggest cruise&nbsp;ship by tonnage &mdash; 154&nbsp;704&nbsp;GRT and passenger capacity&nbsp;&mdash; 4370 people.</target>
+      </trans-unit>
+      <trans-unit>      
+        <source>vandal</source>
+        <target>&laquo;Vandal&raquo; &mdash; russian oil tanker. It is the first motor ship builded in 1903.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>wartsila_rta96c</source>
+        <target>The Wartsila RTA96C turbocharged two-stroke diesel engine is most powerfull engine in the world.<br />Power &mdash; 108920 h.p.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>eclipse</source>
+        <target>The most expensive yacht<br />in the world &mdash; &laquo;Eclipse&raquo;,<br />it costs $1.1 billion.<br />The owner of the yacht &mdash; russian billionaire Roman Abramovich.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>miss_geico</source>
+        <target>&laquo;Miss GEICO&raquo;&nbsp;&mdash; the fastest missile boat in&nbsp;the world. It&nbsp;can reach speeds exceeding 320&nbsp;km&nbsp;/hour. The capacity of&nbsp;each of&nbsp;the two turbine boats&nbsp;&mdash; 2100&nbsp;hp</target>
+      </trans-unit>
+      <trans-unit>
+        <source>planetsolar</source>
+        <target>Swiss vessel &laquo;Turanor PlanetSolar&raquo; uses only solar energy from <nobr>537 sq. m</nobr> of photovoltaic panels. <br />Its length &mdash; 30 meters, beam &mdash; 15 meters and can accommodate up to 50 passengers.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nanny</source>
+        <target>Swedish supertanker &laquo;Nanny&raquo;&nbsp;&mdash;&nbsp;the widest cargo ship in the world. Length&nbsp;&mdash;&nbsp;364 m, beam&nbsp;&mdash;&nbsp;79 m, speed&nbsp;&mdash;&nbsp;16 knots, crew&nbsp;&mdash;&nbsp;36 people.</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

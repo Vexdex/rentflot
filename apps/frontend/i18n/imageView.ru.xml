@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      
+      <trans-unit>
+        <source>adidas</source>
+        <target>Рекомендательное письмо компании &laquo;Adidas-Украина&raquo;</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>adidas</source>
+        <target>Рекомендательное письмо компании &laquo;Adidas-Украина&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>1plus1</source>
+        <target>Рекомендательное письмо телеканала &laquo;1+1&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>oriflame</source>
+        <target>Рекомендательное письмо &laquo;Oriflame&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>shell</source>
+        <target>Рекомендательное письмо корпорации &laquo;Shell&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>acc_ukraine</source>
+        <target>Рекомендательное письмо &laquo;Американской торговой палаты в Украине&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>ubrr</source>
+        <target>Рекомендательное письмо &laquo;Украинского банка реконструкции и развития&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>ukrkosmos</source>
+        <target>Рекомендательное письмо предприятия &laquo;Укркосмос&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nokia</source>
+        <target>Рекомендательное письмо компании &laquo;Nokia&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>gillette</source>
+        <target>Рекомендательное письмо компании &laquo;Gillette Ukraine LLC&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>citycom</source>
+        <target>Рекомендательное письмо компании &laquo;City.com.ua&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>bogdan</source>
+        <target>Рекомендательное письмо ООО &laquo;Украинсикий Автобус&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>tele</source>
+        <target>Рекомендательное письмо рекламной группы &laquo;Теленеделя&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>artem</source>
+        <target>Рекомендательное письмо ГАХК &laquo;Артем&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>centr</source>
+        <target>Рекомендательное письмо &laquo;Киевского городского центра народного творчества и культурологических исследований&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>abc</source>
+        <target>Рекомендательное письмо компании &laquo;Эй Би Си Груп&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>aerosvit</source>
+        <target>Рекомендательное письмо компании &laquo;Аэросвит&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>panasonic</source>
+        <target>Рекомендательное письмо компании &laquo;Panasonic&raquo;</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>profix</source>
+        <target>Рекомендательное письмо ООО &laquo;Компания ПроФИКС&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>drujba</source>
+        <target>Рекомендательное письмо гостиницы &laquo;Дружба&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>univestprint</source>
+        <target>Рекомендательное письмо компании &laquo;Юнивест Принт&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>renessans</source>
+        <target>Рекомендательное письмо компании &laquo;Ренессанс&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>konnov</source>
+        <target>Рекомендательное письмо адвокатской конторы &laquo;Коннов и&nbsp;Созановский&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>arktur</source>
+        <target>Рекомендательное письмо компании &laquo;Арктур&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>astellas</source>
+        <target>Рекомендательное письмо компании &laquo;Астеллас Фарма Юроп Б.В.&raquo;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>prostobank</source>
+        <target>Рекомендательное письмо компании &laquo;Простобанк консалтинг&raquo;</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>map</source>
+        <target>Карта проезда &mdash; &laquo;Рентфлот&raquo;</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>close</source>
+        <target>Закрыть окно</target>
+      </trans-unit>
+
+    
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,12 @@
+all:
+  metas:
+    robots: noindex, nofollow
+
+indexSuccess:
+  javascripts:    
+    - /magicLibsPlugin/jquery/jquery-ui/jquery-ui-1.8.7.magic.js
+    #- /magicLibsPlugin/jquery/jquery-ui/jquery-ui-i18n.js
+    - /magicLibsPlugin/jquery/jquery-ui/jquery-ui-i18n.js
+  stylesheets:
+    - /magicLibsPlugin/jquery/jquery-ui/infosoft3/jquery-ui-1.8.7.custom.css
+    

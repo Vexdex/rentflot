@@ -1,0 +1,57 @@
+generator:
+  class: sfDoctrineMagicGenerator
+  param:
+    model_class:           pierf
+    theme:                 infosoft3
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          pierf
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [books] }
+        _new:                     { credentials: [books] }
+        _add:                     { credentials: [books] }
+        _edit:                    { credentials: [books] }
+        _delete:                  { credentials: [books] }
+      fields:  ~
+      list:
+        display:                  [name,link,name_english,link_english]
+        title:                    Причалы на сайте
+        #sort:                     [name, asc]
+        max_per_page:             30
+        #table_method:             retrieveItemList
+        #batch_actions:
+          #_delete:               ~
+          #activate:
+            #action:              activate
+            #label:               _batch_activate
+          #deactivate:
+            #action:              deactivate
+            #label:               _batch_deactivate
+        object_actions:
+          #show:
+            #action:               show
+            #label:                show
+          _edit:                  ~
+          #_delete:                ~
+        #actions:
+          #_new:                  ~
+          #new0:
+            #action:              @property_new0
+      filter:
+        class:                    false
+      form:
+        display:                  [name,link,name_english,link_english]
+      edit:
+        title:                    Редактирование причала
+        actions:
+          _save:                 {label: save}
+          _save_and_add:         {label: save_and_add}
+          _list:                 {label: list}
+          _delete:               {label: delete}
+      new:     ~

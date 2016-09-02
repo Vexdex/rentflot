@@ -1,0 +1,102 @@
+.jsmonitor {
+    background: none repeat scroll 0 0 #000;
+    color: #fff;
+    font-size: 12px;
+    left: 5px;
+    line-height: 13px;
+    padding: 10px;
+    position: fixed;
+    top: 5px;
+    z-index: 99999;
+	max-width: 80px;
+	opacity: 0.7;
+	display: none!important;
+}
+.jsmonitor p {
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.contacts_section iframe,
+.contacts_section img,
+.contacts_section,
+span.cat_cont {
+width: 590px;
+}
+
+.contacts_section iframe {
+display: block;
+}
+.contacts_section {
+    table-layout: fixed;
+}
+.contacts_section table {
+    table-layout: fixed;
+    width: 100%;
+}
+span.cat_cont {
+display: block;
+float: left;
+
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 1px) {
+body:before {
+    content: " ";
+    display: block;
+    float: left;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+background: #fff url("preloader.gif") 50% 50% no-repeat;
+}
+body.ready:before {
+display: none;
+}
+
+}
+
+
+
+body.Odessa:before {
+    content: " ";
+    display: block;
+    float: left;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+background: #fff url("preloader.gif") 50% 50% no-repeat;
+}
+body.Odessa.ready:before {
+display: none;
+}
+
+
+
+/* Десктоп */
+.img90237 {
+margin: 0 0 0 10px;
+}
+/* END Десктоп */
+
+/* Планшет */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+.img90237 {
+margin: 0 0 0 5px;
+}
+}
+/* END Планшет */
+
+/* Смартфон */
+@media only screen and (max-width: 767px) and (min-width: 1px) {
+.img90237 {
+margin: 0;
+}
+}
+/* END Смартфон */
+
+.table1tr6td1 {
+display: none;
+}

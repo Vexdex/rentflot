@@ -1,0 +1,29 @@
+all:
+  # Только для авторизированных пользователей
+  is_secure:   true  
+  # Защищенное соединение https
+  is_ssl:      true  
+    
+showCategory:
+  # Только для авторизированных пользователей
+  is_secure:   false  
+  # Защищенное соединение https
+  is_ssl:      false  
+  
+showItem:
+  # Только для авторизированных пользователей
+  is_secure:   false  
+  # Защищенное соединение https
+  is_ssl:      false  
+
+fixFileNames:
+  # Только для авторизированных пользователей
+  is_secure:   false
+  # Защищенное соединение https
+  is_ssl:      false
+
+updateImagesSize:
+  # Только для авторизированных пользователей
+  is_secure:   false
+  # Защищенное соединение https
+  is_ssl:      false

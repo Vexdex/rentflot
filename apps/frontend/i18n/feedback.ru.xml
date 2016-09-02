@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      <trans-unit>
+        <source>page_feedback_title</source>
+        <target>Отправить запрос online</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>feedback_info</source>
+        <target>Для связи с нами &ndash; заполните, пожалуйста, поля и нажмите кнопку "Отправить"</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>empty_subject</source>
+        <target>— Выберите из списка —</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>feedback_result_success</source>
+        <target>Ваше сообщение было успешно отправлено!</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>feedback_result_error</source>
+        <target>Ошибка при отправке письма</target>
+      </trans-unit>
+      
+      
+      <trans-unit>
+        <source>email</source>
+        <target>Ваш e-mail</target>
+      </trans-unit>
+      <trans-unit>
+        <source>subject</source>
+        <target>Тема сообщения</target>
+      </trans-unit>
+      <trans-unit>
+        <source>message</source>
+        <target>Сообщение</target>
+      </trans-unit>
+      <trans-unit>
+        <source>captcha</source>
+        <target>Две цифры с картинки</target>
+      </trans-unit>
+      <trans-unit>
+        <source>apply</source>
+        <target>Отправить</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>feedback_homepage_link_text</source>
+        <target>На главную</target>
+      </trans-unit>
+      <trans-unit>
+        <source>feedback_contacts_link_text</source>
+        <target>Контактная информация</target>
+      </trans-unit>
+      <trans-unit>
+        <source>feedback_feedback_link_text</source>
+        <target>Отправить еще сообщение</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

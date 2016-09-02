@@ -1,0 +1,1248 @@
+
+.shop_table a.nobor {
+height: auto !important;
+}
+.oiill {
+width: 100%;
+text-align: center;
+float: left;
+}
+.item3_per_line,
+.item3_per_line_title {
+width: 100%;
+float: left;
+} 
+.item3_per_line_item {
+width: 30%;
+margin-right: 3%;
+float: left;
+} 
+.item3_per_line_item img {
+width: 100%;
+height: auto;
+margin: 0;
+}
+.item3_per_line_title {
+padding-bottom: 20px;
+text-align: center;
+} 
+.item_params_table {
+width: 100%;
+float: left;
+margin: 9px 0 8px 0;
+}
+.item_params_side {
+float: left;
+}
+/*
+.item_params_left {
+width: 40% !important;
+}
+.item_params_right {
+width: 60% !important;
+}
+.view_all_ships_num2,
+.view_all_ships_num1,
+.view_all_ships_num {
+width: 30% !important;
+}
+.view_all_ships_num2 nobr,
+.view_all_ships_num1 nobr,
+.view_all_ships_num nobr {
+background: #e8923d;
+}
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+width: 65% !important;
+}
+.view_all_ships_num2,
+.view_all_ships_num1,
+.view_all_ships_num,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+font-size: 9px !important;
+}
+.item_params_side table  {
+display: table !important;
+padding-top: 0 !important;
+table-layout: auto !important;
+}
+.item_params_side table tr  {
+display: table-row;
+}
+.item_params_side table,
+.item_params_side table tbody, 
+.item_params_side table tr   {
+width: 100% !important;
+}
+.shop_table .shop_item  .item_params_side table td {
+display: table-cell;
+text-align: left;
+}
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+text-align: left;
+padding-left: 5%;
+font-size: 11px;
+}
+*/
+@media only screen and (max-width: 767px) and (min-width: 1px) {
+.item_params_table {
+width: 100%;
+float: left;
+margin: 9px 0 8px 0;
+}
+.item_params_side {
+width: 50% !important;
+float: left;
+}
+.view_all_ships_num2,
+.view_all_ships_num1,
+.view_all_ships_num {
+width: 20px !important;
+text-align: center !important;
+}
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+width: 70px !important;
+}
+.view_all_ships_num2,
+.view_all_ships_num1,
+.view_all_ships_num,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+font-size: 9px !important;
+}
+.view_all_ships_num2,
+.view_all_ships_num1,
+.view_all_ships_num {
+padding: 0 !important;
+}
+.view_all_ships_num2 nobr,
+.view_all_ships_num1 nobr,
+.view_all_ships_num nobr {
+margin: 2px 3px;
+}
+.view_all_ships_numd,
+.view_all_ships_num,
+.view_all_ships_num nobr {
+line-height: 12px !important;
+}
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+padding-left: 5px !important;
+}
+.item_params_side table  {
+display: table !important;
+padding-top: 0 !important;
+table-layout: auto !important;
+}
+.item_params_side table tr  {
+display: table-row;
+}
+.item_params_side table,
+.item_params_side table tbody, 
+.item_params_side table tr   {
+width: 120px !important;
+}
+.shop_table .shop_item  .item_params_side table td {
+display: table-cell;
+text-align: left;
+}
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd,
+.shop_table .shop_item  .item_params_side td.view_all_ships_numd1 {
+text-align: left;
+font-size: 11px;
+}
+
+.item3_per_line,
+.item3_per_line_title {
+width: 100%;
+float: left;
+} 
+.item3_per_line_item {
+width: 100%;
+margin-right: 3%;
+float: left;
+} 
+.item3_per_line_item img {
+width: 100%;
+height: auto;
+margin: 0;
+}
+.item3_per_line_title {
+padding-bottom: 20px;
+text-align: center;
+} 
+
+table.info tbody,
+table.info tr {
+float: none !important;
+width: 270px;
+}
+table.info tr { 
+display: table!important;
+}
+table.info td {
+float: none !important;
+}
+table.info td table td,
+table.info td table tbody,
+table.info td table tr {
+width: auto !important;
+}
+table.info td table td {
+text-align: left;
+}
+body.ready {
+background: url("http://rentflot.adaptic.com.ua/body_bg4_phone.jpg") 50% 0 repeat-y;
+max-width: 100% !important;
+}
+.table2,
+.table3,
+.table3tr1 table,
+.table3tr2td1,
+.table2td2,
+.table2td3,
+.table1tr1,
+.table2td1,
+.table2td12,
+.table2td1,
+.table2td2,
+.table2td3,
+.table1tr1  td,
+.table1tr2,
+.table3tr1,
+.table3tr2,
+.table3tr1td0,
+.table1tr3,
+.shop_table,
+.table1tr4,
+.table1tr5,
+.table1tr6,
+.item_card_main_photo {
+width: 290px !important;
+overflow: hidden;
+}
+.MainTable,
+.table0 {
+width: 292px !important;
+}
+.table0 {
+    display: block;
+    margin: 0 auto;
+}
+.table3tr1 table,
+.table3tr1 table tr {
+display: block;
+text-align: center;
+width: 100%;
+}
+.table3tr1 table td {
+margin: 2px 30px 10px 30px;
+display: inline-block;
+}
+.table3tr2td1 {
+display: block;
+float: left;
+}
+.table3tr2td2 {
+display: block;
+float: left;
+}
+.table3tr1td0 {
+padding-bottom: 10px !important;
+}
+.table2,
+.table2td1 {
+display: block;
+float: left;
+}
+.table2 {
+height: auto !important;
+}
+.table1tr0 {
+display: block;
+}
+.table1tr0 .MainTableTd {
+width: 290px;
+height: auto !important;
+}
+.table2 td {
+display: block;
+}
+.MainTable.table1,
+.table1tr0,
+.table1tr0 .MainTableTd  {
+float: left;
+display: block;
+}
+.table2 td {
+text-align: center;
+}
+.table1tr1,
+.table1tr0 {
+float: left;
+display: block;
+}
+.table1tr0 .MainTableTd {
+display: block;
+float: left;
+}
+.table2td1 {
+padding: 20px 0 0 0;
+}
+.table2td3 tr {
+display: block;
+width: 290px;
+text-align: center;
+}
+.table2td3 tr td {
+display: inline-block;
+}
+.table3,
+.table1tr2,
+.table1tr3 {
+float: left;
+display: block;
+}
+.table3tr1td0 {
+display: none !important;
+}
+.table1tr2 td {
+height: auto !important;
+}
+.table3tr2td1 table,
+.table3tr2td1 table tbody {
+max-width: 264px;
+}
+.left_ships_menu_item {
+width: 264px;
+float: left;
+text-align: center;
+}
+.left_ships_menu_item div {
+width: 100%;
+float: left;
+text-align: center;
+}
+.left_ships_menu_item a div {
+text-align: left;
+}
+.left_ships_menu_item a {
+display: inline-block !important;
+margin-left: 8px;
+}
+.left_ships_menu_item a div {
+width: auto !important;
+}
+
+.sm_ships {
+    left: 0 !important;
+    top: 60px !important;
+	width: 230px !important;
+}
+.table3tr2td2,
+.table3tr1td0,
+.table3tr1,
+.table3tr2td3 {
+float: left;
+display: block;
+}
+.table3tr2td2 {
+width: 270px !important;
+padding: 0 10px !important;
+}
+.table3tr2td3 {
+width: 290px;
+}
+.table3tr2td3tbl2td1 {
+width: 260px;
+}
+.table3tr2td3tbl2td1 table,
+.table3tr2td3tbl2td1 tbody,
+.table3tr2td3tbl1,
+.table3tr2td3tbl1 tbody {
+width: 260px !important;
+margin: 0 auto !important;
+}
+.table3tr2td3 {
+    display: block;
+    left: -2px;
+    margin: 20px 0 0;
+    position: relative;
+}
+.table3tr2td3tbl2td1 a {
+margin: 0 0 0 10px;
+}
+.table3tr2td3tbl2td1 td {
+float: left;
+padding-bottom: 30px;
+width: 260px;
+}
+.shop_table,
+.shop_table .shop_item {
+display: block;
+float: left;
+width: 267px !important;
+padding-bottom: 50px;
+}
+.shop_table .shop_item img {
+    float: left;
+    width: 258px;
+	height: auto !important;
+}
+.shop_table .shop_item .info,
+.shop_table .shop_item tbody,
+.shop_table .shop_item tr    {
+width: 260px;
+}
+.shop_table .shop_item td {
+width: 50%;
+}
+.shop_table .shop_item td table {
+width: 100%;
+}
+.shop_item .prod_img_count {
+right: -1px;
+bottom: 0px;
+}
+
+.view_all_ships_num2 nobr,
+.view_all_ships_num nobr{
+background: #e8923d;
+display: inline-block;
+font-size: 9px !important;
+}
+.table3tr2td3tbl1 table {
+width: 260px;
+}
+.table3tr2td3tbl2td1 td.table3tr2td3tbl2td1td1  {
+padding-bottom: 0px !important;
+text-align: center;
+}
+.table3tr2td3tbl2td1 td.table3tr2td3tbl2td1td1 div {
+display: inline-block !important; 
+float: none !important;
+}
+.table3tr2td3tbl1 {
+
+}
+.table3tr2td3tbl2td1 td.table3tr2td3tbl2td1td1 div,
+.table1tr3,
+.table1tr4,
+.table1tr5,
+.table1tr6,
+.table1tr3td1  {
+display: block;
+float: left;
+}
+.table3tr2td3tbl2td1 {
+padding-bottom: 0 !important;
+}
+.table1tr3td1 {
+padding: 0 0 10px !important;
+}
+.table1tr3td1 table,
+.table1tr3td1 tbody,
+.table1tr3td1 tr,
+.table1tr4,
+.table1tr4 td,
+.table1tr5,
+.table1tr5 td,
+.table1tr6 {
+width: 290px;
+display: block;
+float: left;
+}
+.table1tr6 td {
+height: auto !important;
+}
+.table1tr6td1 {
+padding-bottom: 20px;
+}
+.table1tr3 tr  {
+display: block;
+padding-left: 10px;
+}
+.table3tr1,
+.table3tr2 {
+display: block;
+float: left;
+}
+.table3tr2td2 img {
+max-width: 264px;
+}
+.table3tr2td3tbl1 {
+position: relative;
+left: 0px;
+}
+.table3tr2td2tbl1,
+.table3tr2td2tbl12 {
+width: 270px;
+margin: 0 auto;
+}
+.table3tr2td2tbl tbody,
+.table3tr2td2tbl tr,
+.table3tr2td2tbl td {
+display: block;
+float: left;
+}
+.view_all_ships {
+display: block;
+padding: 10px 0;
+margin-bottom: 10px;
+}
+.shop_item .info {
+padding-top: 10px;
+display: block;
+float: left;
+}
+.table2td2 {
+float: left;
+}
+.OrderOnlineAdvert {
+padding-bottom: 10px;
+float: left;
+}
+.table3tr2td2 table {
+max-width: 270px;
+overflow: hidden;
+table-layout: fixed;
+}
+.table3tr2td2 td {
+word-wrap: break-word;
+}
+.shop_item a.nobor { 
+float: left;
+width: 258px !important;
+}
+td.view_all_ships_numd {
+white-space: normal;
+}
+.shop_item p {
+float: left;
+display: block;
+}
+.shop_item {
+width: 258px !important; 
+}
+.shop_item .nobor {
+height: auto !important;
+}
+
+.table3tr2td2 table,
+.table3tr2td2 table td {
+white-space: normal;
+word-wrap: break-word;
+}
+.shop_item .PhotosAnchor {
+display: block;
+padding: 15px 0 10px;
+}
+.item_card_main_photo {
+height: auto !important;
+}
+.item_card_main_photo img {
+transform: none !important;
+}
+.item_card div.view_info {
+width: 264px;
+border: 0;
+padding-bottom: 20px;
+}
+.item_card table.view_info {
+width: 264px;
+}
+.item_card .view_info,
+.item_card .view_info tbody,
+.item_card .view_info tr,
+.item_card .view_info td {
+display: block;
+float: left;
+}
+.item_card .view_info td {
+width: 100%;
+}
+.item_card .view_info td p,
+.item_card .view_info td h3 {
+width: 100%;
+display: block;
+float: left;
+}
+.item_card  table {
+max-width: 290px;
+}
+.item_card .view_info  .descr_block {
+width: 230px;
+border: 0 !important
+}
+.item_card .photos_list  img {
+width: 100%;
+display: block;
+float: left;
+height: auto;
+border: 0 !important;
+}
+.item_card a.item_photos {
+width: 100%;
+display: block;
+float: left;
+padding-bottom: 10px;
+}
+#jquery-overlay {
+width: 100% !important;
+}
+#lightbox-container-image-box {
+width: 290px !important;
+}
+#lightbox-container-image-data-box {
+width: 270px !important;
+}
+#lightbox-container-image img {
+max-width: 230px;
+}
+#lightbox-nav-btnPrev {
+left: 10px !important;
+height: 42px !important;
+top: 0 !important;
+}
+#lightbox-nav-btnNext {
+right: 10px !important;
+height: 42px !important;
+top: 0 !important;
+}
+#lightbox-container-image-box {
+height: auto !important;
+}
+#lightbox-container-image {
+position: relative;
+}
+#lightbox-nav {
+    height: 42px;
+    top: 50%;
+}
+.item_card_gallery_bottom td {
+ display: block;
+    float: left;
+    width: 240px;
+}
+.item_card_gallery_bottom td div,
+.item_card_gallery_bottom td h3 {
+width: 100%;
+}
+.table3tr2td2 {
+width: 100%;
+ display: block;
+    float: left;
+}
+.shop_item .info td {
+vertical-align: middle;
+}
+.shop_item .info td table {
+height: 100%;
+}
+.gallery img,
+.gallery td {
+width: 100%;
+float: left;
+}
+.gallery td {
+line-height: 12px;
+padding: 0;
+}
+.gallery img {
+padding: 20px 0 0 0;
+}	
+.w100 {
+width: 100% !important;
+float: left;
+padding-top: 10px;
+}
+.w100 td {
+padding: 0 0 10px 10px;
+display: block;
+float: left;
+border: 0 !important;
+}
+.table3tr2td1tbl2 {
+width: 200px;
+margin: 0 auto;
+}
+.rsc {
+width: 290px;
+}
+.rsc table {
+width: 260px !important;
+margin: 0 auto;
+}
+.Odessa .table3tr2td3tbl2td1 td {
+padding-bottom: 0 !important;
+}
+.Odessa .table3tr2td3tbl2td1  .menu_cell {
+padding: 0 !important;
+}
+.contacts_section iframe,
+.contacts_section img,
+.contacts_section,
+span.cat_cont {
+width: 264px;
+}
+.contacts_section {
+ overflow: hidden;
+}
+.csw h1 {
+width: 100%;
+float: left;
+text-align: center;
+margin-left: 0 !important;
+}
+.csw .cl {
+padding: 10px 0 10px 60px !important;
+width: 150px;
+}
+.contacts_section input#phone {
+width: 140px !important;
+}
+#feedback_form td.Title,
+#feedback_form td.Input {
+width: 264px;
+text-align: left;
+}
+#feedback_form_message {
+width: 264px;
+}
+.main_text.banquet .table3tr2td2tbl1 td,
+.main_text.banquet .table3tr2td2tbl2 td {
+width: auto;
+}
+.main_text.banquet td {
+width: 264px;
+display: block;
+}
+.main_text.rest_walk img {
+width: 100% !important;
+}
+.shop_table tr .rp {
+width: 100% !important;
+float: left;
+display: block;
+}
+.main_text.odessa1 td {
+display: block;
+width: 100%;
+}
+#sub_menu_odessa_yachts,
+#sub_menu_croatia_yachts,
+#sub_menu_greece_yachts  {
+ left: 100px !important;
+}
+.rel_var td {
+display: block;
+width: 264px;
+float: left;
+padding-top: 15px;
+}
+#submit-cell {
+width: 264px;
+text-align: left !important;
+}
+#submit-cell input {
+display: inline-block;
+}
+.main_text.clients img {
+display: inline-block;
+}
+.main_text.clients td {
+width: 264px;
+text-align: center;
+}
+.main_text.clients strong {
+padding-top: 10px;
+width: 100%;
+float: left;
+text-align: center;
+} 
+ul {
+padding-left: 0 !important;
+float: left;
+}
+.MapTable {
+display: none !important;
+}
+#menu_motor_ships {
+cursor: default !important;
+}
+td.main_text,
+table,
+body,
+h3,
+.Error,
+div,
+.table3tr2td3tbl1 a {
+font-size: 14px !important;
+line-height: 16px !important;
+}
+.table3tr2td3tbl1 a {
+font-weight: bold;
+}
+.table3tr2td3tbl1 .reviews table table a {
+line-height: 1px !important;
+}
+.table3tr2td2,
+.rsc {
+display: none;
+}
+.rsttd table {
+width: 260px;
+}
+.table3tr2td3tbl1 table {
+display: table;
+}
+.table3tr2td1 {
+padding-left: 0 !important;
+}
+.main_text h1 {
+line-height: 30px;
+}
+.photos_list {
+float: left;
+padding-left: 0 !important;
+text-align: center !important;
+width: 270px !important;
+}
+.photos_list a.nobor {
+    float: none;
+  width: auto !important;
+display: inline-block;
+}
+.ui-widget-content {
+width: 290px !important;
+}
+#online_order_dialog_form {
+width: 260px !important;
+}
+#online_order_dialog_form .FrontendForm,
+#online_order_dialog_form .FrontendForm th,
+#online_order_dialog_form .FrontendForm td  {
+display: block;
+ width: 260px;
+ text-align: left; 
+}
+#online_order_dialog_form .FrontendForm td input,
+#online_order_dialog_form .FrontendForm td textarea {
+width: 260px;
+}
+#online_order_dialog_form .FrontendForm .wallpapered .background {
+    color: gray;
+    left: 8px;
+    position: absolute;
+    top: 115px;
+}
+.contacts_table td {
+width: 260px;
+display: block;
+float: left;
+}
+
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 1px) {
+body {
+width: 100%;
+overflow-x: hidden;
+}
+
+body table {
+width: 290px; 
+display: block;
+margin: 0 auto;
+overflow: hidden;
+}
+.table0,
+.shop_table  {  
+max-width: 100% !important;
+overflow-x: hidden !important;
+}
+body.ready .table0,
+body.ready .shop_table {
+overflow-y:  visible !important;
+}
+.shop_table {
+overflow: hidden;
+table-layout: auto !important;
+}
+/* */
+body.ready table {
+max-width: auto;
+display: table;
+overflow: visible;
+width: auto;
+}
+
+.shop_table .shop_item .info td {
+display: block;
+padding-left: 0 !important;
+}
+.shop_table .shop_item .info td .view_all_ships_num,
+.shop_table .shop_item .info td .view_all_ships_numd,
+.shop_table .shop_item .info td  .view_all_ships_num2,
+.shop_table .shop_item .info td  .view_all_ships_numd1 {
+width: auto !important;
+float: left !important;
+display: table-cell;
+}
+.shop_table .shop_item .info td .view_all_ships_numd,
+.shop_table .shop_item .info td  .view_all_ships_numd1 {
+padding-left: 10px !important;
+font-size: 11px;
+}
+
+.table3tr2 {
+padding-top: 20px;
+}
+.nopointer {
+cursor: default;
+}
+.MainMenuSecondaryLink {
+padding-bottom: 20px;
+}
+.table3tr2td3tbl1 .reviews table table tr td{
+height: 1px !important;
+    line-height: 0;
+    opacity: 0;
+    padding: 0 !important;
+}
+.table3tr2td3tbl1 .links .tr2,
+.table3tr2td3tbl1 .links .tr3,
+.table3tr2td3tbl1 .links .tr4,
+.table3tr2td3tbl1 .links .tr5 {
+display: none;
+}
+a.photos_list_anchor,
+a.totop_anchor {
+display: block;
+float: left;
+width: 100%;
+}
+div.view_info {
+width: 265px !important;
+border: 0 !important;
+}
+div.view_info td.descr_block { 
+display: block;
+float: left;
+}
+
+.view_info_wrap_td,
+.view_info_wrap_table {
+max-width: 265px;
+display: block;
+float: left;
+}
+.site_path span,
+.site_path span nobr {
+max-width: 265px;
+white-space: normal !important;
+display: inline-block;
+word-wrap: break-word;
+line-height: 24px;
+}
+.pg2 td {
+width: 265px;
+display: block;
+float: left;
+}
+.table3tr2td3tbl1 {
+text-align: center;
+}
+.rsttd td {
+padding: 2px 0 !important;
+}
+.main_text.attractions .shop_table table {
+    border-bottom: 1px solid #8e4702;
+    padding-bottom: 20px;
+}
+li {
+    left: -10px;
+    position: relative;
+}
+.main_text.entertaiments ol {
+left: -15px;
+    position: relative;
+}
+.content.entertaiments,
+.main_text.entertaiments h2 {
+text-align: left;
+}
+.main_text.entertaiments .entr {
+width: 100%;
+}
+.main_text.entertaiments .entr td {
+width: 100%;
+display: block;
+}
+.main_text.about h2,
+.main_text.payment h2 {
+text-align: left;
+line-height: 21px;
+}
+.main_text.payment h2 {
+padding: 20px 0;
+}
+.main_text.paths h1 {
+text-align: left;
+}
+.main_text.paths p {
+float: left;
+width: 100%;
+}
+.main_text.paths .link1 {
+text-align: center;
+}
+.main_text.entertaiments p {
+text-align: left;
+}
+.main_text.entertaiments .text1,
+.main_text.entertaiments .text2 {
+text-align: center;
+}
+.main_text.entertaiments .entr td {
+text-align: left;
+}
+.main_text.about .text1 {
+text-align: center;
+}
+.main_text.payment .text1 {
+text-align: center;
+}
+#payment_form_amount {
+width: 190px !important;
+}
+#payment_form_order_id {
+width: 130px;
+height: 20px;
+}
+#payment_form_submit { 
+width: 80px;
+}
+.hsjkdfh234,
+.zxcizopxc123123,
+.jsldkjflksdjf890486,
+.sldkjfklj234,
+.nsdfjlert345 {
+text-align: center !important;
+}
+.jkljdlkfjg123123,
+.jksldjfklsdjf129083 {
+text-align: left !important;
+}
+td.main_text {
+text-align: left;
+}
+.contacts_section .cat_cont,
+.contacts_section .cat_cont2 {
+display: none !important;
+}
+.contacts_section #phone {
+margin: 10px 0 !important;
+}
+.main_text.clients .rib {
+border-bottom: 1px solid #8e4702;
+padding-bottom: 20px;
+}
+.homepage_logos a {
+margin-bottom: 15px;
+display: block;
+float: left;
+width: 100%;
+text-align: center;
+}
+.homepage_logos br {
+display: none !important;
+}
+.item_params_right td {
+float: none !important;
+line-height: 12px !important; 
+}
+.main_text.entertaiments .text2 {
+float: left;
+margin-top: 10px;
+width: 100%;
+}
+.main_text.homepage p {
+margin-top: 10px;
+}
+.main_text.attractions ul {
+margin-bottom: 10px;
+border-bottom: 1px solid #8e4702;
+padding-bottom: 10px;
+}
+.main_text.about ul {
+margin-bottom: 10px;
+border-bottom: 1px solid #8e4702;
+padding-bottom: 10px;
+}
+p {
+float: left;
+width: 100%;
+}
+.main_text.item_card  .descr_block p,
+.main_text.item_card  .descr_block span,
+.main_text.item_card  .descr_block ul li,
+.main_text.item_card  .descr_block {
+text-align: left !important;
+}
+.main_text.item_card  .descr_block p,
+.main_text.item_card  .descr_block span {
+font-size: 14px !important;
+line-height: 16px !important;
+}
+.fci {
+display: none;
+}
+.footer_center {
+font-size: 12px;
+line-height: 16px !important;
+}
+body.inside .topmenu_icons,
+body.inside .leftmenu_icons1 {
+display: none;
+}
+.tp2 tr {
+margin: 8px 0 !important;
+display: block;
+}
+.table3tr2td2 div {
+max-width: 100% !important;
+width: 100%;
+}
+.table3tr2td2 img {
+max-width: 100% !important;
+width: 100%;
+float: left;
+margin-bottom: 5px;
+margin-left: 0 !important;
+}
+.contacts_title {
+margin-left: 0 !important;
+width: 100%;
+text-align: center;
+}
+.contacts_logo {
+    margin: 0 0 0 10px !important ;
+    padding-left: 0 !important;
+    padding-top: 15px !important;
+    width: 250px !important;
+}
+.Odessa  .table3tr2td1 {
+display: block !important;
+}
+.contacts_table,
+.contacts_table2 {
+width: 270px !important;
+}
+.contacts_table2 td ,
+.contacts_table2 div{
+  width: 245px !important;
+  text-align: center;
+}
+.contacts_table h3 {
+margin: 15px 0 !important;
+}
+.contacts_table #sub {
+margin-top: 10px;
+}
+
+.Odessa  .hide.dshow {
+display: none !important;
+}
+.odessa_rent_types,
+.odessa_rent_types td {
+ width: 260px !important;
+}
+.odessa_rent_types img {
+max-width: 260px !important;
+width: 260px !important;
+}
+ul {
+margin-bottom: 5px;
+}
+.table3tr2td3tbl1 .news,
+.table3tr2td3tbl1 .payments h3 {
+display: none;
+}
+.item_card .PhotosAnchor img {
+width: auto !important;
+height: auto !important;
+}
+
+
+}
+
+.Odessa .kiev_city_number,
+.Odessa .table2td3td3 .address,
+.Odessa  .table3tr1td0 ,
+.Odessa  .table3tr2td1tbl1,
+.Odessa .hide,
+.Odessa  .table3tr2td1   {
+display: none; 
+}
+.Odessa  .hide.dshow {
+display: block;
+}
+.Odessa .main_text  {
+    padding-top: 20px;
+}
+.Odessa  .table3tr2td3tbl1  {
+margin-right: 20px;
+ padding-top: 20px;
+}
+.Odessa .links{
+ padding-top: 20px;
+ float: left;
+    padding-top: 20px;
+	width: 100%;
+}
+.Odessa .links table {
+width: 100%;
+table-layout: fixed;
+}
+.cimg.rs {
+margin: 0 0 10px 10px;
+}
+.Odessa .ohide {
+display: none !important;
+}
+.Odessa .oshow {
+display: block;
+}
+.oshow {
+display: none;
+}
+.Odessa  .contacts_title {
+float: left;
+}
+.Odessa .contacts_table,
+.Odessa .contacts_table2 {
+float: left;
+margin: 0 auto;
+table-layout: fixed;
+}
+.Odessa .contacts_table2 td  {
+width: 50%;
+text-align: center;
+}
+.Odessa .odessa_rent_types {
+margin-bottom: 20px;
+}
+.odessa_left_ships_menu a {
+font-size: 12px;
+}
+.lmenu2 table td {
+display: none;
+}
+.lmenu2 table td#menu_odessa_yachts {
+display: block;
+}

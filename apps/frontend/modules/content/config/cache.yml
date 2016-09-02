@@ -1,0 +1,100 @@
+_bigmir_counter:
+  enabled:     true
+  lifetime:    69120000 # 2 years
+
+_analytics_counter:
+  enabled:     true
+  lifetime:    69120000 # 2 years
+
+_page_index.en:
+  enabled:     true
+  lifetime:    69120000 # 2 years    
+  
+_page_index.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_banquet.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_clients.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_contacts.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_contract.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_croatia_yachts.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_dictionary.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_entertainments.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_for_agents.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_greece_yachts.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+
+_page_links.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_map.ru:
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_motor_ships.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_olgin.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_photo_gallery.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_rest_walk.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_rules.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_sitemap.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years  
+  
+_page_velikiy.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years    
+
+_page_yachts.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years    
+  
+_page_iyt.ru:  
+  enabled:     true
+  lifetime:    69120000 # 2 years    
+  
+#_mainMenuCategories:
+#  enabled:     true
+#  lifetime:    69120000 # 2 years  
+  

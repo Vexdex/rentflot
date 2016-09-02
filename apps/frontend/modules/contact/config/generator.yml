@@ -1,0 +1,49 @@
+generator:
+  class: sfDoctrineMagicGenerator
+  param:
+    model_class:           ClientContact
+    theme:                 infosoft3
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          client_contact
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [contact] }
+        _new:                     { credentials: [contact] }
+        _add:                     { credentials: [contact] }
+        _edit:                    { credentials: [contact] }
+        _delete:                  { credentials: [contact] }
+      fields:
+        created_at:               { date_format: 'dd.MM.yy<br/>hh:mm'}
+        contact_date:             { date_format: 'dd.MM.yy'}
+        #client:              { is_sortable: true, sort_method: orderByClientName }		
+        #order:              { is_sortable: true, sort_method: orderByOrderId }		
+        #ContactStatus:            { is_sortable: true, sort_method: orderByContactStatusId }
+        User:            { is_sortable: true, sort_method: orderByUser }		
+      list:
+        batch_actions: {}
+        title:                    page_list_title 	  
+        display: 
+          - created_at 
+          - contact_date 
+          - _contact_time 
+          - _client
+          - _order
+          - _order_items 
+          - _guests
+          #- ContactStatus
+          - comment
+          - User
+      filter:  
+        display: [contact_date,created_at,updated_at,created_by,updated_by,show_hidden_contracts]
+      form:    ~
+      edit:
+        title:                    page_edit_title		
+      new:     
+        title:                    page_new_title 
+        display: [contact_date, contact_time, order_id, contact_status_id, comment]

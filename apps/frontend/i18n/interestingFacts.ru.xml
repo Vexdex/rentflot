@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- Page -->                 
+      <trans-unit>
+        <source>queen_mary</source>
+        <target>Queen Mary 2 &mdash; самый длинный пассажирский лайнер в мире.<br />Его длина составляет 345 м.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>freedom_of_the_seas</source>
+        <target>Freedom of the Seas &mdash; cамое большое в мире по тоннажу и количеству пассажиров круизное&nbsp;судно.<br />Пассажировместимость &mdash;<br />4370 чел.</target>
+      </trans-unit>
+      <trans-unit>      
+        <source>vandal</source>
+        <target>&laquo;Вандал&raquo; &mdash; российское речное нефтеналивное судно. Построенное в 1903 году, оно было первым теплоходом в мире.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>wartsila_rta96c</source>
+        <target>Cамый мощный судовой дизель — 14-цилиндровый двигатель RTA96-C, выпускаемый финской фирмой Wartsila. Он развивает мощность в 108920 л.с.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>eclipse</source>
+        <target>Самая дорогая яхта в мире &mdash; девятипалубная &laquo;Eclipse&raquo; стоимостью $1,1 млрд.<br />Владелец яхты &mdash; российский миллиардер Роман Абрамович.</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>miss_geico</source>
+        <target>&laquo;Miss GEICO&raquo; &mdash; самый быстрый ракетный катер в мире.<br/>Он может развивать скорость свыше 320&nbsp;км/час.<br/>Мощность каждой из двух турбин катера составляет 2100&nbsp;л.с.</target>
+      </trans-unit> 
+      <trans-unit>
+        <source>planetsolar</source>
+        <target>Швейцарское судно &laquo;Turanor PlanetSolar&raquo; использует только солнечную энергию от 537 кв. м фотогальванических панелей. Имеет 30 метров в длину, 15 метров в ширину и может вместить до 50 пассажиров.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nanny</source>
+        <target>Шведиский супертанкер &laquo;Nanny&raquo;&nbsp;&mdash;&nbsp;самое широкое грузовое судно в мире. Длина&nbsp;&mdash;&nbsp;364 м, ширина&nbsp;&mdash;&nbsp;79 м, скорость&nbsp;&mdash;&nbsp;16 узлов, экипаж&nbsp;&mdash;&nbsp;36 человек.</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

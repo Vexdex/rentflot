@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+      
+      <!-- default -->
+      <trans-unit>
+        <source>default_title</source>
+        <target>Аренда теплохода, аренда теплоходов Киев, аренда яхт, прокат катера, круиз на теплоходе — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>default_h1</source>
+        <target>Аренда теплохода Киев, аренда теплоходов в Киеве, аренда яхты, аренда гидроцикла</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>default_description</source>
+        <target>Профессиональная аренда теплохода – это основной профиль работы нашей судоходной компании с 2001 года. Кроме аренды теплохода, катера или яхты, для Вас мы организуем банкет и развлекательные мероприятия прямо на палубе выбранного теплохода или на острове.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>default_keywords</source>
+        <target>аренда теплохода киев, аренда корабля, прокат теплоходов</target>
+      </trans-unit>         
+            
+      <!-- Homepage -->
+      <trans-unit>
+        <source>homepage_title</source>
+        <target>Аренда теплохода, аренда теплоходов Киев, прокат катера/яхты, круиз на теплоходе|Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>homepage_h1</source>
+        <target>Аренда теплохода Киев, аренда теплоходов в Киеве, аренда яхты, аренда гидроцикла</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>homepage_description</source>
+        <target>Аренда теплохода в Киеве по ценам судовладельца - компании Рентфлот, ☎(044)451-40-58. Теплоходы для компаний от 25 до 150 и выше человек, банкетное обслуживание, диджеи и ведущие</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>homepage_keywords</source>
+        <target>аренда теплохода киев, аренда корабля, прокат теплоходов</target>
+      </trans-unit>         
+
+      <!-- Own ships -->
+      <trans-unit>
+        <source>own_ships_title</source>
+        <target>Мои теплоходы — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>own_ships_h1</source>
+        <target>Мои теплоходы</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>own_ships_description</source>
+        <target>Мои теплоходы.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>own_ships_keywords</source>
+        <target>Мои теплоходы</target>
+      </trans-unit>
+
+
+      <trans-unit>
+        <source>banquet_title</source>
+        <target>Банкет, фуршет на теплоходе в Киеве. Кухня на борту корабля от компании Рентфлот</target>
+      </trans-unit>
+      <trans-unit>
+        <source>banquet_description</source>
+        <target>Организация банкетов и фуршетов на теплоходе компании Рентфлот ☎(044)451-40-58. У нас большой опыт в организации праздников на корабле и на берегу после речной прогулки</target>
+      </trans-unit>
+      <trans-unit>
+        <source>banquet_keywords</source>
+        <target>Фуршет на теплоходе, заказ кухни для прогулки на теплоходе</target>
+      </trans-unit>
+      
+      <!-- IYT -->
+      <trans-unit>
+        <source>iyt_title</source>
+        <target>Обучение яхтингу - яхтенная школа капитанов. Международные права на управление яхтой|Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>iyt_h1</source>
+        <target>Обучение по программе IYT (International Yacht Training) в Турции</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>iyt_description</source>
+        <target>Киевская судоходная компания Рентфлот предлагает пройти уникальный учебно-практический курс Управление парусной яхтой по международной системе International Yacht Training (IYT) в Турции</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>iyt_keywords</source>
+        <target>обучение яхтингу, школа капитанов</target>
+      </trans-unit>         
+      
+      <!-- Odessa yachts -->
+      <trans-unit>
+        <source>odessa_yachts_title</source>
+        <target>Аренда яхты в Одессе. Прогулка на яхте по морю за доступную цену | компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>odessa_yachts_h1</source>
+        <target>Аренда яхт в Одессе, яхты в Одессе</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>odessa_yachts_description</source>
+        <target>Арендовать яхту в Одессе очень просто! Достаточно выбрать яхту на нашем сайте и предварительно забронировать ее по телефону - и можно наслаждаться морской прогулкой</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>odessa_yachts_keywords</source>
+        <target>аренда яхты, аренда яхт, аренда яхты в Одессе, аренда яхт в Одессе</target>
+      </trans-unit>         
+
+      <!-- Croatia yachts -->
+      <trans-unit>
+        <source>croatia_yachts_title</source>
+        <target>Аренда яхт в Хорватии. Отдых на яхте - Хорватия | судовладелец Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>croatia_yachts_h1</source>
+        <target>Аренда яхт в Хорватии, яхты в Хорватии</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>croatia_yachts_description</source>
+        <target>Арендовать яхту в Хорватии очень просто! Достаточно выбрать яхту на нашем сайте и предварительно забронировать ее по телефону ☎(044)451-40-58. Судоходная компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>croatia_yachts_keywords</source>
+        <target>аренда яхты в Хорватии</target>
+      </trans-unit>         
+
+      <!-- Greece yachts -->
+      <trans-unit>
+        <source>greece_yachts_title</source>
+        <target>Отдых на яхте в Греции. Аренда яхт по разумной цене - компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>greece_yachts_h1</source>
+        <target>Аренда яхт в Греции, яхты в Греции — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>greece_yachts_description</source>
+        <target>Арендовать яхту в Греции очень просто! Достаточно выбрать яхту на нашем сайте и предварительно забронировать ее по телефону ☎(044)451-40-58. Судоходная компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>greece_yachts_keywords</source>
+        <target>аренда яхт в Греции</target>
+      </trans-unit>         
+      
+      
+      <!-- Motor ships -->
+      <trans-unit>
+        <source>motor_ships_title</source>
+        <target>Аренда теплохода от судовладельца, недорого. Теплоходы в аренду в Киеве|Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>motor_ships_h1</source>
+        <target>аренда теплохода, аренда теплоходов в Киеве</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>motor_ships_description</source>
+        <target>Аренда теплохода в Киеве по очень выгодным ценам от судоходной компании Рентфлот. Теплоходы для компаний от 25 до 150 и выше человек, банкетное обслуживание, диджеи и ведущие</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>motor_ships_keywords</source>
+        <target>аренда теплохода в Киеве, аренда теплоходов в Киеве</target>
+      </trans-unit>         
+
+      <!-- Yachts -->
+      <trans-unit>
+        <source>yachts_title</source>
+        <target>Аренда яхт, аренда яхты в Киеве | Рентфлот - прокат плавсредств</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>yachts_h1</source>
+        <target>Аренда яхт в Киеве</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>yachts_description</source>
+        <target>Аренда яхты в Киеве по выгодной цене от судоходной компании Рентфлот. Отдых на яхте с любимой или с компанией друзей - что может быть лучше? Заказывайте аренду, не откладывая!</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>yachts_keywords</source>
+        <target>аренда яхты в Киеве, снять яхту</target>
+      </trans-unit>         
+
+      <!-- Banquet -->
+      <trans-unit>
+        <source>banquet_title</source>
+        <target>Банкет и фуршет на теплоходе или яхте, корпоративные развлечения, организация банкета и фуршета — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>banquet_h1</source>
+        <target>банкет, фуршет, банкет на теплоходе, фуршет на теплоходе</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>banquet_description</source>
+        <target>Организация банкетов и фуршетов. Компания Рентфлот поможет провести банкет или фуршет на теплоходе. Программа составляется индивидуально для каждого клиента.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>banquet_keywords</source>
+        <target>банкет, фуршет, банкет на теплоходе, фуршет на теплоходе</target>
+      </trans-unit>         
+
+      <!-- Entertainments -->
+      <trans-unit>
+        <source>entertainments_title</source>
+        <target>Программа отдыха. Отдых на природе в Киеве - на корабле на остров | Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>entertainments_h1</source>
+        <target>Аренда звука, аренда звукового оборудования, отдых на воде</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>entertainments_description</source>
+        <target>Интересная и насыщенная программа отдыха на природе подготовлена для Вас компанией Рентфлот! Банкет на корабле, отдых и развлечения на острове, дискотека по дороге домой.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>entertainments_keywords</source>
+        <target>программа отдыха, отдых на природе в киеве</target>
+      </trans-unit>         
+      
+      <!-- Map -->
+      <trans-unit>
+        <source>map_title</source>
+        <target>Карта маршрутов для отдыха на природе и прогулок на теплоходе — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_h1</source>
+        <target>Отдых на теплоходе, карта маршрутов</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_description</source>
+        <target>Карта маршрутов компании Рентфлот. Специально созданные маршрут прогулок на теплоходе для вашего приятного отдыха.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_keywords</source>
+        <target>карта, маршрут, отдых, теплоход</target>
+      </trans-unit>         
+      
+      <!-- Velikiy -->
+      <trans-unit>
+        <source>map_velikiy_title</source>
+        <target>Остров Великий в Киеве. Карта, описание и фото острова | компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_velikiy_h1</source>
+        <target>Остров «Великий» в Киеве</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_velikiy_description</source>
+        <target>Остров Великий, Киев - на карте. Описание и фотографии острова. Организация отдыха с арендой теплохода судоходной компанией Рентфлот - банкет, всевозможные развлечения и конкурсы</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_velikiy_keywords</source>
+        <target>остров великий киев</target>
+      </trans-unit>         
+      
+      <!-- Olgin -->
+      <trans-unit>
+        <source>map_olgin_title</source>
+        <target>Карта и описание острова «Ольгин» — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_olgin_h1</source>
+        <target>Отдых на острове «Ольгин»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_olgin_description</source>
+        <target>Остров Ольгин — карта острова и описание развлекательной программы. Компания Рентфлот организует приятный досуг на арендованном теплоходе.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>map_olgin_keywords</source>
+        <target>остров Ольгин, аренда теплохода</target>
+      </trans-unit>         
+      
+      <!-- Photo gallery -->
+      <trans-unit>
+        <source>photo_gallery_title</source>
+        <target>Фотогалерея отдыха на теплоходе и острове — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>photo_gallery_h1</source>
+        <target>Фотогалерея, аренда теплоходов</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>photo_gallery_description</source>
+        <target>Фотогалерея. На сайте представлены фотографии проведенных мероприятий на воде. Аттракционы, отдых на воде, застолье.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>photo_gallery_keywords</source>
+        <target>фото, галерея, фотографии, галерея, Рентфлот, теплоход</target>
+      </trans-unit>         
+      
+      <!-- Contract -->
+      <trans-unit>
+        <source>contract_title</source>
+        <target>Пример договора на аренду теплохода — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contract_h1</source>
+        <target>Договор аренды</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contract_description</source>
+        <target>Договор для аренды теплоходов и других плавсредств. Скачать и ознакомиться с договором аренды.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contract_keywords</source>
+        <target>договор аренды, Рентфлот, теплоход</target>
+      </trans-unit>         
+      
+      <!-- Rules -->
+      <trans-unit>
+        <source>rules_title</source>
+        <target>Правила техники безопасности на теплоходе — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rules_h1</source>
+        <target>Правила техники безопасности на теплоходе</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rules_description</source>
+        <target>Правила техники безопасности на теплоходе. Обязанности пассажиров во время проведения мероприятий на теплоходе.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rules_keywords</source>
+        <target>правила, безопасность, теплоход</target>
+      </trans-unit>         
+      
+
+      <!-- For Agents -->
+      <trans-unit>
+        <source>for_agents_title</source>
+        <target>Информация для агентов: правила, суммы комиссионных — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>for_agents_h1</source>
+        <target>Привлечение клиентов — аренда теплоходов</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>for_agents_description</source>
+        <target>Заключение договоров с агентами. Привлечение новых клиентов за денежное вознаграждение.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>for_agents_keywords</source>
+        <target>агент, привлечение клиентов, теплоход</target>
+      </trans-unit>         
+      
+      
+      <!-- Clients -->
+      <trans-unit>
+        <source>clients_title</source>
+        <target>Отзывы клиентов судоходной компании Рентфлот об отдыхе в Киеве на корабле</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>clients_h1</source>
+        <target>Постоянные клиенты компании Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>clients_description</source>
+        <target>Отдых, организованный компанией Рентфлот - отзывы клиентов. Прогулки на корабле, развлечения и пикник на берегу. Копроративы, банкеты, юбилеи, пикники, парусные регаты.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>clients_keywords</source>
+        <target>Рентфлот отзывы</target>
+      </trans-unit>         
+      
+      <!-- Dicrionary -->
+      <trans-unit>
+        <source>dictionary_title</source>
+        <target>Словарь судоходных терминов — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>dictionary_h1</source>
+        <target>Каталог судоходных терминов</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>dictionary_description</source>
+        <target>Словарь судоходных терминов. Абордаж, Арканзас, Баксовое давление, Банка, Банкет, Водоизмещение и множество других терминов.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>dictionary_keywords</source>
+        <target>судоходные термины</target>
+      </trans-unit>         
+      
+      <!-- Rest walk -->
+      <trans-unit>
+        <source>rest_walk_title</source>
+        <target>Прогулки по Днепру в Киеве на яхте, теплоходе и катере. Речной отдых под парусом|Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rest_walk_h1</source>
+        <target>Речные прогулки по Днепру в Киеве</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rest_walk_description</source>
+        <target>Речная прогулка по Днепру на теплоходе, яхте или катере - более приятного отдыха не придумаешь! Аренда теплохода/катера/яхты по умеренным ценам, банкет и развлечения - по Вашему желанию</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>rest_walk_keywords</source>
+        <target>прогулки по Днепру в Киеве, речные прогулки, прогулка на яхте</target>
+      </trans-unit>
+      <!-- About -->
+      <trans-unit>
+        <source>about_title</source>
+        <target>О нас — «Рентфлот»</target>
+      </trans-unit>
+      <trans-unit>
+        <source>about_h1</source>
+        <target>О нас</target>
+      </trans-unit>
+      <!-- Contacts -->
+      <trans-unit>
+        <source>contacts_title</source>
+        <target>Контактная информация — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contacts_h1</source>
+        <target>Контактная информация — компания Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contacts_description</source>
+        <target>Как связаться с компанией Рентфлот. Контактная информация.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>contacts_keywords</source>
+        <target>контактная информация, контакты, Рентфлот</target>
+      </trans-unit>        
+
+      <!-- Sitemap -->
+      <trans-unit>
+        <source>sitemap_title</source>
+        <target>Карта сайта — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>sitemap_h1</source>
+        <target>Карта сайта</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>sitemap_description</source>
+        <target>Профессиональная аренда теплохода – это основной профиль работы нашей судоходной компании с 2001 года. Кроме аренды теплохода, катера или яхты, для Вас мы организуем банкет и развлекательные мероприятия прямо на палубе выбранного теплохода или на острове.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>sitemap_keywords</source>
+        <target>аренда теплохода, аренда теплоходов, теплоходы Киев, Днепр, аренда яхт, прокат кораблей, прокат теплохода Киев, прокат катера, круиз на теплоходе, организация проведение банкетов, скутеры, гидроциклы, корабли, яхты, катеры, речная прогулка, корпоративный отдых, выпускной вечер, банкеты, фуршет</target>
+      </trans-unit>        
+
+      <!-- Feedback -->
+      <trans-unit>
+        <source>feedback_title</source>
+        <target>Обратная связь — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>feedback_h1</source>
+        <target>Обратная связь</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>feedback_description</source>
+        <target>Профессиональная аренда теплохода – это основной профиль работы нашей судоходной компании с 2001 года. Кроме аренды теплохода, катера или яхты, для Вас мы организуем банкет и развлекательные мероприятия прямо на палубе выбранного теплохода или на острове.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>feedback_keywords</source>
+        <target>аренда теплохода, аренда теплоходов, теплоходы Киев, Днепр, аренда яхт, прокат кораблей, прокат теплохода Киев, прокат катера, круиз на теплоходе, организация проведение банкетов, скутеры, гидроциклы, корабли, яхты, катеры, речная прогулка, корпоративный отдых, выпускной вечер, банкеты, фуршет</target>
+      </trans-unit>        
+      
+      <!-- Links -->
+      <trans-unit>
+        <source>links_title</source>
+        <target>Аренда теплохода, аренда теплоходов Киев, аренда яхт, прокат катера, круиз на теплоходе — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>links_h1</source>
+        <target>Партнерские ссылки</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>links_description</source>
+        <target>Полезная информация. Каталог ресурсов.</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>links_keywords</source>
+        <target>каталог, полезные ресурсы, сайты</target>
+      </trans-unit>        
+
+      <!-- Article List -->
+      <trans-unit>
+        <source>article_frontend_list_title</source>
+        <target>Полезные статьи по аренде теплоходов в Киеве — «Рентфлот»</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>article_frontend_list_h1</source>
+        <target>Полезная информация по аренде теплоходов в Киеве</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>article_frontend_list_description</source>
+        <target>Разнообразная информация о аренде теплоходов и яхт в Киеве. Самые низкие цены от компании Рентфлот</target>
+      </trans-unit>         
+      <trans-unit>
+        <source>article_frontend_list_keywords</source>
+        <target>аренда теплохода, статьи, как арендовать теплоход, аренда теплоходов в киеве</target>
+      </trans-unit>
+
+      <!-- News List -->
+      <trans-unit>
+        <source>newsf_list_title</source>
+        <target>Новости по аренде теплоходов в Киеве — «Рентфлот»</target>
+      </trans-unit>
+      <trans-unit>
+        <source>newsf_list_h1</source>
+        <target>Новости сайта Рентфлот</target>
+      </trans-unit>
+      <trans-unit>
+        <source>article_frontend_list_description</source>
+        <target>Разнообразная информация о аренде теплоходов и яхт в Киеве. Самые низкие цены от компании Рентфлот</target>
+      </trans-unit>
+      <trans-unit>
+        <source>article_frontend_list_keywords</source>
+        <target>аренда теплохода, статьи, как арендовать теплоход, аренда теплоходов в киеве</target>
+      </trans-unit>
+      <trans-unit>
+              <source>call_title</source>
+                      <target>Заказ обратного звонка по аренде теплохода</target>
+                            </trans-unit>
+                                  <trans-unit>
+                                          <source>call_description</source>
+                                                  <target>На этой странице вы можете оставить заявку и мы обязательно с вами свяжемся</target>
+                                                        </trans-unit>
+                                                              <trans-unit>
+                                                                      <source>call_keywords</source>
+                                                                              <target>обратный звонок, заказ яхты</target>
+                                                                                    </trans-unit>
+      <!-- Payments -->
+      <trans-unit>
+        <source>payments_pay_for_services_title</source>
+        <target>Оплата услуг карточкой Visa — «Рентфлот»</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_for_services_h1</source>
+        <target>Оплата услуг карточкой Visa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_for_services_description</source>
+        <target>Оплата услуг карточкой Visa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_for_services_keywords</source>
+        <target>оплата, карточка, visa</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>payments_pay_result_title</source>
+        <target>Оплата услуг карточкой Visa — «Рентфлот»</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_result_h1</source>
+        <target>Оплата услуг карточкой Visa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_result_description</source>
+        <target>Оплата услуг карточкой Visa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>payments_pay_result_keywords</source>
+        <target>оплата, карточка, visa</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

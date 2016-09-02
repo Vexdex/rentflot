@@ -1,0 +1,137 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+dev:
+  contact_email: exiroom@gmail.com
+
+all:
+  pier_file_folder: '/data/hosting/rent_prod/web/uploads/files/prichal/'
+  # Разрешенные языки
+  cultures:
+    enabled:
+      #uk: 'Українська'
+      ru: 'Русский'
+      en: 'English'
+      
+  # Настройки фотографий для Customer
+  Item_images:
+    image_model_name:      ItemImage
+    image_temp_model_name: ItemTempImage
+    path:                  '/uploads/item/' # /uploads/{dir}/
+    dir:                   'item'
+    allowed_mime_types:    ['image/jpeg', 'image/gif', 'image/png', 'image/pjpeg', 'image/x-png']
+    max_file_size:         8000        # Максимальный размер фотографии (Kb)
+    max_count:             30          # Максимальное количество фотографий для объекта
+    min_original_dim:      150         # Минимальный размер фотографии для загрузки в систему
+    keep_original:         false       # Оставлять ли оригинальное изображение
+    # Размеры фотографий
+    sizes:
+      1:                   { width: 900, height: 600, crop: false, watermark: true }
+      2:                   { width: 550, height: 1000, crop: false, watermark: true }
+      3:                   { width: 286, height: 198, crop: true, watermark: false }
+      4:                   { width: 286, height: 149, crop: true, watermark: false }
+      5:                   { width: 130, height: 130, crop: true, watermark: false }
+      6:                   { width: 75, height: 51, crop: true, watermark: false }
+  
+  document:
+    types:                 [cash_memo, invoice, invoice_2011, receipt, acceptance_certificate, acceptance_certificate_2011, contract]
+    
+  category:
+    motor_ships: [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 18, 19, 20, 25, 26, 27, 28, 29]
+    places: []
+  
+  google_translate:
+    fields: [name, short_description, description, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3]
+
+  order:
+    unknown_client_id: 822
+    zero_precision: 0.05
+
+#  category:
+#    fields:
+#      all: [is_active, name, slug, owner_id, unit_type_id, short_description, description, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      1:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      2:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      3:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      4:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      5:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      6:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      7:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      8:   [is_active, name, slug, owner_id, unit_type_id, short_description, description, order, main_image_id]
+#      9:   [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      10:  [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      11:  [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      12:  [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      13:  [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      14:  [is_active, name, slug, owner_id, unit_type_id, target_use, passenger_capacity, basic_info, equipment, crew, price, additional_info, in_sight, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3, order, main_image_id]
+#      15:  [is_active, name, slug, owner_id, unit_type_id, short_description, description, order, main_image_id]
+
+  
+  from:
+    email:
+      exiroom@gmail.com: Рентфлот
+      #kpeu3i@ukr.net: Рентфлот
+
+  contact_email:          exiroom@gmail.com
+
+  image_view:
+    data:
+      adidas:             '/images/recomm/adidas_big.jpg'
+      1plus1:             '/images/recomm/1plus1_big.jpg'
+      oriflame:           '/images/recomm/oriflame_big.jpg'
+      shell:              '/images/recomm/shell_big.jpg'
+      acc_ukraine:        '/images/recomm/acc_ukraine_big.jpg'
+      ubrr:               '/images/recomm/ubrr_big.jpg'
+      ukrkosmos:          '/images/recomm/ukrkosmos_big.jpg'
+      nokia:              '/images/recomm/nokia_big.jpg'
+      gillette:           '/images/recomm/gillette_big.jpg' 
+      citycom:            '/images/recomm/citycom_big.jpg' 
+      bogdan:             '/images/recomm/bogdan_big.jpg' 
+      tele:               '/images/recomm/tele_big.jpg' 
+      artem:              '/images/recomm/artem_big.jpg' 
+      centr:              '/images/recomm/centr_big.jpg' 
+      abc:                '/images/recomm/abc_big.jpg'
+      aerosvit:           '/images/recomm/aerosvit_big.jpg'
+      panasonic:          '/images/recomm/panasonic_big.jpg'
+      profix:             '/images/recomm/profix_big.jpg'
+      drujba:             '/images/recomm/drujba_big.jpg' 
+      univestprint:       '/images/recomm/univestprint_big.jpg' 
+      renessans:          '/images/recomm/renessans_big.jpg'
+      konnov:             '/images/recomm/konnov_big.jpg'
+      arktur:             '/images/recomm/arktur_big.jpg'
+      astellas:           '/images/recomm/astellas_big.jpg'
+      prostobank:         '/images/recomm/prostobank_big.jpg'
+      bney_azriel:        '/images/recomm/bney_azriel_big.jpg'
+      naftogaz_of_ukraine: '/images/recomm/naftogaz_of_ukraine_big.jpg'
+      sky_travel:         '/images/recomm/sky_travel_big.jpg'
+      map:                '/images/map/map.jpg'
+      map_en:             '/images/map/map_en.jpg'
+
+  interesting_facts:      
+      data:                 [queen_mary, freedom_of_the_seas, vandal, wartsila_rta96c, eclipse, miss_geico, planetsolar, nanny]
+  
+  non_secure_to_http:     true
+  
+  system:
+    update_weather_token: 980b46fdb240eabd5491356891f07a263ecfa618
+
+  payments:
+    version: '1.2'
+    result_url: ~
+    server_url: ~
+    #merchant_id: 'i1564261831'
+    merchant_id: 'i0427786607'
+    order_id: ~
+    amount: ~
+    currency: ~
+    description: 'www.rentflot.local - %order_id%'
+    #signature: 'SFuRBhiu7nhzXF2QK6Efkkwobyo03l6XDwVpf'
+    signature: 'OOkEPf2y2YkPwy8o0a9eKUTe52QR6YX6AbOukUb'
+    method: 'card'
+    phone: '+380969628221'
+    culture: ~
+    always_use_default_params: false
+
+
+  # Версия приложения
+  version: '2.3.9'

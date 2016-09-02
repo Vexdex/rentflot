@@ -1,0 +1,26 @@
+all:
+  metas:
+    robots: noindex, nofollow
+    title: Пользователи | Киевская судоходная компания &laquo;Рентфлот&raquo;
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  layout:     layout_backend
+
+indexSuccess:
+  stylesheets:    []
+  javascripts:    []
+  
+editSuccess:
+  stylesheets:    []
+  javascripts:    []
+  
+newSuccess:
+  stylesheets:    []
+  javascripts:    []
+  
+changePasswordSuccess: 
+  javascripts:    [/magicLibsPlugin/jquery/plugins/jquery.validate.js]
+  stylesheets:    [/magicLibsPlugin/grid/infosoft3/css/main.css]
+  
+showErrorSuccess:   
+  stylesheets:    [/magicLibsPlugin/grid/infosoft3/css/main.css]
+  

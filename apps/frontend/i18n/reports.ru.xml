@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+    
+      <!-- Filter -->
+      <trans-unit>
+        <source>filter_date</source>
+        <target>Дата</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_order_type_id</source>
+        <target>Статус</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_catering_type</source>
+        <target>Кухня</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_is_amount_costs_left_uah</source>
+        <target>Еще отдать</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_is_amount_left_uah</source>
+        <target>Еще получим</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>filter_is_motor_ship</source>
+        <target>Только теплоходы</target>
+      </trans-unit>   
+      <trans-unit>
+        <source>filter_item_id</source>
+        <target>Позиции</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_owner_id</source>
+        <target>Судовладелец</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>

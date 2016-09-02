@@ -1,0 +1,8 @@
+all:
+  magic_cache:
+    #class: sfFileCache  # sfFileCache, sfAPCCache, sfXCacheCache, sfEAcceleratorCache, sfSQLiteCache
+    param:
+      automatic_cleaning_factor: 0
+      cache_dir:                 %SF_APP_CACHE_DIR%/magic_cache
+      lifetime:                  86400
+      prefix:                    %SF_APP_DIR%/magic_cache

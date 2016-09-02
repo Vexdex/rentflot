@@ -1,0 +1,27 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/12-Filters
+
+#block_en:
+#  class: magicBlockEnCultureFilter
+
+rendering: ~
+security:  
+  class: magicBasicSecurityFilter
+
+# insert your own filters here
+remember_me:
+  class: sfGuardRememberMeFilter
+
+  
+#secure:
+#  class: magicSecureFilter
+
+user_change_password:
+  class: magicChangePasswordFilter
+  
+user_is_active:
+  class: magicUserIsActiveFilter
+  
+cache:     ~
+
+execution: ~

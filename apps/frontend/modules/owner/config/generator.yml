@@ -1,0 +1,61 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Owner
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 owner
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+
+    config:
+      actions:
+        _index:                   { credentials: [owners] }
+        _new:                     { credentials: [owners] }
+        _add:                     { credentials: [owners] }                          
+        _edit:                    { credentials: [owners] }                          
+        _delete:                  { credentials: [owners] }
+        
+      fields:  
+        #option_name:              { is_sortable: true, sort_method: orderByOptionName }
+        #options:                  { is_sortable: false, sort_method: orderByOptions }
+        username:                  { is_sortable: true, sort_method: orderUsername }
+      
+        
+      list:
+        title:                    page_list_title 
+        display:                  [_username, org_name, name, address, phones, email, _item_list, additional_information]
+        #sort:                    location_id, asc]
+        table_method:             retrieveOwnerList
+        max_per_page:             30
+        object_actions:
+          _edit:                  ~        
+        actions:
+          _new:                   ~
+           
+      filter:                         
+        display:                  [org_name, name, address, phones, additional_information]
+        
+      form:
+        display:                  [user_id, org_name, name, address, phones, email, additional_information]
+      
+      edit:
+        display:                  ~
+        title:                    page_edit_title
+        actions:          
+          _save:                  #{label: save}
+          _save_and_add:          #{label: save_and_add} 
+          _list:                  #{label: list}
+          _delete:                #{label: delete}    
+        
+      new:
+        display:                  ~
+        title:                    page_new_title 
+        actions:          
+          _save:                  #{label: save}
+          _save_and_add:          #{label: save_and_add} 
+          _list:                  #{label: list}
+          _delete:                #{label: delete}  

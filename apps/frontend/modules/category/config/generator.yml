@@ -1,0 +1,83 @@
+generator:
+  class:                          sfDoctrineMagicGenerator
+  param:
+    model_class:                  Category
+    theme:                        infosoft3
+    non_verbose_templates:        true
+    with_show:                    false
+    singular:                     ~
+    plural:                       ~
+    route_prefix:                 category
+    with_doctrine_route:          true
+    actions_base_class:           sfActions
+
+    config:
+      actions:
+        _index:                       { credentials: [catalog] }               
+        _new:                         { credentials: [catalog] }               
+        _add:                         { credentials: [catalog] }                          
+        _edit:                        { credentials: [catalog] }                          
+        _delete:                      { credentials: [catalog] } 
+
+      fields:
+        name:              { is_sortable: true, sort_method: orderName }
+        parent_name:       { is_sortable: true, sort_method: orderParentName }
+        created_at:        { date_format: dd.MM.yyyy }
+        item_contacts:     { help: true }
+
+
+      list:
+        title:             page_index_title
+        display:           [is_hidden, name, parent_name, slug, order, created_at]
+        sort:              [order, asc]
+        max_per_page:      30
+        table_method:      retrieveCategoryList
+        #table_count_method: doCount
+        object_actions:
+        #  _show:           ~
+          _edit:           ~
+          _delete:         ~
+        #  activate:
+        #    action:        activate
+        #  deactivate:
+        #    action:        deactivate
+        #  custom:
+        #    action:        @route
+        #    params:
+        #      class=my_css_class
+        #      confirm: 'confirm'
+        #      post: true
+        #      style: 'border:1px solid red'
+        #batch_actions:
+        #  activate:
+        #    action:        activate
+        #  deactivate:
+        #    action:        deactivate
+        #  _delete:         ~
+        #layout:            tabular or stacked
+        #params: |
+        #  %%title%% written by %%author%% and published on %%published_at%%.
+
+      filter:
+        class: false
+
+      form:
+        display: [is_hidden, parent_id, name, slug, h1, title, description, keywords, seo_short_text, seo_full_text, item_h1, item_title, item_description, item_keywords, item_contacts, order, category_template, product_template]
+
+      edit:
+        title:             page_edit_title
+        display:           ~
+        actions:
+          _save:           ~
+          _list:           ~
+          _delete:         ~
+
+      new:
+        title:             page_new_title
+        display:           ~
+
+        actions:
+          _save:           ~
+          _save_and_add:   ~
+          _list:           ~
+          _delete:         ~

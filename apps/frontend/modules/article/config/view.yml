@@ -1,0 +1,24 @@
+all:
+  metas:
+    robots: noindex, nofollow
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  layout:     layout_backend 
+  
+listFrontendSuccess:
+  metas:
+    robots: index, follow
+  stylesheets: [-*, main.css]
+  layout:     layout
+
+showFrontendSuccess:
+  metas:
+    robots: index, follow
+  stylesheets: [-*, main.css]
+  layout:     layout
+
+editSuccess:
+  javascripts:    [image_upload.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]
+  
+newSuccess:
+  javascripts:    [image_upload.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]
+  

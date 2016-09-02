@@ -1,0 +1,14 @@
+all:
+  metas:
+    robots: noindex, nofollow
+  stylesheets: [-*, backend/common.css, backend/screen.css: { position: last }]
+  javascripts: [adm.js]
+  layout:     layout_backend
+
+editSuccess:
+  javascripts:    [/magicLibsPlugin/grid/infosoft3/js/grid-i18n.js, /magicLibsPlugin/grid/infosoft3/js/image_upload.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]
+  
+newSuccess:
+  javascripts:    [/magicLibsPlugin/grid/infosoft3/js/grid-i18n.js, /magicLibsPlugin/grid/infosoft3/js/image_upload.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/tiny_mce.js, /magicLibsPlugin/tiny_mce/tiny_mce-3.9.3/plugins/tinybrowser/tb_tinymce.js.php]
+  
+  

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd" >
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <header />
+    <body>
+
+      <!-- Common -->
+      <trans-unit>
+        <source>all</source>
+        <target>- All -</target>
+      </trans-unit>
+      <trans-unit>
+        <source>none</source>
+        <target>- None -</target>
+      </trans-unit>
+      <trans-unit>
+        <source>loading</source>
+        <target>Loading ...</target>
+      </trans-unit>
+    
+      <!-- Validation Error Messages -->
+      <trans-unit>
+        <source>Required.</source>
+        <target>Required field</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Invalid.</source>
+        <target>Invalid data</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is not an integer.</source>
+        <target>"%value%" is not an integer</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is not a number.</source>
+        <target>"%value%" is not a number</target>
+      </trans-unit>
+      <trans-unit>
+        <source>An object with the same "%column%" already exist.</source>
+        <target>An object with the same "%column%" already exist</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Invalid captcha.</source>
+        <target>Invalid captcha token</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The begin date must be before the end date.</source>
+        <target>The begin date must be before the end date</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Value must be greater than %greater_than%.</source>
+        <target>Value must be greater than %greater_than%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Value must be less than %less_than%.</source>
+        <target>Value must be less than %less_than%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is too short (%min_length% %characters% min).</source>
+        <target>"%value%" is too short (%min_length% %characters% min)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>"%value%" is too long (%max_length% %characters% max).</source>
+        <target>"%value%" is too long (%max_length% %characters% max)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Chars are not allowed.</source>
+        <target>Chars are not allowed.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>exact_length</source>
+        <target>The length of the entered value should be %exact_length% %characters%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>readonly_field</source>
+        <target>Readonly field</target>
+      </trans-unit>
+      
+      <!-- Modules custom -->
+      <trans-unit>
+        <source>invalid_amount</source>
+        <target>The amount must be at least %min_value% and not more than %max_value% uah</target>
+      </trans-unit>
+      <trans-unit>
+        <source>invalid_contract_period</source>
+        <target>The term of the loan must be at least %min_contract_period% and no more than %max_contract_period% days</target>
+      </trans-unit>
+      
+      
+      
+      <!-- Actions -->
+      <trans-unit>
+        <source>delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit>
+        <source>new</source>
+        <target>New</target>
+      </trans-unit>
+      <trans-unit>
+        <source>edit</source>
+        <target>Edit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list</source>
+        <target>Back to the list</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save_and_add</source>
+        <target>Save and add</target>
+      </trans-unit>
+      <trans-unit>
+        <source>cancel</source>
+        <target>Cancel</target>
+      </trans-unit>
+      <trans-unit>
+        <source>confirm</source>
+        <target>You confident?</target>
+      </trans-unit>
+      <trans-unit>
+        <source>send</source>
+        <target>Send request</target>
+      </trans-unit>
+      
+
+      <!-- Filters -->
+      <trans-unit>
+        <source>filter_apply</source>
+        <target>Search</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter_reset</source>
+        <target>Reset filter</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter</source>
+        <target>Filter</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>list_empty</source>
+        <target>Data not found</target>
+      </trans-unit>
+      <trans-unit>
+        <source>no_result</source>
+        <target>Data not found</target>
+      </trans-unit>
+      <trans-unit>
+        <source>actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit>
+        <source>found</source>
+        <target>Found</target>
+      </trans-unit>
+      <trans-unit>
+        <source>page_nb_pages</source>
+        <target>(Page %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>asc</source>
+        <target>Ascending</target>
+      </trans-unit>
+      <trans-unit>
+        <source>desc</source>
+        <target>Descending</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>batch_with_selected</source>
+        <target>With selected</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_delete</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_apply</source>
+        <target>OK</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_select_action</source>
+        <target>Please select the action</target>
+      </trans-unit>
+      
+      <!-- Pagination -->
+      <trans-unit>
+        <source>first_page</source>
+        <target>First page</target>
+      </trans-unit>
+      <trans-unit>
+        <source>previous_page</source>
+        <target>Previous Page</target>
+      </trans-unit>
+      <trans-unit>
+        <source>next_page</source>
+        <target>Next page</target>
+      </trans-unit>
+      <trans-unit>
+        <source>last_page</source>
+        <target>Last page</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_1</source>
+        <target>record</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_2</source>
+        <target>records</target>
+      </trans-unit>
+      <trans-unit>
+        <source>nb_results_plural_3</source>
+        <target>records</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_1</source>
+        <target>character</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_2</source>
+        <target>characters</target>
+      </trans-unit>
+      <trans-unit>
+        <source>characters_plural_3</source>
+        <target>characters</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_1</source>
+        <target>year</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_2</source>
+        <target>years</target>
+      </trans-unit>
+      <trans-unit>
+        <source>years_plural_3</source>
+        <target>years</target>
+      </trans-unit>
+      
+ 
+      <!-- Form -->
+      <trans-unit>
+        <source>lang_uk</source>
+        <target>Ukrainian</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_ru</source>
+        <target>Russian</target>
+      </trans-unit>
+      <trans-unit>
+        <source>lang_en</source>
+        <target>English</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>create_successfull</source>
+        <target>Record created successfully</target>
+      </trans-unit>
+      <trans-unit>
+        <source>update_successfull</source>
+        <target>Record updated successfully</target>
+      </trans-unit>
+      <trans-unit>
+        <source>create_successfull_and_add</source>
+        <target>Record created successfully. You can add more</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save_error</source>
+        <target>Errors occurred when saving a record</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_successfull</source>
+        <target>Record deleted successfully</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_items_selected</source>
+        <target>You must select at least one record</target>
+      </trans-unit>
+      <trans-unit>
+        <source>batch_no_action_selected</source>
+        <target>You must choose an action for selected records</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_items_does_not_exists</source>
+        <target>Errors occurred when deleting some records</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_successfull</source>
+        <target>Selected records deleted successfully</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_error_constraint</source>
+        <target>Error occurred when deleting a record. It is used in another module</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_n</source>
+        <target>Errors occurred when deleting a records. They used in another module</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_batch_error_constraint_1</source>
+        <target>Error occurred when deleting a record. It is used in another module</target>
+      </trans-unit>
+      
+      <!-- Photo -->
+      <trans-unit>
+        <source>image</source>
+        <target>Image</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete_image</source>
+        <target>Delete image</target>
+      </trans-unit>
+      <trans-unit>
+        <source>add_image</source>
+        <target>Add image</target>
+      </trans-unit>
+      <trans-unit>
+        <source>additional_image</source>
+        <target>Additional image</target>
+      </trans-unit>
+      <trans-unit>
+        <source>image_max_upload_count</source>
+        <target>You have exceeded the maximum number of uploaded images</target>
+      </trans-unit>
+      
+      <!-- Date -->
+      <trans-unit>
+        <source>choose_date</source>
+        <target>Please select a date</target>
+      </trans-unit>
+
+      <!-- DP Protection -->
+      <trans-unit>
+        <source>dp_attack</source>
+        <target>You are trying to send the form twice</target>
+      </trans-unit>    
+   
+
+    </body>
+  </file>
+</xliff>

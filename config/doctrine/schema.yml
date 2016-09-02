@@ -1,0 +1,457 @@
+Category:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, title, description, seo_short_text, seo_full_text, keywords, h1, item_title, item_description, item_keywords, item_h1, item_contacts]
+  columns:
+    is_hidden:              { type: boolean, default: false }
+    parent_id:              { type: integer }
+    name:                   { type: string(255) }
+    slug:                   { type: string(255), unique: true }
+    category_template:      { type: string(255) }
+    product_template:       { type: string(255) }
+    title:                  { type: string(255) }
+    description:            { type: string(2000) }
+    keywords:               { type: string(2000) }
+    seo_short_text:         { type: string(2000) }
+    seo_full_text:          { type: string(2000) }
+    h1:                     { type: string(255) }
+    item_title:             { type: string(255) }
+    item_description:       { type: string(2000) }
+    item_keywords:          { type: string(2000) }
+    item_h1:                { type: string(255) }
+    item_contacts:          { type: string(2000) }
+    order:                  { type: integer, default: 1000 }
+  
+  relations:
+    ParentCategory:         { class: Category, local: parent_id, foreign: id, foreignAlias: ChildCategories }    
+    Items:                  { class: Item, refClass: CategoryItem, local: category_id, foreign: item_id, orderBy: order, foreignAlias: Categories }
+    Advertisements:         { class: Advertisement, refClass: CategoryAdvertisement, local: category_id, foreign: advertisement_id, foreignAlias: Categories }
+
+News:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, title, description, keywords, text]
+  columns:
+    name:                   { type: string(255) }
+    slug:                   { type: string(255), unique: true }
+    title:                  { type: string(255) }
+    description:            { type: string(2000) }
+    keywords:               { type: string(2000) }
+    text:                   { type: string(10000) }
+
+Kitchen:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, title, description, keywords, text]
+  columns:
+    name:                   { type: string(255) }
+    slug:                   { type: string(255), unique: true }
+    title:                  { type: string(255) }
+    description:            { type: string(2000) }
+    keywords:               { type: string(2000) }
+    text:                   { type: string(10000) }
+    column:                 { type: integer, notnull: true, default: 0 }
+
+Advertisement:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, title, description, keywords, text]
+  columns:
+    name:                   { type: string(255) }
+    slug:                   { type: string(255), unique: true }
+    title:                  { type: string(255) }
+    description:            { type: string(2000) }
+    keywords:               { type: string(2000) }
+    text:                   { type: string(10000) }
+
+CategoryAdvertisement:
+  actAs:
+    Timestampable: ~
+  columns:
+    category_id:            { type: integer, notnull: true }
+    advertisement_id:                { type: integer, notnull: true }
+  relations:
+    Category:               { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: CategoryAdvertisements }
+    Advertisement:          { onDelete: CASCADE, local: advertisement_id, foreign: id, foreignAlias: AdvertisementCategories }
+
+Item:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, title,html_description,main_image_title,main_image_alt,  html_keywords, listing_text, h1, short_description, description, target_use, passenger_capacity, basic_info, equipment, crew, passenger_insurance, price, additional_info, in_sight, catering, info_value1, info_text1, info_value2, info_text2, info_value3, info_text3, price_value1, price_text1, price_value2, price_text2, price_value3, price_text3]
+  columns:
+    is_active:              { type: boolean, default: true }
+    is_own:                 { type: boolean, default: true }
+    hide_attractions:       { type: boolean, default: false }
+    name:                   { type: string(255), notnull: true }
+    title:                  { type: string(255) }
+    html_description:       { type: string(1000) }
+    html_keywords:          { type: string(1000) }
+    main_image_title:       { type: string(1000) }
+    main_image_alt:         { type: string(1000) }
+    listing_text:           { type: string(1000) }
+    h1:                     { type: string(255) }
+    internal_name:          { type: string(255), notnull: true }
+    doc_name:               { type: string(255), notnull: true }
+    slug:                   { type: string(255), notnull: true, unique: true }
+    owner_id:               { type: integer }
+    
+    # Единицы измерения и цена
+    unit_type_id:           { type: integer, notnull: true }
+    price_uah:              { type: double, notnull: true }
+    price_discount_uah:     { type: double, notnull: true }
+    commission_percent:     { type: double }
+    
+    short_description:      { type: string(10000) }
+    description:            { type: string(10000) }
+    target_use:             { type: string(10000) } # ship_function
+    passenger_capacity:     { type: string(10000) }
+    basic_info:             { type: string(10000) }
+    equipment:              { type: string(10000) }
+    crew:                   { type: string(10000) }
+    passenger_insurance:    { type: string(10000) }
+    price:                  { type: string(10000) }
+    additional_info:        { type: string(10000) }
+    in_sight:               { type: string(10000) }
+    catering:               { type: string(10000) }
+
+    info_value1:            { type: string(255) }
+    info_text1:             { type: string(255) }
+    info_value2:            { type: string(255) }
+    info_text2:             { type: string(255) }
+    info_value3:            { type: string(255) }
+    info_text3:             { type: string(255) }
+    price_value1:           { type: string(255) }
+    price_text1:            { type: string(255) }
+    price_value2:           { type: string(255) }
+    price_text2:            { type: string(255) }
+    price_value3:           { type: string(255) }
+    price_text3:            { type: string(255) }
+    
+    main_image_id:          { type: integer }
+    order:                  { type: integer, notnull: true, default: 1000}
+    
+  relations:    
+    Owner:                  { onDelete: RESTRICT, local: owner_id, foreign: id, foreignAlias: Items }
+    UnitType:               { class: ItemUnitType, onDelete: RESTRICT, local: unit_type_id, foreign: id, foreignAlias: Items }
+    MainImage:              { onDelete: SET NULL, class: ItemImage, local: main_image_id, foreign: id, foreignAlias: Itemes }  
+    Images:                 { class: ItemImage, local: id, foreign: object_id, type: many, foreignType: one, orderBy: order, foreignAlias: Item }
+
+# @Image 
+ItemImage:
+  actAs:                  
+    Timestampable: ~
+  columns:
+    object_id:              { type: integer }
+    filename:               { type: string(255), notnull: true }
+    order:                  { type: integer, notnull: true, default: 0 }
+    alt:                    { type: string(255), notnull: true, default: '' }
+    title:                  { type: string(255), notnull: true, default: '' }
+    alt_en:                 { type: string(255), notnull: true, default: '' }
+    title_en:               { type: string(255), notnull: true, default: '' }
+    width:                  { type: integer, notnull: true, default: 0 }
+    height:                 { type: integer, notnull: true, default: 0 }
+  #relations:      
+    #Customer:                     { onDelete: RESTRICT, local: customer_id, foreign: id, foreignAlias: Photos }
+
+ItemTempImage:
+  actAs:
+    Timestampable: ~
+  columns:
+    object_id:              { type: string(32), notnull: true }
+    filename:               { type: string(150), notnull: true }
+    order:                  { type: integer, notnull: true, default: 0 }
+    alt:                    { type: string(255), notnull: true, default: '' }
+    title:                  { type: string(255), notnull: true, default: '' }
+    alt_en:                 { type: string(255), notnull: true, default: '' }
+    title_en:               { type: string(255), notnull: true, default: '' }
+    width:                  { type: integer, notnull: true, default: 0 }
+    height:                 { type: integer, notnull: true, default: 0 }
+
+ItemUnitType:
+  columns:
+    name:                   { type: string(255), notnull: true }
+    doc_name:               { type: string(255), notnull: true }
+ 
+CategoryItem:
+  actAs:
+    Timestampable: ~
+  columns:
+    category_id:            { type: integer, notnull: true }
+    item_id:                { type: integer, notnull: true }
+  relations:
+    Category:               { onDelete: CASCADE, local: category_id, foreign: id, foreignAlias: CategoryItems }
+    Item:                   { onDelete: CASCADE, local: item_id, foreign: id, foreignAlias: ItemCategories }
+
+# Владельцы плавсредств  
+Owner:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:                { type: integer }
+    org_name:               { type: string(255) }
+    name:                   { type: string(255), notnull: true }
+    address:                { type: string(5000) }
+    phones:                 { type: string(5000) }
+    email:                  { type: string(255) }
+    additional_information: { type: string(5000) }
+  relations:
+    User:                   { class: sfGuardUser, onDelete: SET NULL, type: one, local: user_id, foreign: id, foreignType: one, foreignAlias: Owner }
+
+# Клиенты    
+Client:
+  actAs:
+    Timestampable: ~
+  columns:
+    org_name:               { type: string(255), notnull: true, default: '' }
+    name:                   { type: string(255), notnull: true }
+    address:                { type: string(5000) }
+    phones:                 { type: string(5000) }
+    email:                  { type: string(255) }
+    additional_information: { type: string(5000) }
+
+#Причалы
+Pier:
+  columns:
+    name: string(255)  # Specify the type and length
+
+Callback:
+  actAs:
+    Timestampable: ~
+  columns:
+    phone: string(255)  # Specify the type and length
+
+#Причалы для фронтенда
+PierFrontend:
+  columns:
+    name: string(255)  # Specify the type and length
+    link: string(255)  # Specify the type and length
+
+#Причалы 2
+Pierf:
+  columns:
+    name: string(255)  # Specify the type and length
+    link: string(255)  # Specify the type and length
+    name_english: string(255)
+    link_english: string(255)
+#Статусы кнтакта с клиентом
+#1 - запланирован, 2 - выполнен, 3 - не выполнен, 4 - отказ клиента
+ContactStatus:
+  columns:
+    name: string(255)
+
+#Контакты - новый модель 'CRM'
+#Но привязка уже не по клиенту - по ЗАКАЗУ
+ClientContact:
+  actAs:
+    Timestampable: ~
+    Signable: ~
+  columns:
+    contact_date:                   { type: timestamp, notnull: true }
+    contact_time:                   { type: time, notnull: true }    
+    comment:                        { type: string(5000) }
+    order_id:                       { type: integer, notnull: true }
+    contact_status_id:              { type: integer, notnull: true }
+  relations:
+    ContactStatus:                  { onDelete: RESTRICT, local: contact_status_id, foreign: id, foreignAlias: ClientContact }
+    Order:                          { onDelete: RESTRICT, local: order_id, foreign: id, foreignAlias: ClientContact}
+    User:                           { class: sfGuardUser, onDelete: SET NULL, type: one, local: created_by, foreign: id, foreignType: one, foreignAlias: Owner }	
+
+# Заказы
+Order:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+    Signable: ~
+  columns:
+    is_archived:            { type: boolean, default: false }
+    client_id:              { type: integer, notnull: true }
+    pier_id:                { type: integer }
+#   user_id:                { type: integer }
+    spd_id:                 { type: integer }
+    order_type_id:          { type: integer }
+    order_owner_id:         { type: integer, notnull: true, default: 1 }
+    date:                   { type: timestamp, notnull: true }
+    time_from:              { type: time, notnull: true }
+    time_to:                { type: time, notnull: true }
+    people_count:           { type: string(255) }        # 8-10
+    additional_information: { type: string(5000) }
+  relations:
+    #Place:                  { class: Item, onDelete: RESTRICT, local: place_id, foreign: id, foreignAlias: Orders }
+    #Item:                   { onDelete: RESTRICT, local: item_id, foreign: id, foreignAlias: Orders }
+    Items:                  { class: Item, refClass: OrderItem, local: order_id, foreign: item_id, foreignAlias: Orders }    
+    OrderType:              { onDelete: RESTRICT, local: order_type_id, foreign: id, foreignAlias: Orders }
+    Client:                 { onDelete: RESTRICT, local: client_id, foreign: id, foreignAlias: Orders }
+#    User:                   { class: sfGuardUser, onDelete: SET NULL, local: user_id, foreign: id, foreignAlias: Orders }
+    Spd:                    { onDelete: RESTRICT, local: spd_id, foreign: id, foreignAlias: Orders }
+    OrderOwner:             { onDelete: RESTRICT, local: order_owner_id, foreign: id, foreignAlias: Orders }
+    Pier:                   { onDelete: RESTRICT, local: pier_id, foreign: id, foreignAlias: Piers }
+
+OrderType:
+  options:
+    orderBy: order    
+  columns:
+    name:                   { type: string(255), notnull: true }    
+    order:                  { type: integer, notnull: true, default: 1000 }    
+
+OrderOwner:
+  options:
+    orderBy: order
+  columns:
+    name:                   { type: string(255), notnull: true }
+    short_name:             { type: string(255) }
+    order:                  { type: integer, notnull: true, default: 1000 }
+    
+OrderItem:
+  actAs:
+    Timestampable: ~
+    SoftDelete: ~
+  columns:
+    order_id:               { type: integer, notnull: true }
+    item_id:                { type: integer, notnull: true }
+    status_id:              { type: integer, notnull: true, default: 1 }
+    count:                  { type: double, notnull: true }
+    price_uah:              { type: double, notnull: true, default: 0 }
+    #amount_uah:             { type: double, notnull: true }
+    amount_payed_uah:       { type: double, notnull: true, default: 0 }
+    amount_payed_bank_uah:  { type: double, notnull: true, default: 0 }
+    amount_costs_uah:       { type: double, notnull: true, default: 0 }
+    amount_costs_payed_uah: { type: double, notnull: true, default: 0 }    
+  relations:
+    Order:                  { onDelete: CASCADE, local: order_id, foreign: id, foreignAlias: OrderItems }
+    Item:                   { onDelete: RESTRICT, local: item_id, foreign: id, foreignAlias: ItemOrders }
+    Status:                 { onDelete: RESTRICT, class: OrderItemStatus, local: status_id, foreign: id, foreignAlias: OrderItems }
+    
+  #indexes:
+  #  order_item:
+  #    fields: [order_id, item_id]
+  #    type: unique    
+
+OrderItemStatus:
+  options:
+    orderBy: order
+  columns:
+    name:                   { type: string(255), notnull: true }
+    order:                  { type: integer, notnull: true, default: 1000 }
+
+
+
+
+# Оплаты    
+#Payment:
+#  actAs:
+#    Timestampable: ~
+#  columns:
+#    order_id:               { type: integer }
+#    amount_uah:             { type: double }
+#  relations:  
+#    Order:                  { onDelete: RESTRICT, local: order_id, foreign: id, foreignAlias: Payments }
+
+
+# Бухгалтерия
+Bill:
+  actAs:
+    Timestampable: ~
+  columns:
+    type_id:                { type: integer, notnull: true }
+    index_id:               { type: integer, notnull: true }
+    name:                   { type: string(255), notnull: true }      
+    description:            { type: string(2000) }      
+    amount_uah:             { type: double, notnull: true }      
+    amount_payed_uah:       { type: double, notnull: true }     
+  relations:
+    Type:                   { class: BillType, onDelete: RESTRICT, local: type_id, foreign: id, orderBy: order, foreignAlias: Bills }
+    Index:                  { class: BillIndex, onDelete: RESTRICT, local: index_id, foreign: id, orderBy: order, foreignAlias: Bills }
+
+BillType:
+  columns:
+    name:                   { type: string(255), notnull: true }      
+    order:                  { type: integer, notnull: true, default: 1000 }
+    
+BillIndex:
+  columns:
+    name:                   { type: string(255), notnull: true }          
+    order:                  { type: integer, notnull: true, default: 1000 }
+    
+    
+    
+# СПДшники
+Spd:
+  columns:
+    name:                   { type: string(255), notnull: true }
+    spd_name:               { type: string(500), notnull: true }
+    spd_name_genitive:      { type: string(500), notnull: true }
+    details:                { type: string(5000), notnull: true }          
+#    order:                  { type: integer, notnull: true, default: 1000 }    
+    
+    
+# Статьи
+Article:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [name, content, title, description, keywords, h1]
+  columns:
+    name:                   { type: string(255), notnull: true }
+    slug:                   { type: string(255), notnull: true, unique: true }
+    content:                { type: string(10000), notnull: true }
+    title:                  { type: string(255) }
+    description:            { type: string(2000) }
+    keywords:               { type: string(2000) }
+    h1:                     { type: string(255) }
+    
+    
+# Фидбэк    
+FeedbackSubject:
+  actAs:                
+    I18n:
+      fields: [name]
+  columns:
+    name:                   { type: string(255), notnull: true }
+    
+## Log
+ActionLog:
+  actAs:
+    Timestampable: ~
+  columns:
+    username:               { type: string(255) }
+    #type_id:                { type: integer, notnull: true }
+    module:                 { type: string(255) }
+    action:                 { type: string(255) }
+    ip:                     { type: string(255) }
+    ids:                    { type: string(1000) }  
+    description:            { type: string(255) }                # Описание
+  #relations:
+    #sfGuardUser:            { onDelete: SET NULL, local: user_id, foreign: id, foreignAlias: Log }  
+    #ActionType:             { onDelete: SET NULL, local: user_id, foreign: id, foreignAlias: Log }  
+  
+## User profile ##
+sfGuardUserProfile:
+  tableName:                sf_guard_user_profile
+  columns:
+    user_id:                { type: integer, notnull: true }
+    last_name:              { type: string(80) }
+    first_name:             { type: string(80) }
+    patronymic:             { type: string(80) }
+    email:                  { type: string(255), notnull: true }
+    validate:               { type: string(32) }
+    login_attempts:         { type: integer, default: 0 }
+    blocked_at:             { type: timestamp }
+    force_change_password:  { type: boolean }
+  relations:
+    User:                   { class: sfGuardUser, foreign: id, local: user_id, type: one, onDelete: cascade, foreignType: one, foreignAlias: Profile }
+
+## User password history ##    
+sfGuardUserPasswordHistory:
+  tableName:              sf_guard_user_pwd_hist
+  actAs:                  
+    Timestampable: ~
+  columns:
+    user_id:              { type: integer, notnull: true }
+    password:             { type: string(255) }
+  relations:
+    sfGuardUser:          { onDelete: CASCADE, local: user_id, foreign: id, foreignAlias: PasswordHistory }

@@ -1,0 +1,1 @@
+<span class="<?php echo $bill->getTypeId() == 1 || $bill->getTypeId() == 3 ? 'red' : 'green' ?>"><?php echo format_price($bill->getAmountPayedUah()) ?></span>

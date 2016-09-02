@@ -1,0 +1,8 @@
+all:
+  magicDependentSelectPlugin:
+    defaults:
+      model: ~
+      related_column: ~
+      key_method: getPrimaryKey
+      value_method: __toString
+      order_by: ~

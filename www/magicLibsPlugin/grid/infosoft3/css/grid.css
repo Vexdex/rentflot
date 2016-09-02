@@ -1,0 +1,521 @@
+/* Infosoft Grid CSS styles v.1.0 */
+
+#infosoft_grid .clearfix:after, #infosoft_grid .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+#infosoft_grid .clearfix, #infosoft_grid .container {display:block;}
+#infosoft_grid .clear {clear:both;}
+
+#infosoft_grid ul, #infosoft_grid ul li {
+  list-style-type: none;
+}
+
+#infosoft_grid,
+#infosoft_grid table,
+#infosoft_grid ul,
+#infosoft_grid ul li,
+#infosoft_grid ul li:before,
+#infosoft_grid ul li:after,
+#infosoft_grid td,
+#infosoft_grid th,
+#infosoft_grid img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+#infosoft_grid {
+  padding-top: 5px
+}
+
+#infosoft_grid .DataContainer {
+  min-width: 450px
+}
+
+#infosoft_grid table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#infosoft_grid ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+
+#infosoft_grid ul li {
+  list-style-type: none;
+  text-indent: 0;
+  -webkit-padding-start: 0;
+}
+
+#infosoft_grid ul li:before {
+  content: '';
+  text-indent: 0;
+  display: none
+}
+
+#infosoft_grid td,
+#infosoft_grid th {
+  padding: 2px;
+  border: none;
+  text-align: left;
+  text-indent: 0;
+  vertical-align: top;
+}
+
+#infosoft_grid a,
+#infosoft_grid li a,
+#infosoft_grid li a:link,
+#infosoft_grid a:link,
+#infosoft_grid li a:visited,
+#infosoft_grid a:visited {
+  color: #005DAD;
+}
+
+#infosoft_grid li a:hover,
+#infosoft_grid a:hover {
+  color: #000000
+}
+
+#infosoft_grid .Img16x16 {
+  width: 16px;
+  height: 16px;
+}
+
+#infosoft_grid .Img24x24 {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* List & Filters */
+
+#infosoft_grid  .GridList {
+  background: #ffffff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#infosoft_grid  .Filters {
+  min-width: 320px;
+  background: #ffffff;
+}
+
+#infosoft_grid .GridList .Odd,
+#infosoft_grid .Filters .Odd {
+  background-color: #fdfdfd;
+}
+
+#infosoft_grid .GridList .Even,
+#infosoft_grid .Filters .Even {
+  background-color: #f5f5f5;
+}
+
+#infosoft_grid .GridList td,
+#infosoft_grid .GridList th,
+#infosoft_grid .Filters td,
+#infosoft_grid .Filters th {
+  padding: 4px 6px;
+  border: 1px solid #d9d9d9;
+  /*background: #fdfdfd;*/
+}
+
+#infosoft_grid .GridList th {
+  text-align: left;
+  background: #f9f300;
+  border: 1px solid #d6c40f;
+}
+
+#infosoft_grid .Filters th, .Filters th {
+  text-align: left;
+  background: #eaeaea;
+  border: 1px solid #d9d9d9;
+}
+
+#infosoft_grid .GridList th a,
+#infosoft_grid .GridList th a:visited,
+#infosoft_grid .GridList th span,
+#infosoft_grid .Filters th a,
+#infosoft_grid .Filters th a:visited,
+#infosoft_grid .Filters th span {
+  color: #111111;
+}
+
+#infosoft_grid .Filters thead, #infosoft_grid .Filters tbody {
+  padding: 0;
+  margin: 0;
+}
+
+#infosoft_grid .Filters th.FiltersHeader {
+  background-image: url(../images/toggle_filters.gif);
+  background-repeat: no-repeat;
+  background-position: 97% 55%;
+  cursor: pointer;
+  padding-right: 16px;
+  min-width: 320px;
+}
+
+
+#infosoft_grid .Filters .FilterName {
+  background: #f5f5f5
+}
+
+#infosoft_grid .Filters .FilterValue table td {
+  padding: 2px 3px;
+  border: none;
+  vertical-align: middle
+}
+
+#infosoft_grid .Filters input[type=submit] {
+  width: 120px
+}
+
+/* Grid List Actions */
+
+#infosoft_grid .GridList ul.GridActions {
+ 
+}
+
+#infosoft_grid .GridList ul.GridActions li {
+  
+}
+
+#infosoft_grid .GridList .BatchCheckbox {
+  text-align: center;
+  width: 25px;
+}
+
+#infosoft_grid .GridList .Actions {
+  text-align: left;
+  width: 80px;
+  padding-right: 10px
+}
+
+#infosoft_grid .BatchActions {
+  margin: 5px 0;
+}
+
+#infosoft_grid .BatchActions li{
+  height: 24px;
+  text-align: left;
+}
+
+#infosoft_grid .BatchActions li a {
+  display: block;
+  //position: relative;
+}
+
+#infosoft_grid .BatchActions select, #infosoft_grid .BatchActions option, #infosoft_grid .BatchActions button, #infosoft_grid .BatchActions input {
+  font-size: 8pt;
+} 
+
+
+/* Actions */
+#infosoft_grid .GridActionAdd, #infosoft_grid .GridActionNew0 {
+  padding-left: 22px;
+  background: url(../images/add.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionShow {
+  padding-left: 22px;
+  background: url(../images/view.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionEdit {
+  padding-left: 22px;
+  background: url(../images/edit.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionDelete {
+  padding-left: 22px;
+  background: url(../images/delete.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionList {
+  padding-left: 22px;
+  background: url(../images/list.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionActivate {
+  padding-left: 22px;
+  background: url(../images/activate.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionDeactivate {
+  padding-left: 22px;
+  background: url(../images/deactivate.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionReset_password {
+  padding-left: 22px;
+  background: url(../images/key.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionSearch {
+  padding-left: 22px;
+  background: url(../images/search.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionAddcontract {
+  padding-left: 22px;
+  background: url(../images/add_contract.png) no-repeat 3px 2px;
+}
+
+#infosoft_grid .GridActionPrint {
+  padding-left: 22px;
+  background: url(../images/print.png) no-repeat 3px 2px;
+}
+
+
+
+
+/* Paging */
+
+#infosoft_grid .Pagination {
+  margin: 12px 8px 8px 0;
+}
+
+#infosoft_grid .Pagination .PageFirst,
+#infosoft_grid .Pagination .PageFirstDis,
+#infosoft_grid .Pagination .PagePrev,
+#infosoft_grid .Pagination .PagePrevDis,
+#infosoft_grid .Pagination .PageNext,
+#infosoft_grid .Pagination .PageNextDis,
+#infosoft_grid .Pagination .PageLast,
+#infosoft_grid .Pagination .PageLastDis {
+  display: block;
+  float: left;
+  width: 15px;
+  height: 13px;
+  margin: 4px;
+  background: transparent url('../images/paging.gif') no-repeat 0 0;
+}
+
+#infosoft_grid .Pagination .PageFirst { background-position: -90px 0 }
+#infosoft_grid .Pagination .PageFirst:hover { background-position: -120px 0 }
+#infosoft_grid .Pagination .PageFirstDis { background-position: -105px 0 }
+#infosoft_grid .Pagination .PagePrev:hover { background-position: -30px 0 }
+#infosoft_grid .Pagination .PagePrevDis { background-position: -15px 0 }
+#infosoft_grid .Pagination .PageNext { background-position: -45px 0 }
+#infosoft_grid .Pagination .PageNext:hover { background-position: -75px 0 }
+#infosoft_grid .Pagination .PageNextDis { background-position: -60px 0 }
+#infosoft_grid .Pagination .PageLast { background-position: -135px 0 }
+#infosoft_grid .Pagination .PageLast:hover { background-position: -165px 0 }
+#infosoft_grid .Pagination .PageLastDis { background-position: -150px 0 }
+
+
+#infosoft_grid .Pagination .Pages,
+#infosoft_grid .Pagination .PageCount {
+  display: block;
+  float: left;
+  height: 21px;
+  margin: 0 8px;
+}
+
+#infosoft_grid .MessageSuccess,
+#infosoft_grid .MessageError,
+#infosoft_grid .MessageWarning,
+.MessageSuccess,
+.MessageError ,
+.MessageWarning {
+  border: 1px solid #baf1a2;
+  color: #2b4d00;
+  margin: 2px 1px 8px 0;
+  padding: 9px 8px 9px 34px;
+  background: url('../images/ok24.png') no-repeat 5px 5px #f0ffe6;
+  text-align: left;
+  -moz-border-radius: 3px; /* Firefox */
+  -webkit-border-radius: 3px; /* Safari, Chrome */
+  -khtml-border-radius: 3px; /* KHTML */
+  border-radius: 3px; /* CSS3 */
+  /* Для плохих IE */
+  behavior: url(border-radius.htc); /* учим IE border-radius */
+}
+
+#infosoft_grid .MessageWarning,
+.MessageWarning {
+  border: 1px solid #f1e5a2;
+  color: #4d3f00;
+  background: url('../images/warning24.png') no-repeat 5px 5px #fff7cc;
+}
+
+#infosoft_grid .MessageError,
+.MessageError {
+  border: 1px solid #f1a2a2;
+  color: #4d0000;
+  background: url('../images/error24.png') no-repeat 5px 5px #ffdada;
+}
+
+
+/* Grid Form */
+#infosoft_grid  .GridForm,
+.GridForm {
+  background: #ffffff;
+  width: 100%;
+  margin-top: 3px;
+}
+
+#infosoft_grid .GridForm .Odd,
+.GridForm .Odd {
+  background-color: #fdfdfd;
+}
+
+#infosoft_grid .GridForm .Even,
+.GridForm .Even {
+  background-color: #f5f5f5;
+}
+
+#infosoft_grid .GridForm td,
+#infosoft_grid .GridForm th,
+.GridForm td,
+.GridForm th {
+  padding: 4px 6px;
+  border: 1px solid #b6b6b6;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+  width: 65%;
+}
+
+#infosoft_grid .GridForm th,
+.GridForm th {
+  width: 35%;
+}
+
+#infosoft_grid .GridForm td table th,
+#infosoft_grid .GridForm td table td,
+.GridForm td table th,
+.GridForm td table td {
+  border: none;
+  width: auto;
+  vertical-align: middle;
+}
+
+#infosoft_grid .GridForm th,
+#infosoft_grid .GridForm th a,
+#infosoft_grid .GridForm th span,
+#infosoft_grid .GridForm label,
+.GridForm th,
+.GridForm th a,
+.GridForm th span
+.GridForm label {
+  color: #505050;
+}
+
+
+#infosoft_grid .GridForm input[type=text],
+#infosoft_grid .GridForm input[type=password],
+#infosoft_grid .GridForm textarea,
+.GridForm input[type=text],
+.GridForm input[type=password],
+.GridForm textarea {
+  width: 80%;
+}
+
+#infosoft_grid .GridForm input {
+  
+}
+
+#infosoft_grid .GridFormActions li{
+  height: 22px;
+  text-align: left;
+  padding-right: 20px;
+  display: inline;
+}
+
+#infosoft_grid .GridFormActions li a {
+  /*display: block;
+  position: relative;*/
+}
+
+
+
+
+#infosoft_grid .FieldRequired,
+#infosoft_grid .FieldRequired label,
+.FieldRequired,
+.FieldRequired label  {
+  color: #a50000;
+}
+
+
+#infosoft_grid .Error,
+#infosoft_grid .GridForm .Error,
+.GridForm .Error {
+  color: #c00;
+  font-weight: bold;
+}
+
+#infosoft_grid .Help, #infosoft_grid .GridForm .Help, #infosoft_grid .GridForm .Help ul li, #infosoft_grid .Filters .Help {
+  color: #8f8f8f;
+  font-size: 0.9em
+}
+
+#infosoft_grid .GridForm .Help ul{
+  margin-left: 2.2em;
+}
+
+#infosoft_grid .GridForm .Help ul li {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  list-style-type: disc;
+}
+
+/* Property images */
+#infosoft_grid #object_images_sortable tr, #infosoft_grid #object_images_sortable td{
+  cursor: move
+}
+
+#infosoft_grid #object_images_sortable input, #infosoft_grid #object_images_sortable label {
+  cursor: default
+}
+
+#infosoft_grid #object_images_sortable a {
+  cursor: pointer
+}
+
+#infosoft_grid .AddImage {
+  text-align: center;
+  margin: 5px
+}
+
+
+/* Captcha */
+#infosoft_grid #captcha-container img {
+  vertical-align: middle
+}
+
+
+#infosoft_grid #captcha {
+  width: 45px;
+  height: 45px;
+}
+
+#infosoft_grid #captcha-reload {
+  color: #005DAD !important;
+  border-bottom: 1px dashed #005DAD !important;
+  cursor: pointer;
+  font-size: 0.9em;
+  line-height: 16px
+}
+
+#infosoft_grid #captcha-reload:hover {
+  color: #000 !important;
+  border-bottom: 1px dashed #000 !important
+}
+
+/* Datepicker */
+.ui-datepicker-trigger {
+  cursor: pointer
+}
+
+.ui-dialog {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 0.8em
+}
+
+/* MCE Editor */
+#infosoft_grid .mceToolbar,
+#infosoft_grid .mceToolbar td {
+  padding: 1px;
+  margin: 0;
+}

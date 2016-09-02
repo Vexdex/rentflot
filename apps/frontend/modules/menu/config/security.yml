@@ -1,0 +1,4 @@
+all:
+  is_secure:   true
+  is_ssl:      true
+  credentials: [books]

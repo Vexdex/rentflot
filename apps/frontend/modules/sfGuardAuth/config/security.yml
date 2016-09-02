@@ -1,0 +1,20 @@
+secure:
+  is_secure: false
+
+signin:
+  is_secure: false
+
+signout:
+  is_secure: false
+
+resetRequestPassword:
+  is_secure: false
+  
+signoutRedirect:
+  is_secure: false
+
+signinRedirect:
+  is_secure: false
+  
+#HomePageSigninForm:
+#  is_secure: false
