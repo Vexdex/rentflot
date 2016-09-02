@@ -5,7 +5,7 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      dsn:      mysql:host=localhost;dbname=rentfl00
+      dsn:      mysql:host=localhost;dbname=rentflot00
       username: root
       password: ""
       

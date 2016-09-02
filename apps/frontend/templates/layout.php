@@ -5,29 +5,6 @@
 <html xmlns:og="http://ogp.me/ns#">
 
 <head>
-
-
-<?php 
-
-$rentflotodessa = $_SESSION['rentflotodessa'];;
-if ($rentflotodessa == 'true') {
-?>
-<script>
-window.odessa_redirect = 'true';
-</script>
-<?php 
-}else{
-?>
-<script>
-window.odessa_redirect = 'false';
-</script>
-<?php 
-}
-?>
-<script>
-console.log("window.odessa_redirect - "+window.odessa_redirect+"");
-</script>
-
 <?php 
 
 /* Геолокация   */ 
@@ -49,6 +26,7 @@ getenv('HTTP_FORWARDED')?:
 getenv('REMOTE_ADDR');
 // || $ip == '93.74.5.121' || $ip == '91.216.173.122'
 $actual_url = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+/*
 //92.60.178.227 ip Николая 
 if ($city == 'Одесса' || $ip == '92.60.178.227' || $ip == '93.74.1.199' || $ip == '92.60.178.227' ){
 //if ($ip == '93.72.85.24' || $ip == '91.216.173.122' || $ip == '92.60.178.227' || $ip == '93.74.1.199' || $ip == '92.60.178.227' ){
@@ -60,20 +38,19 @@ header( 'Location: http://www.rentflot.ua/odessa_yachts.html', true, 301 );
 exit();
 }
 }
-
+*/
 /* END Геолокация */
 ?>
 
  
-  <link rel="image_src" 
-        type="image/jpeg" 
-              href="http://www.rentflot.ua/images/logos/flot.jpg" />
+  <link rel="image_src" type="image/jpeg" href="http://www.rentflot.ua/images/logos/flot.jpg" />
     <?php include_http_metas() ?>
     <?php include_metas() ?> 
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
-    <?php include_stylesheets() ?>
-	<?php include_javascripts() ?> 
+    <?php  
+    include_stylesheets(); ?>
+    <?php include_javascripts() ?> 
 <!--	
  <link href='//www.rentflot.ua/mobile/tablet.css' rel='stylesheet' type='text/css'>
  <link href='//www.rentflot.ua/mobile/phone.css' rel='stylesheet' type='text/css'>   
@@ -619,11 +596,11 @@ exit();
 --------------------------------------------------->
 
 <script type="text/javascript">
-/ <![CDATA[ /
+/* <![CDATA[ /
 var google_conversion_id = 924299190;
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
-/ ]]> /
+/ ]]> */
 </script>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
