@@ -91,7 +91,12 @@ class onlineOrderActions extends sfActions
 
     // Create new Client
     $client = new Client();
-    $client->setName($form->getValue('contact_name'));
+    // 03/09/2016 vexdex before
+    //$client->setName($form->getValue('contact_name'));
+    // 03/09/2016 vexdex after [
+    $client->setName("OOR client - " . $form->getValue('contact_phone'));
+    // 03/09/2016 vexdex after ]
+    
     $client->setEmail($form->getValue('contact_email'));
     $client->setPhones($form->getValue('contact_phone'));
     $client->save();
@@ -133,7 +138,7 @@ class onlineOrderActions extends sfActions
 
     $subject = $this->getContext()->getI18N()->__('email_online_order_subject', array('%id%' => $order->getId()), 'order');
     $body = $this->getPartial('email_online_order', array('order' => $order, 'category' => $category, 'item' => $item, 'comment' => $comment, 'contacts' => $contacts));
-    $this->getMailer()->composeAndSendHtml($from, $to, $subject, $body);
+//    $this->getMailer()->composeAndSendHtml($from, $to, $subject, $body);
 
     return array('order' => $order, 'comment' => $comment, 'contacts' => $contacts);
   }

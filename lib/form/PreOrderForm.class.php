@@ -37,7 +37,7 @@ class PreOrderForm extends OrderForm
                 'config' => '{changeYear: true, changeMonth: true}',
                 'culture' => sfContext::getInstance()->getUser()->getCulture())); 
 
-        $this->validatorSchema['date'] = new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d', 'required' => true)); 
+        $this->validatorSchema['date'] = new sfValidatorDateTime(array('datetime_output' => 'Y-m-d', 'required' => true)); 
         // vexdex 03/09/2016 after ]
 
         if ($dirh) {
