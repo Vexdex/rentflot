@@ -24,9 +24,7 @@ class PreOrderForm extends OrderForm
         $this->widgetSchema['contact_phone'] = new sfWidgetFormInput();
         $this->validatorSchema['contact_phone'] = new sfValidatorString(array('required' => true));
 
-
         //$this->useFields(array('contact_name', 'contact_email', 'contact_phone', 'date', 'time_from', 'time_to', 'people_count', 'additional_information'));
-
 
         $this->useFields(array('contact_phone', 'date', 'additional_information'));
 
