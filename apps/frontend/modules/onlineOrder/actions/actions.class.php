@@ -91,6 +91,7 @@ class onlineOrderActions extends sfActions
 
     // Create new Client
     $client = new Client();
+    
     // 03/09/2016 vexdex before
     //$client->setName($form->getValue('contact_name'));
     // 03/09/2016 vexdex after [
@@ -105,11 +106,17 @@ class onlineOrderActions extends sfActions
     $order = new Order();
     //$order->setClient(ClientTable::getUnknownClient());
     $order->setClient($client);
-    $order->setDate($form->getValue('date'));
+    $order->setDate($form->getValue('date'));    
     $order->setTimeFrom($form->getValue('time_from'));
     $order->setTimeTo($form->getValue('time_to'));
     $order->setPeopleCount($form->getValue('people_count'));
-    $order->setAdditionalInformation(implode("\n", $additionalInformation));
+  
+    // 03/09/2016 vexdex before   
+    // $order->setAdditionalInformation(implode("\n", $additionalInformation));
+    // 03/09/2016 vexdex after [
+    $order->setAdditionalInformation("OOR - " . date("Y-m-d H:i:s") . "\n" . implode("\n", $additionalInformation));
+    // 03/09/2016 vexdex after ]  
+    
     $order->save();
 
     // OrderItem
@@ -122,6 +129,21 @@ class onlineOrderActions extends sfActions
     $orderItem->setPriceUah($item->getPriceUah());
     $orderItem->save();
 
+    // 03/09/2016 vexdex after [
+    // contacts_client
+    $contact = new ClientContact();
+    $contact->setOrderId($order->getId());
+				
+    $contact->setContactDate(date('Y-m-d H:i:s'));
+    $contact->setContactTime(date('H:i:s'));
+    $contact->setComment("OOR");
+    $contact->setContactStatusId(1);
+    
+    $contact->save();
+    // 03/09/2016 vexdex after ]
+
+    
+    
     // Send email
     $from = sfConfig::get('app_from_email');
     if (!$from)
@@ -138,7 +160,7 @@ class onlineOrderActions extends sfActions
 
     $subject = $this->getContext()->getI18N()->__('email_online_order_subject', array('%id%' => $order->getId()), 'order');
     $body = $this->getPartial('email_online_order', array('order' => $order, 'category' => $category, 'item' => $item, 'comment' => $comment, 'contacts' => $contacts));
-//    $this->getMailer()->composeAndSendHtml($from, $to, $subject, $body);
+    $this->getMailer()->composeAndSendHtml($from, $to, $subject, $body);
 
     return array('order' => $order, 'comment' => $comment, 'contacts' => $contacts);
   }
