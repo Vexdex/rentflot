@@ -51,6 +51,9 @@
         </td>
       </tr>
       <?php endif ?>
-    <?php endforeach ?>
+    <?php endforeach ?>        
   </table>
+  <!-- 3/9/2016 vexdex [ -->  
+  <br>    
+  <!-- 3/9/2016 vexdex ] -->  
 </center>
