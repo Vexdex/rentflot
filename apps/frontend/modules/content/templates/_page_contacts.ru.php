@@ -19,20 +19,26 @@
        г. Киев<br/>
               ул.Верхний Вал, 72<br/>
                      офис на причале<br/>
+                       <!-- 2016/09/04 vexdex -->
+                     (10 минут пешком от станции<br/> 
+                      метро Контрактовая площадь)
+
 		</div>	
-         <div class="oshow">Одесса</div>		
+                    <div class="oshow">Одесса</div>		
  		 </td>
- 		 <td class="data_cont">
-		 <div class="ohide">
+                    <!-- 2016/09/04 vexdex -->
+ 		 <td class="data_cont" style="white-space:nowrap;overflow:hidden;">
+                    <div class="ohide">
  		 	График работы офиса:<br/>  
-	    </div>
-			Пн. - Сб.<br/>
-			<div class="ohide"><br/>
+                        Пн.- Сб., Вс - в телефонном режиме<br/> 
+                    </div>
+                        <br/>
+			<div class="ohide">
 			Режим работы офиса:<br/> 
 			</div>
 			10.00 - 19.00 ч.
- 		 </td>
-		</tr>
+ 		</td>
+            </tr>
 		
 		<tr><td colspan=2>&nbsp;</td></tr>
 		<tr>
@@ -53,12 +59,18 @@
       (096) 194-61-62 (Kyivstar)<br/>
 			(звоните также и в выходные)
  		 </td>
+                   <!-- 2016/09/04 vexdex  -->
  		 <td class="data_cont">
  		 	e-mail: <script>"rentflot".printAddr('ddd@flo.cm.ua', 'order', '.ua');</script><br/>
 			Skype: <a href="skype:rentflot.ua">rentflot.ua</a><br/>
-			<a href="<?php echo url_for('homepage') ?>">www.rentflot.ua</a>
+			<a href="<?php echo url_for('homepage') ?>">www.rentflot.ua</a><br>
+                        Viber: 050 312-32-64 
  		 </td>
 		</tr>
+                 <tr>
+                    <td><p>&nbsp;</p></td>
+                    <td><p>&nbsp;</p></td>
+                </tr>  
      <tr>
        <td class="cat_cont">Заказать звонок:</td>
        <td class="cat_cont2"><div class="ohide">Обратная связь:</div></td>
@@ -67,7 +79,8 @@
        <td class="data_cont">
          <form action="<?php echo url_for('call/submit') ?>" method="POST" style="width: 100%;">
            <center>
-             <input type="text" placeholder="Телефон" class="ContactPhone" name="phone" id="phone"  style="width: 150px;
+               <!-- 2016/09/04 vexdex style [ -->
+             <input type="text" placeholder="Телефон" class="ContactPhone" name="phone" id="phone"   style="width: 120px;
 height: 30px;
 border-radius: 3px;
 border: 1px solid #C5C8CA;
@@ -75,7 +88,9 @@ padding: 2px 7px;
 outline: 0px none;
 background-color: #FFF;
 margin-top: 0px;
-margin-left: 0px;"/>
+margin-left: 0px;
+text-align: left;"/>
+             <!-- 2016/09/04 vexdex ] -->
              <input type="submit" value="<?php echo __('submit', null, 'call') ?>" style="font-family: Arial,Helvetica,sans-serif;
 height: 29px;
 line-height: 26px;
@@ -114,8 +129,7 @@ color: #8E4702;" id="sub"/>
      </tr>
 	 </table>
 	</td>
- <tr>
- 
+ <tr> 
 
  
  <tr class="ohide">

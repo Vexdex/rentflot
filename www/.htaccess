@@ -20,7 +20,7 @@ php_value post_max_size 8M
   # redirecting to www.rentflot.ua
   #RewriteCond %{HTTPS} off
   #RewriteCond %{HTTP_HOST} !^www\.rentflot\.local$ [NC]
-  #RewriteRule ^(.*)$ http://www.rentflot.local/$1 [R=301,L]
+  # RewriteRule ^(.*)$ http://www.rentflot.local/$1 [R=301,L]
 
   #RewriteCond %{HTTPS} on
   #RewriteCond %{HTTP_HOST} !^www\.rentflot\.local$ [NC]
@@ -29,8 +29,8 @@ php_value post_max_size 8M
   #RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
   #RewriteRule ^(.*)index\.html$ http://%{HTTP_HOST}/$1 [R=301,L]
 
-  #RewriteCond %{THE_REQUEST} ^.*/index\.(php|html)
-  #RewriteRule ^(.*)index\.(php|html)$ /$1 [R=301,L]
+  # RewriteCond %{THE_REQUEST} ^.*/index\.(php|html)
+  # RewriteRule ^(.*)index\.(php|html)$ /$1 [R=301,L]
 
   # by Dmitriy
   # rewriting javascripts and css
@@ -44,5 +44,5 @@ php_value post_max_size 8M
   #RewriteCond %{REQUEST_FILENAME} !-f
 
   # no, so we redirect to our front web controller
-  #RewriteRule ^(.*)$ index.php [QSA,L]
+  # RewriteRule ^(.*)$ index.php [QSA,L]
 </IfModule>

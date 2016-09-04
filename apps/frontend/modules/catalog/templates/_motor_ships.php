@@ -85,8 +85,10 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 <p><?php echo $category->getSeoShortText(ESC_RAW) ?> <?php if($category->getSeoShortText(ESC_RAW)!=""): ?><p style='text-align: right;'><a href="#fulltext">Читать далее -></a></p><?php endif ?></p>
 <?php if ($items->count()): ?>
 
-<?php $count_on_row = 2; $count = 0 ?>
- 
+<?php $count_on_row = 2; $count = 0;?>
+
+ <p><span>Связаться по тел: <a href="/contacts.html">/050/ 312-32-64 (Viber)</a></span></p>
+
 <table class="shop_table" width="100%" cellpadding="2" cellspacing="0" border="0">
 
 <?php foreach ($items as $item): ?>
