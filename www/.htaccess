@@ -1,48 +1,8 @@
-#Options +SymLinksIfOwnerMatch
-
-#RequestHeader unset Range
-#RequestHeader unset Request-Range
-
-php_value upload_max_filesize 2M
-php_value post_max_size 8M
-
-# Session
-#<IfModule mod_php5.c>
-#  #php_value session.save_path "../session"
-#  #php_value session.save_path "C:\www5\vhosts\rentflot\session"
-#  php_value session.gc_probability "1"
-#</IfModule>
-
 <IfModule mod_rewrite.c>
-  RewriteEngine On
-  
-  # by TVP
-  # redirecting to www.rentflot.ua
-  #RewriteCond %{HTTPS} off
-  #RewriteCond %{HTTP_HOST} !^www\.rentflot\.local$ [NC]
-  # RewriteRule ^(.*)$ http://www.rentflot.local/$1 [R=301,L]
-
-  #RewriteCond %{HTTPS} on
-  #RewriteCond %{HTTP_HOST} !^www\.rentflot\.local$ [NC]
-  #RewriteRule ^(.*)$ https://www.rentflot.local/$1 [R=301,L]
-
-  #RewriteRule ^(.*)index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
-  #RewriteRule ^(.*)index\.html$ http://%{HTTP_HOST}/$1 [R=301,L]
-
-  # RewriteCond %{THE_REQUEST} ^.*/index\.(php|html)
-  # RewriteRule ^(.*)index\.(php|html)$ /$1 [R=301,L]
-
-  # by Dmitriy
-  # rewriting javascripts and css
-  #RewriteCond %{REQUEST_FILENAME} -f
-  #RewriteCond %{REQUEST_FILENAME} (.*)\.(css|js)$
-  #RewriteRule ^(.*\.(css|js))$ /magicLibsPlugin/minify.php?f=$1 [L,NC]
-
-  # we check if the .html version is here (caching)
-  #RewriteRule ^$ index.html [QSA]
-  #RewriteRule ^([^.]+)$ $1.html [QSA]
-  #RewriteCond %{REQUEST_FILENAME} !-f
-
-  # no, so we redirect to our front web controller
-  # RewriteRule ^(.*)$ index.php [QSA,L]
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond $1 !\.(gif|jpe?g|png)$ [NC]
+    RewriteRule ^(.*)$ /index.php?/$1 [L]
 </IfModule>

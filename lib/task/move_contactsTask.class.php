@@ -32,12 +32,14 @@ EOF;
                                     ->andWhere('o.is_archived != ?',1);                               
         $contacts = $q->fetchArray();
 
-        foreach ($contacts as $contact) {        
+        if(count($contacts) !== 0) {
+            $i = 0;    
             $newDateAppoint = date_create('now'); // в 00:00      
             $newDateAppoint->modify('+9 hour');
             $newDateAppoint->modify('+30 minute');
-       
-
+            
+        foreach ($contacts as $contact) {        
+            
             // create Query - update
             Doctrine_Query::create()
                                 ->update('ClientContact c')
@@ -47,6 +49,11 @@ EOF;
                                 ->where('c.order_id = ?',  $contact['order_id'])
                                 ->execute();    
             //   $this->log("For order " . $contact['order_id'] . " made automatic appointment about contacts", sfLogger::INFO);
-            } 
+            $i++;
+            }
+            echo "Перенесено " . $i . " пропущенных напоминаний на " .  $newDateAppoint->format('Y-m-d H:i:s') ;
+        } else {
+            echo "Не обнаружены пропущенные напоминания " ;
+        }    
     }
 }
