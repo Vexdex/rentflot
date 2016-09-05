@@ -288,22 +288,33 @@ class menuComponents extends sfComponents
       $this->menu2[] = admin_menu_item('Настройки', 'settings');
     }
 	
-	$users_q="SELECT DISTINCT cc.created_by as user_id, CONCAT(gup.first_name,' ',gup.last_name) as user_name FROM client_contact cc,sf_guard_user_profile gup WHERE date(cc.contact_date)=CURDATE() AND cc.created_by=gup.user_id
-ORDER BY concat(gup.first_name,gup.last_name)";
+    // 2016/09/03 vexdex  before
+    // $users_q="SELECT DISTINCT cc.created_by as user_id, CONCAT(gup.first_name,' ',gup.last_name) as user_name FROM client_contact cc,sf_guard_user_profile gup WHERE date(cc.contact_date)=CURDATE() AND cc.created_by = gup.user_id ORDER BY concat(gup.first_name,gup.last_name)";
+    // 2016/09/03 vexdex after [    
+    $users_q = "SELECT DISTINCT CASE WHEN cc.created_by is null THEN 'ON-LINE'  WHEN cc.created_by is not null THEN CONCAT(gup.first_name,' ',gup.last_name) END  AS user_name, "
+             . "CASE WHEN cc.created_by is null THEN  null  WHEN cc.created_by is not null THEN cc.created_by END  AS user_id FROM client_contact cc,sf_guard_user_profile gup WHERE (cc.created_by is null AND date(cc.contact_date)=CURDATE()) OR (cc.created_by is not null AND cc.created_by = gup.user_id AND date(cc.contact_date)=CURDATE()) ORDER BY user_name";    
+    // 2016/09/03 vexdex after  ]
+        
 	$creators_list = Doctrine_Manager::getInstance()->getCurrentConnection()->fetchAssoc($users_q);	
-	
+        
 	//foreach($creators_list as $user)
-	for($i=0;$i<count($creators_list);$i++)
+	for($i = 0; $i< count($creators_list); $i++)
 	{
-		$user=$creators_list[$i];
-		$contact_q="SELECT order_id,contact_time FROM client_contact WHERE date(contact_date)=CURDATE() AND created_by=".$user["user_id"];
-		$contacts=Doctrine_Manager::getInstance()->getCurrentConnection()->fetchAssoc($contact_q);	
-		$creators_list[$i]["contacts"]=$contacts;
+		$user = $creators_list[$i];
+                // 2016/09/03 vexdex before
+                // $contact_q="SELECT order_id,contact_time FROM client_contact WHERE date(contact_date)=CURDATE() AND created_by=".$user["user_id"];
+                // 2016/09/03 vexdex after [		
+                if($user['user_id'] == null) {
+                    $contact_q = "SELECT order_id, contact_time FROM client_contact  WHERE  date(contact_date)=CURDATE() AND created_by IS NULL";
+                } else {
+                    $contact_q = "SELECT order_id, contact_time FROM client_contact  WHERE  date(contact_date)=CURDATE() AND created_by = ".$user['user_id'];
+                }
+                // 2016/09/03 vexdex after ]
+                
+		$contacts = Doctrine_Manager::getInstance()->getCurrentConnection()->fetchAssoc($contact_q);	
+		$creators_list[$i]['contacts'] = $contacts;
 	}
-		//echo "<pre>";
-		//print_r($creators_list);
-		//die;
-
+	
 	$this->contacts_flash=$creators_list;
 	
 	$calls_q="SELECT * FROM callback";
