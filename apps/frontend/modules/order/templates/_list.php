@@ -1,4 +1,4 @@
-<table cellspacing="0" style="width: 100%">
+<table cellspacing="0" style="width: 100%">  
   <tr>    
     <td><?php include_partial('order/pagination', array('pager' => $pager)) ?></td>
     <td style="vertical-align: middle; text-align: right; padding-top: 5px">

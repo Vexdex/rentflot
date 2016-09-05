@@ -14,7 +14,7 @@ class ReportsFormFilter extends sfFormFilter
 	{
     $this->disableLocalCSRFProtection();
     
-    $this->widgetSchema['date'] = new sfWidgetFormMagicDateRange(array(
+  $this->widgetSchema['date'] = new sfWidgetFormMagicDateRange(array(
       'from_date' => new sfWidgetFormMagicJQueryDate(array(	
         'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
         'config' => '{changeYear: true, changeMonth: true}',

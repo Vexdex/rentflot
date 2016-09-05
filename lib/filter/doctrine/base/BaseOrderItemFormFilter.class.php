@@ -39,7 +39,7 @@ abstract class BaseOrderItemFormFilter extends BaseFormFilterDoctrine
       'amount_costs_payed_uah' => new sfWidgetFormMagicNumberRange(array(
             'from_number' => new sfWidgetFormInput(), 
             'to_number' => new sfWidgetFormInput(), 
-            'with_empty' => false)),z
+            'with_empty' => false)),
       'created_at'             => new sfWidgetFormMagicDateRange(array(
           'from_date' => new sfWidgetFormMagicJQueryDate(array(	            
             'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),

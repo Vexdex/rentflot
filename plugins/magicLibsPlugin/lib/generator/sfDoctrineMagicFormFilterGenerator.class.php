@@ -99,7 +99,7 @@ class sfDoctrineMagicFormFilterGenerator extends sfDoctrineFormFilterGenerator
       case 'datetime':
       case 'timestamp':
         //$options[] = "'from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate()";
-        $options[] = "
+     $options[] = "
           'from_date' => new sfWidgetFormMagicJQueryDate(array(	            
             'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
             'config' => '{changeYear: true, changeMonth: true}',
@@ -107,7 +107,7 @@ class sfDoctrineMagicFormFilterGenerator extends sfDoctrineFormFilterGenerator
           'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
             'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
             'config' => '{changeYear: true, changeMonth: true}',
-            'culture' => sfContext::getInstance()->getUser()->getCulture()))";        
+            'culture' => sfContext::getInstance()->getUser()->getCulture()))";       
         //$options = array_merge($options, $withEmpty);
         break;
       case 'enum':
