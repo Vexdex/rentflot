@@ -63,7 +63,7 @@
     <?php if ($order_item_form['amount_costs_payed_uah']->hasError()): ?>            
       <div class="Error">&bull; <?php echo __($order_item_form['amount_costs_payed_uah']->getError()->getMessageFormat(), $order_item_form['amount_costs_payed_uah']->getError()->getArguments(), 'grid') ?></div>
     <?php endif ?>
-  </td> z 
+  </td>
   <td class="admin_info" style="width: 8%">
     <span class="order_item_amount_costs_left_uah"></span>
   </td>      
