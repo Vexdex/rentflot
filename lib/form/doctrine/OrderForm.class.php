@@ -18,7 +18,14 @@ class OrderForm extends BaseOrderForm
     
     $this->embedRelation('OrderItems as order_item');       
     
-    $this->widgetSchema['date']->setDefault(date('Y-m-d'));
+    // 2016/09/03 vexdex before
+    // $this->widgetSchema['date']->setDefault(date('Y-m-d'));
+    // 2016/09/03 vexdex after [    
+    $this->widgetSchema['date'] = new sfWidgetFormMagicJQueryDate(array(	  
+                'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                'config' => '{changeYear: true, changeMonth: true}',
+                'culture' => sfContext::getInstance()->getUser()->getCulture())); 
+    // 2016/09/03 vexdex after ]
     
     $minutes = range(0, 59, 10);
     $minute_keys = array();
