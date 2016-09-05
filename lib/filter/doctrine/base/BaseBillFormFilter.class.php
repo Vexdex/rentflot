@@ -19,8 +19,20 @@ abstract class BaseBillFormFilter extends BaseFormFilterDoctrine
       'description'      => new sfWidgetFormFilterInput(),
       'amount_uah'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'amount_payed_uah' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'created_at'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
-      'updated_at'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex before  
+        // 'created_at'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 'updated_at'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex after [  
+        'created_at'=> new sfWidgetFormFilterDate(array(   'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                       'to_date' =>new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                        'with_empty' => false)), 
+        // 2016/09/03 vexdex after ]  
     ));
 
     $this->setValidators(array(
