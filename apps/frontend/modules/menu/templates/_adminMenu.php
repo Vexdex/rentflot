@@ -21,21 +21,6 @@
 				
 			</td>
                         
-                        <td>
-					<strong>
-						<?php echo $contact_user["user_name"] ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					</strong><br/>
-					<?php foreach ($contact_user["contacts"] as $key => $contact): ?>
-						<span style="background-color:#FFCECE;">
-						<a href="<?php echo url_for('order/show?id='.$contact["order_id"]); ?>">
-							<?php echo substr($contact["contact_time"],0,5) ?>
-						</a>
-						</span>&nbsp;
-					<?php endforeach ?>
-				
-			</td>
-                        
-                        
 		<?php endforeach ?>
 	</tr>
 	<tr>

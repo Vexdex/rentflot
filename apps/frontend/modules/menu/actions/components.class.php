@@ -292,7 +292,7 @@ class menuComponents extends sfComponents
     // $users_q="SELECT DISTINCT cc.created_by as user_id, CONCAT(gup.first_name,' ',gup.last_name) as user_name FROM client_contact cc,sf_guard_user_profile gup WHERE date(cc.contact_date)=CURDATE() AND cc.created_by = gup.user_id ORDER BY concat(gup.first_name,gup.last_name)";
     // 2016/09/03 vexdex after [    
     $users_q = "SELECT DISTINCT CASE WHEN cc.created_by is null THEN 'ON-LINE'  WHEN cc.created_by is not null THEN CONCAT(gup.first_name,' ',gup.last_name) END  AS user_name, "
-             . "CASE WHEN cc.created_by is null THEN  null  WHEN cc.created_by is not null THEN cc.created_by END  AS user_id FROM client_contact cc,sf_guard_user_profile gup WHERE (cc.created_by is null AND date(cc.contact_date)=CURDATE()) OR (cc.created_by is not null AND cc.created_by = gup.user_id AND date(cc.contact_date)=CURDATE()) ORDER BY user_name";    
+             . "CASE WHEN cc.created_by is null THEN  null  WHEN cc.created_by is not null THEN cc.created_by END  AS user_id FROM client_contact cc,sf_guard_user_profile gup WHERE (cc.created_by is null AND date(cc.contact_date)=CURDATE()) OR (cc.created_by is not null AND cc.created_by = gup.user_id AND date(cc.contact_date)=CURDATE()) GROUP BY user_name ORDER BY user_name ASC";    
     // 2016/09/03 vexdex after  ]
         
 	$creators_list = Doctrine_Manager::getInstance()->getCurrentConnection()->fetchAssoc($users_q);	
