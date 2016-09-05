@@ -26,7 +26,7 @@ abstract class BaseOrderFormFilter extends BaseFormFilterDoctrine
         // 2016/09/03 vexdex after [            
         'date'                   => new sfWidgetFormFilterDate(array(   'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
                                                                             'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
-                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'config' => '{changeYear: true, changeMonth: true}',                                                                        
                                                                             'culture' => sfContext::getInstance()->getUser()->getCulture())), 
                                                                        'to_date' =>new sfWidgetFormMagicJQueryDate(array(	  
                                                                             'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),

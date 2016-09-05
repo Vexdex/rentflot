@@ -1,13 +1,13 @@
 <table>
-    <tr>
+    <tr> 
     <?php foreach ($contacts_flash as $key => $contact_user): ?>
                     <!-- 2016/09/03 vexdex before 
                     	<td>
-                    -->
+                    -->  
                     <!-- 2016/09/03 vexdex after [ --> 
 			<td style="padding-right: 10px">
 					<strong>
-						<?php echo $contact_user["user_name"] ?>
+						<?php echo $contact_user["user_name"]; ?>
 					</strong><br/>
                      <!-- 2016/09/03 vexdex after ] -->                     
 					<?php foreach ($contact_user["contacts"] as $key => $contact): ?>                                        
