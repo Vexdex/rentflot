@@ -447,7 +447,6 @@ exit();
                           </div>
                         </td>
                       </tr>
-                   
 					
                       <tr>
                         <td height="15px">&nbsp;</td>
@@ -460,13 +459,13 @@ exit();
                             <table cellspacing="0" cellpadding="0" border="0" width="100%">
                               <tr>
 							  
-							  <td style="font-size: 7px" height="8">&nbsp;</td>
-        <?php// echo main_menu_item('rules') ?>
-        <?php// echo main_menu_item('contract') ?>
-        <?php// echo main_menu_item('for_agents') ?>
-        <?php// echo main_menu_item('dictionary') ?>
-        <?php echo main_menu_item('contacts') ?>
-        <?php echo main_menu_item('about') ?>
+				<td style="font-size: 7px" height="8">&nbsp;</td>
+        <?php // echo main_menu_item('rules'); ?>
+        <?php // echo main_menu_item('contract'); ?>
+        <?php // echo main_menu_item('for_agents'); ?>
+        <?php // echo main_menu_item('dictionary'); ?>
+        <?php echo main_menu_item('contacts'); ?>
+        <?php echo main_menu_item('about'); ?>
                               <tr><td style="font-size: 5px" height="8">&nbsp;</td></tr>
 							   
 							 </tr>  
