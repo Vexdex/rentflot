@@ -13,13 +13,47 @@ abstract class BaseClientContactFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'contact_date'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex before
+        // 'contact_date'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex after [
+        'contact_date'        => new sfWidgetFormFilterDate(array(    'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'with_empty' => false)),
+        // 2016/09/03 vexdex after ]
       'contact_time'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'comment'           => new sfWidgetFormFilterInput(),
       'order_id'          => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Order'), 'add_empty' => true)),
       'contact_status_id' => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('ContactStatus'), 'add_empty' => true)),
-      'created_at'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
-      'updated_at'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex before
+        // 'created_at'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),                
+        // 'updated_at'        => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016/09/03 vexdex after [
+        'created_at'        => new sfWidgetFormFilterDate(array(    'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'with_empty' => false)), 
+        'updated_at'        => new sfWidgetFormFilterDate(array(    'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                            'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),                                                                            
+                                                                            'config' => '{changeYear: true, changeMonth: true}',
+                                                                            'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                                    'with_empty' => false)), 
+        
+        // 2016/09/03 vexdex after ]
       'created_by'        => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('User'), 'add_empty' => true)),
       'updated_by'        => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Updator'), 'add_empty' => true)),
     ));
