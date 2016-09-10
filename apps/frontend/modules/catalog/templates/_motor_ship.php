@@ -34,7 +34,7 @@
 </div>
 
 <!-- 2016 09 10 vexdex [ -->
-<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<p><span><strong>Связаться по тел.:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
 <!-- 2016 09 10 vexdex ] -->
 
 <div style="text-align: center;margin-bottom: 20px;font-size: 20px;">

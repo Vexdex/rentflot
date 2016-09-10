@@ -3,7 +3,7 @@
 <p style="text-align: center"><img src="/images/iyt/IYT-logo.jpg" alt="International Yacht Training" /></p>
 
 <!-- 2016 09 10 vexdex [ -->
-<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<p><span><strong>Связаться по тел.:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
 <!-- 2016 09 10 vexdex ] -->
 
 
