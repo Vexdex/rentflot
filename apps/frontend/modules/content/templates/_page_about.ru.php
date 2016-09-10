@@ -1,8 +1,6 @@
 <h1 class="content about">О нас</h1>
-<div>
-    <br>
-    <h3 style="text-align: left">Связаться:</h3>
-    <br>
+<div>    
+    <h3 style="text-align: left">Связаться:</h3>    
     <ul>
         <li>(044) 451-40-58 (063) 237-10-96</li>
         <li>(096) 962-82-21 (050) 312-32-64 (Viber)</li>
