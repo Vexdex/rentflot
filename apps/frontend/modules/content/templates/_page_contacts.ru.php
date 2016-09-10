@@ -62,9 +62,10 @@
                    <!-- 2016/09/04 vexdex  -->
  		 <td class="data_cont">
  		 	e-mail: <script>"rentflot".printAddr('ddd@flo.cm.ua', 'order', '.ua');</script><br/>
-			Skype: <a href="skype:rentflot.ua">rentflot.ua</a><br/>
-			<a href="<?php echo url_for('homepage') ?>">www.rentflot.ua</a><br>
-                        Viber: 050 312-32-64 
+			Skype: <a href="skype:rentflot.ua">rentflot.ua</a><br/>			
+                        Viber: 050-312-32-64 <br>
+                        ICQ: 392-068-639<br>
+                        <a href="<?php echo url_for('homepage') ?>">www.rentflot.ua</a>
  		 </td>
 		</tr>
                  <tr>
@@ -137,20 +138,20 @@ color: #8E4702;" id="sub"/>
 	  <br/>
 	  <span class="cat_cont">Карта проезда:</span>
 	  <br/><br/>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10158.14128638762!2d30.515888806068634!3d50.4683771692015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI4JzE5LjQiTiAzMMKwMzEnMjQuNCJF!5e0!3m2!1sru!2sua!4v1427452749616" width="600" height="450" frameborder="0" style="border:0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10158.14128638762!2d30.515888806068634!3d50.4683771692015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDI4JzE5LjQiTiAzMMKwMzEnMjQuNCJF!5e0!3m2!1sru!2sua!4v1427452749616" width="585" height="450" frameborder="0" style="border:0"></iframe>
 	</td>
  </tr>
  <tr class="ohide">
     <td align="center">
        <span class="cat_cont">Офис на причале:</span>
        <br/><br/>
-       <img src="/images/contacts/office.jpg"/>
+       <img src="/images/contacts/office.jpg"width="585"/>
     </td>
  </tr>
   <tr class="ohide">
       <td align="center">
              <br/>
-                    <img src="/images/contacts/office_rentflot.jpg"/>
+                    <img src="/images/contacts/office_rentflot.jpg" width="585"/>
                         </td>
                          </tr>
 						 

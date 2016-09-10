@@ -1,8 +1,15 @@
 <h1><?php echo $category->getName(ESC_RAW) ?></h1>
 
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
+
+
 <?php include_partial('attractions_header.' . $sf_user->getCulture(), array('category' => $category)) ?>
 
 <br><br>
+
+
 
 <?php if ($items->count()): ?>
 

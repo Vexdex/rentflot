@@ -1,6 +1,4 @@
-<h1>Карта маршрутов</h1>
-
-  
+<h1>Карта маршрутов</h1> 
 <ul>
 	<li><a href="<?php echo url_for('map_velikiy') ?>">Описание острова &laquo;Великий&raquo;</a> + <a href="/files/RENTFLOT-Ostrov_Velikiy_oborudovannyi.doc">оборудованная площадка на острове &laquo;Великий&raquo;</a> (Word, 0.4 Мб)</li>
 	<li><a href="<?php echo url_for('map_olgin') ?>">Описание острова &laquo;Ольгин&raquo;</a></li>

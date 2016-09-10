@@ -33,6 +33,9 @@
   <?php endif ?>
 </div>
 
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
 
 <div style="text-align: center;margin-bottom: 20px;font-size: 20px;">
   <?php $onlineOrderLink = '<strong title="Вы можете без предоплаты зарезервировать это судно. Просто укажите нам время и дату его аренды."><span class="OrderOnline" onclick="showOnlineOrderForm()">' . __('motor_ship_place_order_online', array(), 'catalog') . ' '.__('no_prepayment', array(), 'catalog').'</span></strong>' ?>

@@ -9,6 +9,11 @@
 <!--------------------------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------------------------->
 <!--------------------------------------------------------------------------------------------->
+
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
+
 <table class="soc_links" style="margin:auto;">
 <tr>
 <td>
@@ -86,8 +91,6 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 <?php if ($items->count()): ?>
 
 <?php $count_on_row = 2; $count = 0;?>
-
- <p><span>Связаться по тел: <a href="/contacts.html">/050/ 312-32-64 (Viber)</a></span></p>
 
 <table class="shop_table" width="100%" cellpadding="2" cellspacing="0" border="0">
 

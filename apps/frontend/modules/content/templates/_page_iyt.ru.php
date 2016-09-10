@@ -2,6 +2,11 @@
 
 <p style="text-align: center"><img src="/images/iyt/IYT-logo.jpg" alt="International Yacht Training" /></p>
 
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
+
+
 <p>Киевская судоходная компания <strong>&laquo;Рентфлот&raquo;</strong>, совместно с&nbsp;Ассоциацией российских яхтсменов, базирующихся в&nbsp;Турции предлагает Вам пройти уникальный <noindex><a href="http://www.yachting-rt.ru/statji/progiyt.html" rel="nofollow" target="_blank">учебный практический курс</a></noindex> <strong>Управление парусной яхтой</strong>. Обучение проходит по&nbsp;международной системе <strong>International Yacht Training (IYT)</strong>, в&nbsp;прекрасной акватории Эгейского моря у&nbsp;берегов гостеприимной Турции. Эта система обучения яхтингу уже широко распространена по&nbsp;всему миру и&nbsp;имеет отделения в&nbsp;двадцати девяти странах. Ее&nbsp;права-лицензии признаются всеми ведущими яхт-чартерными компаниями. </p>
 
 <p style="text-align: center">

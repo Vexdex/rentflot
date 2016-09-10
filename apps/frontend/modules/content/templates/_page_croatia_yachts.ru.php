@@ -1,5 +1,7 @@
 <h1>Аренда яхт в&nbsp;Хорватии</h1>
-
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
 <table width="100%" cellpadding="2" cellspacing="0" border="0">
  <tr>
 	<td align=right><a class="nobor" href="<?php echo url_for('catalog_category', array('category_slug' => 'croatia_sailing_yachts')) ?>"><img class="cat_img" title="Аренда парусной яхты в Хорватии" alt="Аренда парусной яхты в Хорватии" src="/images/ships_cat_tpl/cr2.jpg"></a></td>

@@ -1,5 +1,9 @@
 <h1>Аренда яхт в Греции</h1>
 
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
+
 <p>Греция&nbsp;&mdash; страна мифов и&nbsp;морских путешественников! Яхтинг здесь полон невероятных открытий, с&nbsp;большой историей и&nbsp;традициями. Мы&nbsp;приглашаем Вас окунуться в&nbsp;этот прекрасный мир, обрести новые впечатления и&nbsp;посмотреть на&nbsp;мир с&nbsp;&laquo;другой стороны&raquo;.</p>
 <p style="text-align: center; margin: 20px 0"><img src="/images/greece/2.jpg" alt="Яхт-клуб в Греции" title="Яхт-клуб в Греции" /></p>
 

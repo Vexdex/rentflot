@@ -1,7 +1,7 @@
 <h1>Аренда теплохода</h1>
-<!-- 2016 09 10 vexdex after [ -->
-<p><span>Связаться по тел: <a href="/contacts.html">/050/ 312-32-64 (Viber)</a></span></p>
-<!-- 2016 09 10 vexdex after ] -->
+<!-- 2016 09 10 vexdex [ -->
+<p><span><strong>Связаться по тел:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 10 vexdex ] -->
 <p style="margin-bottom: 5px"><strong>Стоимость аренды теплохода, катера, яхты или гидроцикла зависит от следующего:</strong></p>
 <ul>
   <li>вида плавсредства (теплоход, катер, яхта)</li>
