@@ -104,7 +104,16 @@
         <?php if ($order->getCreatedAt() != $order->getUpdatedAt()): ?>
         <tr>
           <th><?php echo __('form_updated_by', array(), 'order') ?>:</th>
-          <td><?php echo  $order->relatedExists('Updator') ? $order->getUpdator()->getName() : '?' ?>, <?php echo format_date($order->getUpdatedAt(), 'dd.MM.yyyy, H:mm') ?></td>
+          <td><?php      
+           echo  $order->relatedExists('Updator') ? "<strong>последнее изменение: " . $order->getUpdator()->getName() : '?' ?>, <?php echo format_date($order->getUpdatedAt(), 'dd.MM.yyyy, H:mm') . "</strong><br>";
+            
+            // 2016 09 10 vexdex after [
+            foreach ($recordsList as $actions) {
+                echo preg_replace("/[\s]\(.*?\)/i", "", $actions->getUserName()). ", ".  date("d.m.Y, H:i", strtotime($actions->getUpdatedAt())) . "<br>";
+            }
+            // 2016 09 10 vexdex after ]
+            
+         ?></td>
         </tr>
         <?php endif ?>
       </table>

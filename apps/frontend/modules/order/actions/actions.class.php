@@ -95,13 +95,28 @@ class orderActions extends autoOrderActions
     $this->forward404Unless(in_array($this->doc_type, sfConfig::get('app_document_types')));
     
     $this->order = Doctrine::getTable('Order')->findOneById($order_id);
-
+   
     $this->forward404Unless($this->order);
+
   }
 
   public function executeShow(sfWebRequest $request)
-  {
+  {      
+    // 2016 09 10 vexdex [
+    // выбрать из таблицы action_log все записи у которых ids = $this->ido 
+    $this->ido = $this->getRoute()->getObject()->getId();    
+    $ids = $this->ido;
+    $records = Doctrine_Query::create()
+                ->select('a.*')
+                ->from('actionlog a')
+                ->whereIn('a.ids', $ids)
+                ->whereIn('a.action','edit')
+                ->orderBy('a.updated_at DESC');
+    $this->recordsList = $records->execute();    
+    // 2016 09 10 vexdex ]  
+    
     $this->order = $this->getRoute()->getObject();
+    
   }
   
   public function executeEdit(sfWebRequest $request)
@@ -380,6 +395,7 @@ class orderActions extends autoOrderActions
     //$relatives_forms = array($relative_form);
     return $this->renderPartial('form_order_item', array('order_item_form' => $order_item_form)); 
     */
+      
   }
 
   // Ajax
