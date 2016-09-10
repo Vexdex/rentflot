@@ -38,7 +38,7 @@ class sfWidgetFormFilterMagicNumber extends sfWidgetFormFilterMagicNumberRange
     parent::configure($options, $attributes);
 
     $this->addOption('with_empty', true);
-    $this->addOption('empty_label', 'is empty');
+    $this->addOption('empty_label', 'пусто');
     //$this->addOption('template', sfContext::getInstance()->getI18N()->__('from', array(), 'common').' %from_number%<br />'.sfContext::getInstance()->getI18N()->__('to', array(), 'common').' %to_number%');
     $this->addOption('filter_template', '%number_range% %empty_checkbox% %empty_label%');
   }

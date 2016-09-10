@@ -14,8 +14,29 @@ abstract class BaseNewsFormFilter extends BaseFormFilterDoctrine
   {
     $this->setWidgets(array(
       'slug'       => new sfWidgetFormFilterInput(),
-      'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
-      'updated_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016 09 10 vexdex before  
+        // 'created_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 'updated_at' => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+        // 2016 09 10 vexdex after [
+        'created_at' => new sfWidgetFormFilterDate(array(   'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                    'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                                                    'config' => '{changeYear: true, changeMonth: true}',
+                                                                    'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                            'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                    'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                                                    'config' => '{changeYear: true, changeMonth: true}',
+                                                                    'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                            'with_empty' => false)),
+        'updated_at' => new sfWidgetFormFilterDate(array(   'from_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                    'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                                                    'config' => '{changeYear: true, changeMonth: true}',
+                                                                    'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                            'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                                                    'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                                                    'config' => '{changeYear: true, changeMonth: true}',
+                                                                    'culture' => sfContext::getInstance()->getUser()->getCulture())), 
+                                                            'with_empty' => false)),
+        // 2016 09 10 vexdex after ]      
     ));
 
     $this->setValidators(array(

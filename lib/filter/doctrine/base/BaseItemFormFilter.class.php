@@ -13,9 +13,15 @@ abstract class BaseItemFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'is_active'          => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
-      'is_own'             => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
-      'hide_attractions'   => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      // 2016 09 10 vexdex before  
+      // 'is_active'          => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      // 'is_own'             => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      // 'hide_attractions'   => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
+      // 2016 09 10 vexdex after [
+      'is_active'          => new sfWidgetFormChoice(array('choices' => array('' => 'да или нет', 1 => 'да', 0 => 'нет'))),
+      'is_own'             => new sfWidgetFormChoice(array('choices' => array('' => 'да или нет', 1 => 'да', 0 => 'нет'))),
+      'hide_attractions'   => new sfWidgetFormChoice(array('choices' => array('' => 'да или нет', 1 => 'да', 0 => 'нет'))),
+      // 2016 09 10 vexdex after ]  
       'internal_name'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'doc_name'           => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'slug'               => new sfWidgetFormFilterInput(array('with_empty' => false)),

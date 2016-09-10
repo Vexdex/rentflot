@@ -15,15 +15,15 @@ class ReportsFormFilter extends sfFormFilter
     $this->disableLocalCSRFProtection();
     
   $this->widgetSchema['date'] = new sfWidgetFormMagicDateRange(array(
-      'from_date' => new sfWidgetFormMagicJQueryDate(array(	
-        'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
-        'config' => '{changeYear: true, changeMonth: true}',
-        'culture' => sfContext::getInstance()->getUser()->getCulture())),			
-      'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
-        'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
-        'config' => '{changeYear: true, changeMonth: true}',
-        'culture' => sfContext::getInstance()->getUser()->getCulture()))
-    ));
+                                        'from_date' => new sfWidgetFormMagicJQueryDate(array(	
+                                          'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                          'config' => '{changeYear: true, changeMonth: true}',
+                                          'culture' => sfContext::getInstance()->getUser()->getCulture())),			
+                                        'to_date' => new sfWidgetFormMagicJQueryDate(array(	  
+                                          'date_widget' => new sfWidgetFormMagicDate(array('can_be_empty' => false)),
+                                          'config' => '{changeYear: true, changeMonth: true}',
+                                          'culture' => sfContext::getInstance()->getUser()->getCulture()))
+                                      ));
     
     $this->validatorSchema['date'] = new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59'))));
     
