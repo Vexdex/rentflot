@@ -121,7 +121,6 @@ exit();
                                                                     }
                                                                             </style>
   <a name="top"></a>
-
   <table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
     <tr>
       <td align="center" class="MainTdBg">
@@ -264,9 +263,10 @@ exit();
                   <td class="main_text" valign=top height="100%" style="vertical-align: top;">
                     <?php include_partial('content/breadcrumbs') ?>
 
-                    <!-- content 10.02.2016  -->
+                    <!-- content 10.02.2016  -->                    
                     <?php echo $sf_content ?>
                     <br>
+                    
                     <img src="/images/spacer.gif" width="580" height="1">
                   </td>
 				  
