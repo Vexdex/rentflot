@@ -32,9 +32,9 @@
     <a style="margin-left: 10px;" class="PhotosAnchor" href="#item_photos"><img style="vertical-align: middle; margin-right: 5px;" src="/images/more/24x24_more_photos.png" /> <span><?php echo $images->count() ?> <?php echo __('photos', array(), 'catalog') ?></span><img style="vertical-align: middle; margin-left: 5px;"  src="../images/arrows/load_arrow3.png"></img></img></a>
   <?php endif ?>
 </div>
+
+
 <div style="text-align: center;margin-bottom: 20px;font-size: 20px;">
-
-
   <?php $onlineOrderLink = '<strong title="Вы можете без предоплаты зарезервировать это судно. Просто укажите нам время и дату его аренды."><span class="OrderOnline" onclick="showOnlineOrderForm()">' . __('motor_ship_place_order_online', array(), 'catalog') . ' '.__('no_prepayment', array(), 'catalog').'</span></strong>' ?>
   <?php if (($category->getItemContacts(ESC_RAW) || ($category->relatedExists('ParentCategory') && $category->getParentCategory()->getItemContacts(ESC_RAW)))&&1==0): ?>
     <?php if ($category->getItemContacts(ESC_RAW)): ?>
