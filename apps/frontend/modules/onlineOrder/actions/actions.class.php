@@ -95,7 +95,7 @@ class onlineOrderActions extends sfActions
     // 03/09/2016 vexdex before
     //$client->setName($form->getValue('contact_name'));
     // 03/09/2016 vexdex after [
-    $client->setName("OOR client - " . $form->getValue('contact_phone'));
+    $client->setName("ON-LINE - " . $form->getValue('contact_phone'));
     // 03/09/2016 vexdex after ]
     
     $client->setEmail($form->getValue('contact_email'));
@@ -114,7 +114,7 @@ class onlineOrderActions extends sfActions
     // 03/09/2016 vexdex before   
     // $order->setAdditionalInformation(implode("\n", $additionalInformation));
     // 03/09/2016 vexdex after [
-    $order->setAdditionalInformation("OOR - " . date("Y-m-d H:i:s") . "\n" . implode("\n", $additionalInformation));
+    $order->setAdditionalInformation("ON-LINE " . date("Y-m-d H:i:s") . "\n" . implode("\n", $additionalInformation));
     // 03/09/2016 vexdex after ]  
     
     $order->save();
@@ -136,7 +136,7 @@ class onlineOrderActions extends sfActions
 				
     $contact->setContactDate(date('Y-m-d H:i:s'));
     $contact->setContactTime(date('H:i:s'));
-    $contact->setComment("OOR");
+    $contact->setComment("ON-LINE");
     $contact->setContactStatusId(1);
     
     $contact->save();
