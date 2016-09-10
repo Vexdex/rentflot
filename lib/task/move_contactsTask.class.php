@@ -45,7 +45,7 @@ EOF;
                                 ->update('ClientContact c')
                                 ->set('c.contact_date', '?', $newDateAppoint->format('Y-m-d H:i:s'))
                                 ->set('c.contact_time', '?', $newDateAppoint->format('H:i:s'))
-                                ->set('c.comment', '?', $contact['comment'] . (strlen($contact['comment']) !== 0 AND strlen($contact['comment']) !== Null)  ? $contact['comment'] . "\r\n (AA) " . $contact['contact_date'] : "(AA) ".  $contact['contact_date'] . "\r\n")
+                                ->set('c.comment', '?', $contact['comment'] . (strlen($contact['comment']) !== 0 AND strlen($contact['comment']) !== Null)  ? $contact['comment'] . "\r\n перенос напоминания с " . $contact['contact_date'] : "перенос напоминания с ".  $contact['contact_date'] . "\r\n")
                                 ->where('c.order_id = ?',  $contact['order_id'])
                                 ->execute();    
             //   $this->log("For order " . $contact['order_id'] . " made automatic appointment about contacts", sfLogger::INFO);
