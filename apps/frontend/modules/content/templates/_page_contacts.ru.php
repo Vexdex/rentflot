@@ -68,10 +68,12 @@
                         <a href="<?php echo url_for('homepage') ?>">www.rentflot.ua</a>
  		 </td>
 		</tr>
-                 <tr>
-                    <td><p>&nbsp;</p></td>
-                    <td><p>&nbsp;</p></td>
+                <!-- 2016 09 12 vexdex [ -->
+                <tr>
+                    <td><br></td>
+                    <td><br></td>
                 </tr>  
+                <!-- 2016 09 12 vexdex ] -->
      <tr>
        <td class="cat_cont">Заказать звонок:</td>
        <td class="cat_cont2"><div class="ohide">Обратная связь:</div></td>
