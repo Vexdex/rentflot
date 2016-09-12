@@ -46,7 +46,7 @@ EOF;
                                 ->set('c.contact_date', '?', $newDateAppoint->format('Y-m-d H:i:s'))
                                 ->set('c.contact_time', '?', $newDateAppoint->format('H:i:s'))
                                 ->set('c.comment', '?', $contact['comment'] . (strlen($contact['comment']) !== 0 AND strlen($contact['comment']) !== Null)  ?  "перенос напоминания с " 
-                                        . date_format(date_create($contact['contact_date']),'d.m.Y') . ", " . date_format(date_create($contact['contact_date']),'H:i') . "\r\n " 
+                                        . date_format(date_create($contact['contact_date']),'d.m.Y') . ", " . date_format(date_create($contact['contact_date']),'H:i') . "\r\n" 
                                         . $contact['comment']  : "перенос напоминания с "
                                         .  date_format(date_create($contact['contact_date']),'d.m.Y') . ", " . date_format(date_create($contact['contact_date']),'H:i') . "\r\n")
                                 ->where('c.order_id = ?',  $contact['order_id'])
