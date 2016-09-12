@@ -21,6 +21,12 @@
 <h1>
   <?php echo $item->getName(ESC_RAW) ?>
 </h1>
+
+
+<!-- 2016 09 12 vexdex [ -->
+<p><span><strong>Связаться по тел.:</strong> <a href="/contacts.html" style="border-bottom: none; color: #09f">/050/ 312-32-64 (Viber)</a></span></p>
+<!-- 2016 09 12 vexdex ] -->
+
 <div style="text-align: center; margin-top: -20px; margin-bottom: 20px;">
   <?php if ($sf_user->hasCredential('catalog')): ?> <a href="<?php echo url_for('item_edit', array('id' => $item->getId())) ?>"><?php echo __('edit', array(), 'grid') ?></a><?php endif ?>
   <?php $images = $item->getImages(); if ($images->count() > 0): ?>
